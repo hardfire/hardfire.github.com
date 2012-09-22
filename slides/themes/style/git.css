@@ -213,7 +213,7 @@
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .deck-container{
-	background:#F0EFE7 url('../../git-slides/images/meet.png') no-repeat 10px bottom;
+	background:#F0EFE7 url('../../images/meet.png') no-repeat 10px bottom;
 	color:#4e443c;
 }
 .deck-container .slide h2, .deck-container .slide h3, .deck-container .slide h4 {
