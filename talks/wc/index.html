@@ -259,7 +259,7 @@ for (var i = 0; i < 10; ++i) {
 					<h2>wp_register_script - example</h2>
 <pre class="language-php"> <code class="language-php">wp_register_script (
   'mytheme-custom', /* handle WP will know JS by */
-  get_bloginfo('template_url') . '/custom.js', /* source */
+  get_template_directory_uri() . '/js/custom.js', /* source */
   array('jquery'), /* requires jQuery */
   1.0, /* version 1.0 */
   true /* can load in footer */
