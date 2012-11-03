@@ -41,7 +41,10 @@
 					0%   { transform: perspective(1000px) rotateY(-10deg); }
 					100% { transform: perspective(1000px) rotateY(10deg); }
 			}
-
+			.reveal pre code{
+				font-size:1.3em;
+				line-height:1.3em;
+			}
 			.reveal pre{
 				padding:10px;
 			}
@@ -108,9 +111,13 @@
 					<h2 style="position:relative; top:150px;">JavaScript <br /><small> some differentiating parts </small></h2>
 				</section>
 				<section>
+					<section> 
+						<h2 style="position:relative; top:150px;"> <code>var</code></h2>
+					</section>
+					<section>
 					<div> JS by default plays with variables in global scope </div>
 
-<pre class="language-javascript fragment wrong"> <code class="language-javascript">
+<pre class="language-javascript fragment wrong"><code class="language-javascript">
 a=5;
 function say() {
 	a=3;
@@ -123,8 +130,9 @@ console.log(a);
 3
 3 // whoa! 
 </code></pre>
-
-<pre class="language-javascript fragment right"> <code class="language-javascript">
+</section>
+<section>
+<pre class="language-javascript right"><code class="language-javascript">
 a=5;
 function say() {
 	var a=3;
@@ -137,54 +145,26 @@ console.log(a);
 3
 5 // thank god! :D
 </code></pre>
-				</section>
-				
-				<section>
-					<section>
-					<h2 style="position:relative; top:150px;"> JS <code> functions </code></h2>
-					</section>
-					<section>
-<h3>Function Declaration</h3>
-<pre class="language-javascript"> <code class="language-javascript">
-function say() {
-	var a=3;
-	console.log(a);
-}
-say();
-</code></pre>
-<div class="fragment">					
-<br />
-<h3>Function Expression</h3>
-<pre class="language-javascript"> <code class="language-javascript">
-var say = function(){
-	var a=3;
-	console.log(a);
-}
-say();
-</code></pre>
-</div>
-					</section>
-					<section>
-<pre class="language-javascript"> <code class="language-javascript">
-function say(func) {
-	var a=3;
-	func(a);
-}
-say(console.log);
-</code></pre>
-<h3 class="fragment"> See, I can pass functions </h3>
-<br />
-<pre class="language-javascript fragment"> <code class="language-javascript">
-function say(func) {
-	var a=3;
-	func(a);
-}
-say(function(name){alert(name)});
-</code></pre>
-<h3 class="fragment"> Even functions without a name </h3>
-		</section>
+</section>
 				</section>
 				<section>
+					<h3>hoisting</h3>
+<pre class="language-javascript fragment"><code class="language-javascript">
+var val = 'some magical value';  
+(function() {  
+  console.log(val); // some magical value
+})();  
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+var val = 'some magical value';  
+(function() {  
+  console.log(val); // undefined
+  var val = 'going to the dark side';
+})();  
+</code></pre>
+<p class="fragment">Wherever i define my variable, the initialization will be *hoisted* to the top.</p>
+				</section>
+<section>
 					<section>
 						<h2> <code>this</code> </h2>
 						<p class="fragment">Elsewhere : current object instantiated by the class</p>
@@ -193,7 +173,7 @@ say(function(name){alert(name)});
 					</section>
 					<section>
 						<p> this - window ( function call ) </p>
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 function what_is_this() {
 	console.log(this);
 }
@@ -202,7 +182,7 @@ what_is_this(); //window
 					</section>
 					<section>
 						<p> this - object ( object method ) </p>
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 var thisObject = {
 	thisFunc: function(){
 		console.log(this);
@@ -213,7 +193,7 @@ thisObject.thisFunc(); //thisObject
 					</section>
 					<section>
 						<p> this - object ( constructing objects using <code>new</code> ) </p>
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 function WordCamp(year){
 	this.year = year;
 	this.yellOut = function(){
@@ -224,37 +204,66 @@ var wc2012 = new WordCamp(2012);
 wc2012.yellOut(); // Yay! it is WordCamp 2012
 </code></pre>
 <br />
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 var wc2011 = WordCamp(2011);
 wc2012.yellOut(); // Undefined 
 </code></pre>
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 yellOut(); // Yay! it is WordCamp 2011
 </code></pre>
 					</section>
 
-				</section>
+				</section>	
 				<section>
-					<h3>hoisting</h3>
-<pre class="language-javascript fragment"> <code class="language-javascript">
-var val = 'some magical value';  
-(function() {  
-  console.log(val); // some magical value
-})();  
+					<section>
+					<h2 style="position:relative; top:150px;"><code> functions </code> : First Class</h2>
+					</section>
+					<section>
+<h3>Function Declaration</h3>
+<pre class="language-javascript"><code class="language-javascript">
+function say() {
+	var a=3;
+	console.log(a);
+}
+say();
 </code></pre>
-<pre class="language-javascript fragment"> <code class="language-javascript">
-var val = 'some magical value';  
-(function() {  
-  console.log(val); // undefined
-  var val = 'going to the dark side';
-})();  
+<div class="fragment">					
+<br />
+<h3>Function Expression</h3>
+<pre class="language-javascript"><code class="language-javascript">
+var say = function(){
+	var a=3;
+	console.log(a);
+}
+say();
 </code></pre>
-<p class="fragment">Wherever i define my variable, the initialization will be *hoisted* to the top.</p>
+</div>
+					</section>
+					<section>
+<pre class="language-javascript"><code class="language-javascript">
+function say(func) {
+	var a=3;
+	func(a);
+}
+say(console.log);
+</code></pre>
+<h3 class="fragment"> See, I can pass functions </h3>
+<br />
+<pre class="language-javascript fragment"><code class="language-javascript">
+function say(func) {
+	var a=3;
+	func(a);
+}
+say(function(name){alert(name)});
+</code></pre>
+<h3 class="fragment"> Even functions without a name </h3>
+		</section>
 				</section>
+				
 				<section>
 					<section>
 					<h2>Code Twisters</h2>
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 function foo(){
     function bar() {
         return 3;
@@ -272,7 +281,7 @@ alert(foo());
 					</section>
 					<section>
 					<h2>Code Twisters</h2>
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 function foo(){
     var bar = function() {
         return 3;
@@ -293,7 +302,7 @@ alert(foo());
 				<section>
 					<h2> Things might just go wrong </h2>
 <div class="fragment">					
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 function getTenFunctionsBad() {
   var result = [];
   for (var i = 0; i < 10; ++i) {
@@ -309,7 +318,7 @@ for (var i = 0; i < 10; ++i) {
 }
 
 </code></pre>
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 10 , 10 , 10 , 10 , 10 , 10 , 10 , 10 , 10 , 10
 </code></pre>
 </div>
@@ -317,7 +326,7 @@ for (var i = 0; i < 10; ++i) {
 				<section>
 				<h2> But We can Fix Them </h2>
 <div class="fragment">					
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 function getTenFunctions() {
   var result = [];
   for (var i = 0; i < 10; ++i) {
@@ -334,7 +343,7 @@ for (var i = 0; i < 10; ++i) {
   console.log(functions[i]());
 }
 </code></pre>
-<pre class="language-javascript fragment"> <code class="language-javascript">
+<pre class="language-javascript fragment"><code class="language-javascript">
 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 
 </code></pre>
 </div>
@@ -370,7 +379,7 @@ for (var i = 0; i < 10; ++i) {
 				</section>
 					<section>
 					<h2>wp_register_script - example</h2>
-<pre class="language-php"> <code class="language-php">wp_register_script (
+<pre class="language-php"><code class="language-php">wp_register_script (
   'mytheme-custom', /* handle WP will know JS by */
   get_template_directory_uri() . '/js/custom.js', /* source */
   array('jquery'), /* requires jQuery */
@@ -385,20 +394,20 @@ for (var i = 0; i < 10; ++i) {
 				<section>
 				<h2>wp_deregister_script</h2>
 				<p>Yo WP! forget about this script</p>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 	wp_deregister_script('jquery'); 
 </code></pre>
 				</section>
 				<section>
 					<h2>wp_enqueue_script</h2>
 					<p>Yo WP! Please put the script in my page</p>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 wp_enqueue_script( $handle ,$src ,$deps ,$ver ,$in_footer );
 </code></pre>
 <div class="fragment">
 <br />
 <h3>A little complex example</h3>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 function my_scripts_method() {
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
@@ -413,7 +422,7 @@ add_action('wp_enqueue_scripts', 'my_scripts_method');
 				<section>
 				<h2>wp_dequeue_script</h2>
 				<p>Hey WP! Someone put this script in my page, remove it please</p>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 	wp_dequeue_script($handle); 
 </code></pre>
 				</section>
@@ -421,18 +430,18 @@ add_action('wp_enqueue_scripts', 'my_scripts_method');
 				<section>
 					<h2>wp_localize_script</h2>
 					<p> Send data from WordPress to JavaScript </p>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 	wp_localize_script( $handle, $object_name, $l10n );
 </code></pre>
 <div class="example fragment">
 <br />
 <h3> Simple Example </h3>
-<pre class="language-php"> <code class="language-php">
+<pre class="language-php"><code class="language-php">
 wp_enqueue_script( 'some_handle' );
 $translation_array = array( 'some_string' => __( 'Some string to translate' ), 'a_value' => '10' );
 wp_localize_script( 'some_handle', 'object_name', $translation_array );
 </code></pre>
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 console.log(object_name.some_string);
 </code></pre>
 </div>
@@ -441,7 +450,7 @@ console.log(object_name.some_string);
 				<section>
 					<h2>wp_ajax_(action)</h2>
 
-<pre class="language-javascript"> <code class="language-javascript">
+<pre class="language-javascript"><code class="language-javascript">
 jQuery.post(
    MyAjax.ajaxurl, 
    {
@@ -453,7 +462,7 @@ jQuery.post(
    }
 );
 </code></pre>
-<pre class="language-php fragment"> <code class="language-php">
+<pre class="language-php fragment"><code class="language-php">
  add_action('wp_ajax_add_foobar', 'prefix_ajax_add_foobar');
  
  function prefix_ajax_add_foobar() {
