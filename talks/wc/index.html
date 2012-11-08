@@ -1,4 +1,5 @@
 <!doctype html>  
+
 <html lang="en">
 	
 	<head>
@@ -58,6 +59,12 @@
 			code{
 				text-transform:none !important;
 			}
+			code.language-javascript {
+				background:url('js.png') no-repeat right top #000;
+			}
+			code.language-php {
+				background:url('php.png') no-repeat right top #000;
+			}
 		</style>
 	</head>
 	
@@ -67,7 +74,12 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-
+				<section>
+					<img src="first.png">
+				</section>
+				<section>
+					<img src="second.png">
+				</section>
 				<section>
 				<h1 class="anime">JavaScript<br /><span class="amp">&amp;</span><br />WordPress</h1>
 				<br />
@@ -83,22 +95,22 @@
 					<h1 style="position:relative; top:150px;">Is JavaScript Important ??</h1>
 				</section>
 				<section>
-				<h2 style="position:relative; top:150px;">JavaScript is used by 92.3% of all the websites.
+				<h2 style="position:relative; top:150px;">used by 92.3% sites
 					<br />
 					<small><em> October 2012 - w3techs.com </em></small>
 				</h2>
 				</section>
 				<section>
-				<h2 style="position:relative; top:150px;">&gt;80% sites rely on JavaScript for important functionality</h2>
+				<h2 style="position:relative; top:150px;">&gt;80% rely for important functionality</h2>
 				</section>
 				<section>
-				<h2 style="position:relative; top:150px;">JavaScript is ubiquitous.</h2>
+				<h2 style="position:relative; top:150px;">ubiquitous.</h2>
 				</section>
 				<section data-state="warning">
-				<h2 style="position:relative; top:30px;">JavaScript can make your site SLOW <br /><small><em>if done the wrong way</em></small><br /><img src="wheel.jpg" alt="loadingggggggg" /></h2>
+				<h2 style="position:relative; top:30px;">Can make site SLOW <br /><small><em>if done the wrong way</em></small><br /><img src="wheel.jpg" alt="loadingggggggg" /></h2>
 				</section>
 				<section data-state="alert">
-				<h2 style="position:relative; top:150px;">It can even make your site unusable<br /><small><em>if done totally the wrong way</em></small></h2>
+				<h2 style="position:relative; top:150px;">Can make site unusable<br /><small><em>if done totally the wrong way</em></small></h2>
 				</section>
 				<section data-state="soothe">
 				<h2 style="position:relative; top:150px;">I am Convinced !! <br /><small>We should use JS, the right way </small></h2>
@@ -112,7 +124,7 @@
 						<h2 style="position:relative; top:150px;"> <code>var</code></h2>
 					</section>
 					<section>
-					<div> JS by default plays with variables in global scope </div>
+					<h3> global scope by default </h3>
 
 <pre class="language-javascript fragment wrong"><code class="language-javascript">
 a=5;
@@ -129,6 +141,7 @@ console.log(a);
 </code></pre>
 </section>
 <section>
+					<h3> use var keyword</h3>
 <pre class="language-javascript right"><code class="language-javascript">
 a=5;
 function say() {
@@ -167,7 +180,7 @@ var val = 'some magical value';
 						<p class="fragment"><code>this</code> refers to the owner of the function</p>
 					</section>
 					<section>
-						<p> this - window ( function call ) </p>
+						<h3> this : window ( function call ) </h3>
 <pre class="language-javascript"><code class="language-javascript">
 function what_is_this() {
 	console.log(this);
@@ -176,7 +189,7 @@ what_is_this(); //window
 </code></pre>
 					</section>
 					<section>
-						<p> this - object ( object method ) </p>
+						<h3> this : object ( object method ) </h3>
 <pre class="language-javascript"><code class="language-javascript">
 var thisObject = {
 	thisFunc: function(){
@@ -187,16 +200,16 @@ thisObject.thisFunc(); //thisObject
 </code></pre>
 					</section>
 					<section>
-						<p> this - object ( constructing objects using <code>new</code> ) </p>
+						<h3> this : object ( constructing objects using <code>new</code> ) </h3>
 <pre class="language-javascript"><code class="language-javascript">
 function WordCamp(year){
 	this.year = year;
 	this.yellOut = function(){
-		console.log("Yay! it is WordCamp "+ this.year);
+		console.log("Yay! it is WC "+ this.year);
 	}
 }
 var wc2012 = new WordCamp(2012);
-wc2012.yellOut(); // Yay! it is WordCamp 2012
+wc2012.yellOut(); // Yay! it is WC 2012
 </code></pre>
 <br />
 <pre class="language-javascript fragment"><code class="language-javascript">
@@ -204,7 +217,7 @@ var wc2011 = WordCamp(2011);
 wc2012.yellOut(); // Undefined 
 </code></pre>
 <pre class="language-javascript fragment"><code class="language-javascript">
-yellOut(); // Yay! it is WordCamp 2011
+yellOut(); // Yay! it is WC 2011
 </code></pre>
 					</section>
 
@@ -295,17 +308,15 @@ alert(foo());
 <pre class="language-javascript"><code class="language-javascript">
 function getTenFunctionsBad() {
   var result = [];
-  for (var i = 0; i < 10; ++i) {
+  for (var i = 0; i < 10; i++) {
     result.push(function () {
       return i;
     });
   }
-  return result;
-}
+  return result;    }
 var functionsBad = getTenFunctionsBad();
-for (var i = 0; i < 10; ++i) {
-  console.log(functionsBad[i]());
-}
+for (var i = 0; i < 10; i++) {
+  console.log(functionsBad[i]());   }
 
 </code></pre>
 <pre class="language-javascript fragment"><code class="language-javascript">
@@ -319,19 +330,16 @@ for (var i = 0; i < 10; ++i) {
 <pre class="language-javascript"><code class="language-javascript">
 function getTenFunctions() {
   var result = [];
-  for (var i = 0; i < 10; ++i) {
+  for (var i = 0; i < 10; i++) {
     result.push((function (i) {
       return function () {
         return i;
       }
-    })(i));
-  }
-  return result;
-}
+    })(i));     }
+  return result;     }
 var functions = getTenFunctions();
-for (var i = 0; i < 10; ++i) {
-  console.log(functions[i]());
-}
+for (var i = 0; i < 10; i++) {
+  console.log(functions[i]());     }
 </code></pre>
 <pre class="language-javascript fragment"><code class="language-javascript">
 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 
@@ -353,48 +361,56 @@ for (var i = 0; i < 10; ++i) {
 					</ul>
 				</section>
 					<section>
-					<h2>wp_register_script</h2>
+					<h2> wp_register_script 
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_register_script" target="_blank"> @codex </a> </small>
+					</h2>
 					<p> Yo WP! Remember this script </p>
-					<code class="language-php">(<span class="fragment">$handle</span>,<span class="fragment">$src</span>,<span class="fragment">$deps</span>,<span class="fragment">$ver</span>,<span class="fragment">$in_footer</span>);</code>
-					<hr />
-					<ul class="fragment">
-						<li><code>$handle</code> - Name of the script </li>
-						<li><code>$src</code> - URL to the script</li>
-						<li><code>$deps</code> - Array of dependencies</li>
-						<li><code>$ver</code> - Version of the code </li>
-						<li><code>$in_footer</code> - Place the script tag in footer</li>
-					</ul>
+					<br />
+<pre class="language-php"><code class="language-php">(
+$handle, //name of the script
+$src, // url to script
+$deps, // array of dependencies
+$ver, //version of code
+$in_footer // place in footer?
+);</code></pre>
 					</section>
 				</section>
 					<section>
 					<h2>wp_register_script - example</h2>
 <pre class="language-php"><code class="language-php">wp_register_script (
-  'mytheme-custom', /* handle WP will know JS by */
-  get_template_directory_uri() . '/js/custom.js', /* source */
-  array('jquery'), /* requires jQuery */
-  1.0, /* version 1.0 */
-  true /* can load in footer */
+  'mytheme-custom', // handle WP will know JS by 
+  get_template_directory_uri() . '/js/custom.js',
+  array('jquery'), // requires jQuery
+  1.0, // version 1.0
+  true // can load in footer
 );
 </code></pre>
-<p class="fragment">Note: Don't hardcode the directory paths, use functions like <code>plugins_url</code> or <code>get_template_directory_uri</code></p>
+<p class="fragment">Don't hardcode. Use <code>plugins_url</code> or <code>get_template_directory_uri</code>
 <hr />
-<p class="fragment">available libraries : <code>jquery</code> , <code>scriptaculous-root</code> , <code>jquery-ui-code</code> , <code>jquery-form</code> ... and lot more </p>
+</p>
+<p class="fragment"> Many predefined libraries <a href="http://codex.wordpress.org/Function_Reference/wp_register_script" target="_blank"> @codex </a> </p>
 					</section>
 				<section>
-				<h2>wp_deregister_script</h2>
+				<h2>wp_deregister_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_deregister_script" target=" _blank"> @codex </a> </small>
+				</h2>
 				<p>Yo WP! forget about this script</p>
 <pre class="language-php"><code class="language-php">
 	wp_deregister_script('jquery'); 
 </code></pre>
 				</section>
 				<section>
-					<h2>wp_enqueue_script</h2>
+					<h2>wp_enqueue_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_enqueue_script" target=" _blank"> @codex </a> </small>
+					</h2>
 					<p>Yo WP! Please put the script in my page</p>
+					<br/>
 <pre class="language-php"><code class="language-php">
-wp_enqueue_script( $handle ,$src ,$deps ,$ver ,$in_footer );
+wp_enqueue_script( $handle , $src , $deps ,
+					$ver , $in_footer );
 </code></pre>
-<div class="fragment">
-<br />
+				</section>
+				<section>
 <h3>A little complex example</h3>
 <pre class="language-php"><code class="language-php">
 function my_scripts_method() {
@@ -406,10 +422,11 @@ function my_scripts_method() {
 add_action('wp_enqueue_scripts', 'my_scripts_method');
 </code></pre>
 <p>Use jQuery from google CDN instead of WordPress local</p>
-</div>
 				</section>
 				<section>
-				<h2>wp_dequeue_script</h2>
+				<h2>wp_dequeue_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_dequeue_script" target=" _blank"> @codex </a> </small>
+				</h2>
 				<p>Hey WP! Someone put this script in my page, remove it please</p>
 <pre class="language-php"><code class="language-php">
 	wp_dequeue_script($handle); 
@@ -417,7 +434,9 @@ add_action('wp_enqueue_scripts', 'my_scripts_method');
 				</section>
 
 				<section>
-					<h2>wp_localize_script</h2>
+					<h2>wp_localize_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_localize_script" target=" _blank"> @codex </a> </small>
+					</h2>
 					<p> Send data from WordPress to JavaScript </p>
 <pre class="language-php"><code class="language-php">
 	wp_localize_script( $handle, $object_name, $l10n );
@@ -437,7 +456,9 @@ console.log(object_name.some_string);
 				</section>
 
 				<section>
-					<h2>wp_ajax_(action)</h2>
+					<h2>wp_ajax_(action)
+					<small> <a href="http://codex.wordpress.org/Plugin_API/Action_Reference/wp_ajax_(action)" target=" _blank"> @codex </a> </small>
+					</h2>
 
 <pre class="language-javascript"><code class="language-javascript">
 jQuery.post(
@@ -451,13 +472,40 @@ jQuery.post(
    }
 );
 </code></pre>
-<pre class="language-php fragment"><code class="language-php">
- add_action('wp_ajax_add_foobar', 'prefix_ajax_add_foobar');
+				</section>
+				<section>
+					<h2>wp_ajax_(action)</h2>
+<pre class="language-php"><code class="language-php">
+ add_action('wp_ajax_add_foobar',
+ 			'prefix_ajax_add_foobar');
  
  function prefix_ajax_add_foobar() {
     //Do Something really awesome here :)
  }
 </code></pre>
+				</section>
+				<section data-state="alert">
+					<h1 style="position:relative;top:200px;"> But Why ? </h1>
+				</section>
+				<section>
+					<h2> Summing up </h2>
+					<ul>
+						<li> var </li>
+						<li> this </li>
+						<li> functions awesomeness </li>
+						<li> use wordpress helper functions </li>
+					</ul>
+				</section>
+				<section>
+					<h2> What Next </h2>
+					<ul>
+						<li> "use strict" </li>
+						<li> closures </li>
+						<li> functional programming </li>
+						<li> more quirks : <a href="http://bonsaiden.github.com/JavaScript-Garden/">JS Garden</a> </li>
+					</ul>
+					<br />
+					<blockquote> Go make something awesome! </blockquote>
 				</section>
 
 				<section>
