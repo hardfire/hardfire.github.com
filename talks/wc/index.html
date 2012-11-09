@@ -43,8 +43,8 @@
 					100% { transform: perspective(1000px) rotateY(10deg); }
 			}
 			.reveal pre code{
-				font-size:1.3em;
-				line-height:1.3em;
+				font-size:1.2em;
+				line-height:1.5em;
 			}
 			.reveal pre{
 				padding:10px;
@@ -366,10 +366,33 @@ for (var i = 0; i < 10; i++) {
 				<section>
 					<h2 style="position:relative; top:150px;">OK! Let's Talk about WordPress</h2>
 				</section>
-				
-				<!-- Example of nested vertical slides -->
+
 				<section>
-					<h2> Adding / Removing JavaScript </h2>
+				<br />
+				<br />
+<code><pre style="background:#000;">
+add_action(&#39;wp_head&#39;, &#39;add_my_script&#39;);
+ 
+function add_my_script() {
+?&gt;
+&lt;script type=&quot;text/javascript&quot; 
+	src=&quot;&lt;?php bloginfo(&#39;wpurl&#39;); ?&gt;/wp-content/plugins/my-plugin/jquery.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; 
+	src=&quot;&lt;?php bloginfo(&#39;wpurl&#39;); ?&gt;/wp-content/plugins/my-plugin/my-script.js&quot;&gt;&lt;/script&gt;
+
+&lt;?php
+}
+</pre>
+</code>
+				</section>
+				<section>
+				<br />
+				<br />
+				<img src="meme.jpg">
+				</section>
+				<section>
+					<h2> Let's do it like the Pro's </h2>
 					<ul>
 						<li class="fragment"><code>wp_register_script</code></li>
 						<li class="fragment"><code>wp_deregister_script</code></li>
@@ -449,7 +472,20 @@ add_action('wp_enqueue_scripts', 'my_scripts_method');
 	wp_dequeue_script($handle); 
 </code></pre>
 				</section>
-
+				<section>
+				<h2>Example</h2>
+<pre class="language-php"><code class="language-php">
+wp_register_script( 'jquery.flexslider',
+	get_template_directory_uri().'/js/flex.js', 
+	array('jquery'), '1.7', true );
+wp_register_script( 'home-page-slider', 
+	 get_template_directory_uri().'/js/slider.js', 
+	 array('jquery.flexslider'), '1.0', true );
+if ( is_front_page() ) {
+wp_enqueue_script('home-page-slider');
+}
+</code></pre>
+				</section>
 				<section>
 					<h2>wp_localize_script
 					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_localize_script" target=" _blank"> @codex </a> </small>
@@ -471,7 +507,28 @@ console.log(object_name.some_string);
 </code></pre>
 </div>
 				</section>
-
+				<section>
+				<h3> wp_localize_script example</h3>
+<pre class="language-php"><code class="language-php">
+wp_localize_script( 
+  'simplecatch_custom_slider', 'js_value',
+  array(
+    'transition_effect' => $transition_effect,
+    'transition_delay' => $transition_delay,
+    'transition_duration' => $transition_duration
+  ));
+</code></pre>
+				</section>
+				<section>
+					<h2> AJAX in WP </h2>
+<pre class="language-php"><code class="language-php">
+require_once( "../../../../wp-config.php" );
+// or require_once( "../../../../wp-load.php" );
+</code></pre>
+<br />
+<br />
+<h3 class="fragment"> Please don't try this at home! </h3>
+				</section>
 				<section>
 					<h2>wp_ajax_(action)
 					<small> <a href="http://codex.wordpress.org/Plugin_API/Action_Reference/wp_ajax_(action)" target=" _blank"> @codex </a> </small>
@@ -497,7 +554,8 @@ jQuery.post(
  			'prefix_ajax_add_foobar');
  
  function prefix_ajax_add_foobar() {
-    //Do Something really awesome here :)
+	//Do Something really awesome here :)
+	exit;
  }
 </code></pre>
 				</section>
