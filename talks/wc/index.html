@@ -65,6 +65,23 @@
 			code.language-php {
 				background:url('php.png') no-repeat right top #000;
 			}
+			.reveal .tops img{
+				margin:0px;
+				border:0px;
+				width:100%;
+				max-width:none;
+				max-height:none;
+			}
+			.top .reveal .slides{
+				top:45%;
+			}
+			.top .reveal .state-background {
+				background: #fff;
+				margin:0px;
+				padding:0px;
+				height:100%;
+				width:100%;
+			}
 		</style>
 	</head>
 	
@@ -74,10 +91,10 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
+				<section class="tops" data-state="top">
 					<img src="first.png">
 				</section>
-				<section>
+				<section class="tops" data-state="top">
 					<img src="second.png">
 				</section>
 				<section>
@@ -159,16 +176,16 @@ console.log(a);
 				<section>
 					<h3>hoisting</h3>
 <pre class="language-javascript fragment"><code class="language-javascript">
-var val = 'some magical value';  
+var val = 'namaste';  
 (function() {  
-  console.log(val); // some magical value
+  console.log(val); // namaste
 })();  
 </code></pre>
 <pre class="language-javascript fragment"><code class="language-javascript">
-var val = 'some magical value';  
+var val = 'namaste';  
 (function() {  
   console.log(val); // undefined
-  var val = 'going to the dark side';
+  var val = 'ola!';
 })();  
 </code></pre>
 <p class="fragment">Wherever i define my variable, the initialization will be *hoisted* to the top.</p>
@@ -529,7 +546,7 @@ jQuery.post(
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				
