@@ -155,7 +155,7 @@ calendar.drawEvents = function (groups,id) {
 function layOutDay(events) {
 
 	//test: events should be an array and have events
-	if( (Array.isArray(events) === false) || events.length <= 0)
+	if( ( (events instanceof Array) === false) || events.length <= 0)
 	{
 		throw "not enough events / events not an array";
 	}
