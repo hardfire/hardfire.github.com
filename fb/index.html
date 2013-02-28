@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Solution for Puzzle</title>
+	<style type="text/css" media="screen">
+		body{
+			font-family:arial;
+		}
+		#container{
+			width:700px;
+		}
+		#times{
+			width:60px;
+			float:left;
+		}
+		#events{
+			float:left;
+			height:720px;
+			width:620px;
+			margin:7.5px 0 0 10px;
+			background:#eee;
+			border-left:1px solid #ccc;
+			position:relative;
+		}
+		.time{
+			line-height:18px;
+			text-align:right;
+		}
+		.big{
+			color:#777;
+			font-size:14px;
+			font-weight:bold;
+			margin-bottom:10px;
+		}
+		.big span, .small{
+			color:#aaa;
+			font-size:10px;
+			font-weight:normal;
+		}
+		.time.small{
+			margin-bottom:12px;
+		}
+		.event-container{
+			overflow:hidden;
+			position:absolute;
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+		}
+		.event{
+			background:#fff;
+			border-left:4px solid #435E9C;
+			border-right:1px solid #ddd;
+		}
+		.event-details{
+			padding:5px;
+		}
+		.event-name{
+			color:#435E9C;
+			font-size:12px;
+			font-weight:bold;
+		}
+		.event-location{
+			color:#aaa;
+			font-size:10px;
+		}
+
+			
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="times">
+			<div class="time big">9:00 <span>AM</span></div>
+			<div class="time small"> 9:30 </div>
+			<div class="time big">10:00 <span>AM</span></div>
+			<div class="time small"> 10:30 </div>
+			<div class="time big">11:00 <span>AM</span></div>
+			<div class="time small">11:30 </div>
+			<div class="time big">12:00 <span>PM</span></div>
+			<div class="time small">12:30 </div>
+			<div class="time big">1:00 <span>PM</span></div>
+			<div class="time small">1:30 </div>
+			<div class="time big">2:00 <span>PM</span></div>
+			<div class="time small">2:30 </div>
+			<div class="time big">3:00 <span>PM</span></div>
+			<div class="time small">3:30 </div>
+			<div class="time big">4:00 <span>PM</span></div>
+			<div class="time small">4:30 </div>
+			<div class="time big">5:00 <span>PM</span></div>
+			<div class="time small">5:30 </div>
+			<div class="time big">6:00 <span>PM</span></div>
+			<div class="time small">6:30 </div>
+			<div class="time big">7:00 <span>PM</span></div>
+			<div class="time small">7:30 </div>
+			<div class="time big">8:00 <span>PM</span></div>
+			<div class="time small">8:30 </div>
+			<div class="time big">9:00 <span>PM</span></div>
+		</div>
+		<div id="events">
+			<div class="event-container" style="top:10px;left:10px;width:300px;">
+				<div class="event" style="height:58px;">
+					<div class="event-details">
+						<div class="event-name"> Sample Item </div>
+						<div class="event-location"> Sample Location </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" charset="utf-8" src="calendar.js"> </script>
+</body>
+</html>
