@@ -1,69 +1,10 @@
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-	<title>avinash.me</title>
-  <meta name="author" content="Anonymous">
-  <meta name="description" content="hola!" />
+---
+title: Avinash's Blog | Doodles and much more
+layout: default
+---
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/js/modernizr-2.0.js"></script>
-  <script src="/js/ender.js"></script>
-  <script src="/js/octopress.js" type="text/javascript"></script>
-	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-	<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:700,400' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-  <header role="banner"><hgroup>
-<h1><a href="/">avinash.me</a></h1>
-</hgroup>
-</header>
-  <nav role="navigation"><ul class="main-navigation">
-	<li><a href="/">Home</a></li>
-	<li><a href="/blog.html">Blog</a></li>
-	<li><a href="/about.html">About</a></li>
-</ul>
-</nav>
-  	<div id="main">
-        <div id="content">
-            <div class="blog-index">
-								<article>
-					<h2>Hello</h2>
-
-<p>I&#8217;ll be writing some stuff here, very very soon&#8230;</p>
-
-				</article>
-        		            </div>
-			<aside class="sidebar">
-				<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("hardfire", 5, false);
-    });
-  </script>
-  <script src="/js/twitter.js" type="text/javascript"> </script>
-      <a href="http://twitter.com/hardfire" class="twitter-follow-button" data-show-count="true">Follow @hardfire</a>
-  </section>
-																</aside>
-        </div>
-    </div>
-	<footer role="contentinfo">
-				<p>Baked with <em><a href="http://bolt80.com/piecrust/">PieCrust</a> 0.8.5</em>.</p>
-			</footer>
-	
-</body>
-</html>
+<ul class="post-list unstyled">
+{% for post in site.posts %}
+	<li><span> {{ post.date | date: "%b %Y" }} </span> <a href="{{ post.url }}"> {{ post.title }} </a></li>
+{% endfor %}
+<ul>
