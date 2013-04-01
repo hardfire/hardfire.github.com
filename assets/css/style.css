@@ -5,4 +5,4 @@ body{ padding-top:20px; border-top:5px solid #777; font-family: 'Open Sans', san
 .meta p{ margin:0px; }
 .meta h1{ margin:0px; font-family:Georgia; font-weight:normal; }
 .content{color:#666;}
-
+.content img{margin:0px auto;}
