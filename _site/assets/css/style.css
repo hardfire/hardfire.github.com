@@ -1,0 +1,8 @@
+body{ padding-top:20px; border-top:5px solid #777; font-family: 'Open Sans', sans-serif; }
+.post-list li{ border-bottom:1px solid #eee; padding:4px 0px; font-size:16px; }
+.post-list span{ color:#aaa; font-size:12px; padding-right:10px; text-transform:uppercase; }
+.meta{ margin-bottom:15px; } 
+.meta p{ margin:0px; }
+.meta h1{ margin:0px; font-family:Georgia; font-weight:normal; }
+.content{color:#666;}
+.content img{margin:0px auto;}
