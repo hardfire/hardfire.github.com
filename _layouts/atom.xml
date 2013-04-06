@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   {% if page.grouptype == 'tag' %}
+   	<title>avinash.me - Tag: {{page.tag}}</title>
+   {% elsif page.grouptype == 'category' %}
+    <title>avinash.me - Category: {{page.category}}</title>
+   {% else %}
+    <title>avinash.me</title>
+   {% endif %}
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   {{content}}
+</channel>
+</rss>

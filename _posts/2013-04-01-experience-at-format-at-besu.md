@@ -2,6 +2,7 @@
 layout: post
 title: "My experience at #FormatAtBesu"
 comments: true
+tags: mozilla open-web firefox-os
 ---
 
 Last week (22nd and 23rd of March 2013), I was at the super talented city of Kolkata, attending **FORMAT** (Firefox OS: Renaissance of Mobile App Technology) which was a part of the technical festival of Bengal Engineering and Science University (also known as BESU). This was a two day event completely focused on developing web applications which would also work on Firefox OS.
