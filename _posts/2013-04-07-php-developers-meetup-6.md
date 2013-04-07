@@ -2,7 +2,7 @@
 layout: post
 title: "PHP Developers Meetup #6"
 description: ""
-tags: [PHP_Developers_Nepal,meetups,open_web_apps,Mozilla]
+tags: ["php developers nepal",meetups,"open web apps",mozilla]
 comments: true
 ---
 ![PHP Developers Meetup](http://img145.imageshack.us/img145/2388/4tvefoo.jpg)

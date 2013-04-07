@@ -3,7 +3,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
    
-   	<title>avinash.me - Tag: open_web_apps</title>
+   	<title>avinash.me - Tag: open web apps</title>
    
    <link>http://avinash.me</link>
    <description>Doodles and lot more!</description>
@@ -31,6 +31,34 @@
 <p>Next, Gaurav talked about virtualization and how developers could harness it to create a seamless development enviornment. Between the talk (when virtual machines were being cloned), we had a good disucssion about vagrant and how people were using it. Being a sysadmin, he did give everyone suggestions on different ways you could host and why an EC2 instance could be much better an option than a VPS.</p>
 
 <p>Finally, since we had an open-discussion session between the virtualization talk, we instead talked about how developers were using email and processing email to provide a service. In the process we touched on how mailinator was implemented and how craigslist implements its email thingy. Overall I must say it was a fruitful developer meet. Next month we would have a hacknight, so gear up and start thinking about the project of the millenium :D.</p>
+  ]]></description>
+</item>
+
+
+	<item>
+  <title>My experience at #FormatAtBesu</title>
+  <link>http://avinash.me{ post.url }}</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-04-01T00:00:00+05:45</pubDate>
+  <guid>http://avinash.me/2013/04/01/experience-at-format-at-besu.html</guid>
+  <description><![CDATA[
+     <p>Last week (22nd and 23rd of March 2013), I was at the super talented city of Kolkata, attending <strong>FORMAT</strong> (Firefox OS: Renaissance of Mobile App Technology) which was a part of the technical festival of Bengal Engineering and Science University (also known as BESU). This was a two day event completely focused on developing web applications which would also work on Firefox OS.</p>
+
+<p><img alt='Sayak Talking about Firefox OS' src='http://img689.imageshack.us/img689/8202/format3.jpg' /></p>
+
+<h3 id='day_1'>Day 1</h3>
+
+<p>The first day of the event was aimed at giving the audience an idea of mozilla, the mozilla community and Firefox OS, ofcourse. Vineel started by talking about mozilla and the community, Sayak continued by introducing the idea of Firefox OS and why it was required, Soumya then took on the stage and discussed some technical details about the platform and eventually Robin, Sayak, Biraj and me gave some demos on firefox OS application and the process of writing a basic &#8220;hello world&#8221; application. The talks went pretty well but one thing that struck me was the audience. This was a very different audience, compared to other events because they were paying attention, asking questions, interacting and were actually making sense. Believe me, this rarely happens in an engineering college in India :D.</p>
+
+<p><img alt='Serious discussion' src='http://img407.imageshack.us/img407/2742/format2.jpg' /></p>
+
+<h3 id='day_2'>Day 2</h3>
+
+<p>The second day was roughly divided into two parts, the hackaton and the presentations. The hackathon went pretty well and most of the attendees got a taste of, how easy it was to make an application for firefox OS using open web technologies. It was amazing to see about 30 applications being presented at the end of the day. I guess, we can say it was a win!</p>
+<hr />
+<p>That was all about the event. I would like to thank the FORMAT Team, especially Avik, Gaurab and Subhashish for the warm reception and managing the event in such a professional manner. Last but not the least, I got to learn a lot from Biraj, Vineel, Soumya, Robin and Sayak.</p>
+
+<p><img alt='Kumi Doll' src='http://img248.imageshack.us/img248/4129/format4.jpg' /></p>
   ]]></description>
 </item>
 
