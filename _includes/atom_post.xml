@@ -1,6 +1,6 @@
 <item>
   <title>{{ post.title }}</title>
-  <link>http://avinash.me{ post.url }}</link>
+  <link>http://avinash.me{{ post.url }}</link>
   <author>Avinash Kundailya</author>
   <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
   <guid>http://avinash.me{{ post.url }}</guid>
