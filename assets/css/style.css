@@ -4,8 +4,9 @@ body{ padding-top:20px; border-top:5px solid #777; font-family: 'Open Sans', san
 p{line-height:20px;}
 .meta{ margin-bottom:15px; } 
 .meta p{ margin:0px; }
-.meta h1{ margin:0px; font-family:Georgia; font-weight:normal; }
-.content{color:#666;}
+.meta h1{ margin:0px; font-weight:normal; }
+.content{color:#333;font-family:Georgia;font-size:20px;}
+.content p{line-height:32px; margin-bottom:15px;}
 .content img{margin:10px auto; border-bottom:3px solid #5af;}
 #tag_list{border-top:1px solid #eee; margin-top:15px; text-align:right; }
 #tag_list li{display:inline-block; margin-left:15px;}
