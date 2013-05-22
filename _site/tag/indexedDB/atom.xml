@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+   	<title>avinash.me - Tag: indexedDB</title>
+   
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+  <title>The web is the platform</title>
+  <link>http://avinash.me/2013/03/18/the-web-is-the-platform.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-03-18T13:58:02+05:45</pubDate>
+  <guid>http://avinash.me/2013/03/18/the-web-is-the-platform.html</guid>
+  <description><![CDATA[
+     <p>I have had the itch of developing a &#8220;mobile application&#8221;(with finger quotes) since quite some time now. But, the thought of learning Java or Objective C kept me waiting. With B2G, came new hopes and the idea to write your mobile applications with only web technologies. Wow, doesn&#8217;t that sound awesome :D</p>
+
+<p><img alt='Main Screen of the App' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot.png' /></p>
+
+<p>Procrastination is what i do best, so I installed B2G Desktop, <a href='http://people.mozilla.com/~myk/r2d2b2g/'>r2d2b2g</a>(B2G Emulator for firefox), Firefox Nightly and waited for more than a couple of months to even start writing an application. Finally, last week, the dawn had come, a new day had started (:-P). Yes, I started writing an application for B2G. Out of all the awesome ideas, I wanted a proper loadShedding application in the browser, that i could open anytime and see the timings. 3 days of hard work, and numerous keystrokes later, the application was ready for showtime. Here is a link to the application <a href='http://avinash.me/losh'>online</a> (works only in firefox). You can <a href='http://avinash.me/losh/i.html'>install</a> it as an &#8220;open web app&#8221; too .</p>
+
+<p><img alt='Changing groups, just a tap away' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot2.png' /></p>
+
+<p>This application uses angular.js (and B2G building blocks) on the front end and nothing on the backend :-P. The source is on <a href='http://github.com/hardfire/losh'>github</a> and i look forward to some &#8220;pull requests&#8221; and &#8220;stars&#8221;.</p>
+
+<h2 id='i_want_to_make_an_app_too_how_do_i_start_'>I want to make an app too, how do i start ?</h2>
+
+<p>Well, I am glad you asked. If you are already a web developer, tighten your belts, open your favourite text editor, push some keystrokes of awesomeness, make it responsive and at the end of it write a <a href='https://developer.mozilla.org/en/docs/Apps/Manifest'>manifest file</a>. You are done and good to go. Yes, believe me, it&#8217;s that easy. If you want the app to work offline, use <a href='http://www.html5rocks.com/en/tutorials/appcache/beginner/'>appcache</a> to save your assets offline and <a href='https://developer.mozilla.org/en-US/docs/IndexedDB'>IndexedDB</a> or<a href='https://developer.mozilla.org/en-US/docs/DOM/Storage#localStorage'>LocalStorage</a> (<a href='https://hacks.mozilla.org/2009/06/localstorage/'>another nice article</a>) to save your data. After this app, one thing that i can suggest is to design your app for offline first and then sync your data later. I started the other way round and had to take care of a lot of stuff at the end, which made no sense then, and some bugs were introduced because of that too.</p>
+
+<p>If this is not enough to get you started, a <a href='https://developer.mozilla.org/en-US/docs/Apps/Developing'>comprehensive guide</a> is available on MDN</p>
+
+<h2 id='its_still_a_webapp_how_do_i_connect_to_the_device'>It&#8217;s still a web-app, how do i connect to the device</h2>
+
+<p>I knew that was coming, <a href='https://developer.mozilla.org/en-US/docs/WebAPI'>WebAPIs</a> is what you are looking for. It is still a work in progress and lots of tutorials are available on <a href='https://hacks.mozilla.org/'>MozHacks</a></p>
+
+<p>That&#8217;s all for now. Go and make something awesome and it has been validated that <strong>&#8220;THE WEB IS THE PLATFORM&#8221;</strong> <img alt='Funny thing, it even works on osx like a native app, should work on windows and linux too' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/screen.jpg' /></p>
+  ]]></description>
+</item>
+
+
+
+</channel>
+</rss>

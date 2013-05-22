@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+   	<title>avinash.me - Tag: JavaScript</title>
+   
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+  <title>Leap Motion : A big leap ?</title>
+  <link>http://avinash.me/Javascript/Leap%20Motion/2013/03/02/leap-motion-a-big-leap.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-03-02T02:09:16+05:45</pubDate>
+  <guid>http://avinash.me/Javascript/Leap%20Motion/2013/03/02/leap-motion-a-big-leap.html</guid>
+  <description><![CDATA[
+     <p><a href='http://www.flickr.com/photos/92269244@N07/8385940323/'><img alt='Leap Motions tiny gesture controller will be available exclusively at Best Buy' src='http://farm9.staticflickr.com/8076/8385940323_7a1500210f.jpg' /></a></p>
+
+<h2 id='what_how'>What? How?</h2>
+
+<p>I had applied for the leap motion developer program couple of months back and was one of the lucky ones selected to receive the device. The device was mailed via fed-ex and came in a black box with just leap motion written on it. I smell apple-style there.</p>
+
+<p>The device was quite smaller than i had anticipated, about the size of a pack of gums and it is very light of-course. It contains IR cameras that tracks fingers at a very high accuracy (1/100th of a mm).</p>
+
+<p>I was bought by the teaser video the day i saw it. If you have not seen it yet, i suggest you have a look at it first (embedded below). That would surely get you pumped up about the leap motion controller and the power it brings with itself.</p>
+<iframe frameborder='0' height='360' src='http://www.youtube.com/embed/_d6KuiuteIA' width='640'>Leap</iframe>
+<h2 id='device_experience'>Device Experience</h2>
+
+<p>The device is actually very good and precise. It lacks applications for now, and i guess that is why we have these devices shipped to us &#8220;to write some awesome apps&#8221;.</p>
+
+<p>So, what can i do with it right away? Well, to be frank, lots of apps are being developed. The visualizer that comes with the SDK is really nice to get a feel of the device and its precision. Once again, if you have not seen the video for the visualizer, please have a look :) (embedded below)</p>
+
+<h2 id='developers'>Developers</h2>
+
+<p>When it comes to development, the SDK is pretty cool as it has API&#8217;s for development in C++, C#, Obj.C, Java, Python aaannd (drum roll) JavaScript. Yes, it has a WebSockets server that you can connect to and do a lot of stuff. I&#8217;ve seen some demos where developers used the $1 library to give a feel of gestures. The SDK didn&#8217;t have gesture recognition till now, but i hear the new one has some gesture awesomeness, yet to look into that. Me being a believer in &#8220;the web is the platform&#8221; makes me feel good that we can develop Leap applications using JavaScript. No, need to go through learning a whole new technology. That is a win, for sure.</p>
+
+<h2 id='what_next'>What Next?</h2>
+
+<p>The device will be out by May (i think). It will be different and have a better experience compared to the developer kit. I have had some ideas in mind and will start working on it in a week or so. Keep checking for updates :)</p>
+  ]]></description>
+</item>
+
+
+
+</channel>
+</rss>

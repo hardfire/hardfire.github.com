@@ -83,6 +83,40 @@
 
 	
 		<item>
+  <title>The web is the platform</title>
+  <link>http://avinash.me/2013/03/18/the-web-is-the-platform.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-03-18T13:58:02+05:45</pubDate>
+  <guid>http://avinash.me/2013/03/18/the-web-is-the-platform.html</guid>
+  <description><![CDATA[
+     <p>I have had the itch of developing a &#8220;mobile application&#8221;(with finger quotes) since quite some time now. But, the thought of learning Java or Objective C kept me waiting. With B2G, came new hopes and the idea to write your mobile applications with only web technologies. Wow, doesn&#8217;t that sound awesome :D</p>
+
+<p><img alt='Main Screen of the App' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot.png' /></p>
+
+<p>Procrastination is what i do best, so I installed B2G Desktop, <a href='http://people.mozilla.com/~myk/r2d2b2g/'>r2d2b2g</a>(B2G Emulator for firefox), Firefox Nightly and waited for more than a couple of months to even start writing an application. Finally, last week, the dawn had come, a new day had started (:-P). Yes, I started writing an application for B2G. Out of all the awesome ideas, I wanted a proper loadShedding application in the browser, that i could open anytime and see the timings. 3 days of hard work, and numerous keystrokes later, the application was ready for showtime. Here is a link to the application <a href='http://avinash.me/losh'>online</a> (works only in firefox). You can <a href='http://avinash.me/losh/i.html'>install</a> it as an &#8220;open web app&#8221; too .</p>
+
+<p><img alt='Changing groups, just a tap away' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot2.png' /></p>
+
+<p>This application uses angular.js (and B2G building blocks) on the front end and nothing on the backend :-P. The source is on <a href='http://github.com/hardfire/losh'>github</a> and i look forward to some &#8220;pull requests&#8221; and &#8220;stars&#8221;.</p>
+
+<h2 id='i_want_to_make_an_app_too_how_do_i_start_'>I want to make an app too, how do i start ?</h2>
+
+<p>Well, I am glad you asked. If you are already a web developer, tighten your belts, open your favourite text editor, push some keystrokes of awesomeness, make it responsive and at the end of it write a <a href='https://developer.mozilla.org/en/docs/Apps/Manifest'>manifest file</a>. You are done and good to go. Yes, believe me, it&#8217;s that easy. If you want the app to work offline, use <a href='http://www.html5rocks.com/en/tutorials/appcache/beginner/'>appcache</a> to save your assets offline and <a href='https://developer.mozilla.org/en-US/docs/IndexedDB'>IndexedDB</a> or<a href='https://developer.mozilla.org/en-US/docs/DOM/Storage#localStorage'>LocalStorage</a> (<a href='https://hacks.mozilla.org/2009/06/localstorage/'>another nice article</a>) to save your data. After this app, one thing that i can suggest is to design your app for offline first and then sync your data later. I started the other way round and had to take care of a lot of stuff at the end, which made no sense then, and some bugs were introduced because of that too.</p>
+
+<p>If this is not enough to get you started, a <a href='https://developer.mozilla.org/en-US/docs/Apps/Developing'>comprehensive guide</a> is available on MDN</p>
+
+<h2 id='its_still_a_webapp_how_do_i_connect_to_the_device'>It&#8217;s still a web-app, how do i connect to the device</h2>
+
+<p>I knew that was coming, <a href='https://developer.mozilla.org/en-US/docs/WebAPI'>WebAPIs</a> is what you are looking for. It is still a work in progress and lots of tutorials are available on <a href='https://hacks.mozilla.org/'>MozHacks</a></p>
+
+<p>That&#8217;s all for now. Go and make something awesome and it has been validated that <strong>&#8220;THE WEB IS THE PLATFORM&#8221;</strong> <img alt='Funny thing, it even works on osx like a native app, should work on windows and linux too' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/screen.jpg' /></p>
+  ]]></description>
+</item>
+
+	
+
+	
+		<item>
   <title>#MozSAARC13 - learnings and takeaways</title>
   <link>http://avinash.me/2013/03/03/mozsaarc13-learnings-and-takeaways.html</link>
   <author>Avinash Kundailya</author>
@@ -100,6 +134,42 @@
 <p>Next up was the most anticipated project of the year, &#8220;Firefox OS&#8221;. I as a developer, am highly focused on the web as a platform and this project has made every Web Developer&#8217;s dream come true. Basically, we can create native mobile apps for the platform using the language and tools we love the most (HTML, CSS, JS on VIM :D). We got a chance to use a developer device and it seemed pretty promising.</p>
 
 <p>Finally, the event was much better than my expectations and we came up to some concrete decisions. I look forward to supporting and working with the community for a better and an open Web. This reminds me of a line that one of my friend once told me, &#8220;Firefox is my OS&#8221;. I guess, it is pretty much true today.</p>
+  ]]></description>
+</item>
+
+	
+
+	
+		<item>
+  <title>Leap Motion : A big leap ?</title>
+  <link>http://avinash.me/Javascript/Leap%20Motion/2013/03/02/leap-motion-a-big-leap.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-03-02T02:09:16+05:45</pubDate>
+  <guid>http://avinash.me/Javascript/Leap%20Motion/2013/03/02/leap-motion-a-big-leap.html</guid>
+  <description><![CDATA[
+     <p><a href='http://www.flickr.com/photos/92269244@N07/8385940323/'><img alt='Leap Motions tiny gesture controller will be available exclusively at Best Buy' src='http://farm9.staticflickr.com/8076/8385940323_7a1500210f.jpg' /></a></p>
+
+<h2 id='what_how'>What? How?</h2>
+
+<p>I had applied for the leap motion developer program couple of months back and was one of the lucky ones selected to receive the device. The device was mailed via fed-ex and came in a black box with just leap motion written on it. I smell apple-style there.</p>
+
+<p>The device was quite smaller than i had anticipated, about the size of a pack of gums and it is very light of-course. It contains IR cameras that tracks fingers at a very high accuracy (1/100th of a mm).</p>
+
+<p>I was bought by the teaser video the day i saw it. If you have not seen it yet, i suggest you have a look at it first (embedded below). That would surely get you pumped up about the leap motion controller and the power it brings with itself.</p>
+<iframe frameborder='0' height='360' src='http://www.youtube.com/embed/_d6KuiuteIA' width='640'>Leap</iframe>
+<h2 id='device_experience'>Device Experience</h2>
+
+<p>The device is actually very good and precise. It lacks applications for now, and i guess that is why we have these devices shipped to us &#8220;to write some awesome apps&#8221;.</p>
+
+<p>So, what can i do with it right away? Well, to be frank, lots of apps are being developed. The visualizer that comes with the SDK is really nice to get a feel of the device and its precision. Once again, if you have not seen the video for the visualizer, please have a look :) (embedded below)</p>
+
+<h2 id='developers'>Developers</h2>
+
+<p>When it comes to development, the SDK is pretty cool as it has API&#8217;s for development in C++, C#, Obj.C, Java, Python aaannd (drum roll) JavaScript. Yes, it has a WebSockets server that you can connect to and do a lot of stuff. I&#8217;ve seen some demos where developers used the $1 library to give a feel of gestures. The SDK didn&#8217;t have gesture recognition till now, but i hear the new one has some gesture awesomeness, yet to look into that. Me being a believer in &#8220;the web is the platform&#8221; makes me feel good that we can develop Leap applications using JavaScript. No, need to go through learning a whole new technology. That is a win, for sure.</p>
+
+<h2 id='what_next'>What Next?</h2>
+
+<p>The device will be out by May (i think). It will be different and have a better experience compared to the developer kit. I have had some ideas in mind and will start working on it in a week or so. Keep checking for updates :)</p>
   ]]></description>
 </item>
 
