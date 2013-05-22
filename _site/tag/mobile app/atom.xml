@@ -20,11 +20,11 @@
   <description><![CDATA[
      <p>I have had the itch of developing a &#8220;mobile application&#8221;(with finger quotes) since quite some time now. But, the thought of learning Java or Objective C kept me waiting. With B2G, came new hopes and the idea to write your mobile applications with only web technologies. Wow, doesn&#8217;t that sound awesome :D</p>
 
-<p><img alt='Main Screen of the App' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot.png' /></p>
+<p><img alt='Main Screen of the App' src='http://img706.imageshack.us/img706/7110/shotcz.png' /></p>
 
 <p>Procrastination is what i do best, so I installed B2G Desktop, <a href='http://people.mozilla.com/~myk/r2d2b2g/'>r2d2b2g</a>(B2G Emulator for firefox), Firefox Nightly and waited for more than a couple of months to even start writing an application. Finally, last week, the dawn had come, a new day had started (:-P). Yes, I started writing an application for B2G. Out of all the awesome ideas, I wanted a proper loadShedding application in the browser, that i could open anytime and see the timings. 3 days of hard work, and numerous keystrokes later, the application was ready for showtime. Here is a link to the application <a href='http://avinash.me/losh'>online</a> (works only in firefox). You can <a href='http://avinash.me/losh/i.html'>install</a> it as an &#8220;open web app&#8221; too .</p>
 
-<p><img alt='Changing groups, just a tap away' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/shot2.png' /></p>
+<p><img alt='Changing groups, just a tap away' src='http://img838.imageshack.us/img838/4890/shot2a.png' /></p>
 
 <p>This application uses angular.js (and B2G building blocks) on the front end and nothing on the backend :-P. The source is on <a href='http://github.com/hardfire/losh'>github</a> and i look forward to some &#8220;pull requests&#8221; and &#8220;stars&#8221;.</p>
 
@@ -38,7 +38,7 @@
 
 <p>I knew that was coming, <a href='https://developer.mozilla.org/en-US/docs/WebAPI'>WebAPIs</a> is what you are looking for. It is still a work in progress and lots of tutorials are available on <a href='https://hacks.mozilla.org/'>MozHacks</a></p>
 
-<p>That&#8217;s all for now. Go and make something awesome and it has been validated that <strong>&#8220;THE WEB IS THE PLATFORM&#8221;</strong> <img alt='Funny thing, it even works on osx like a native app, should work on windows and linux too' src='http://blog.avinash.com.np/wp-content/uploads/2013/03/screen.jpg' /></p>
+<p>That&#8217;s all for now. Go and make something awesome and it has been validated that <strong>&#8220;THE WEB IS THE PLATFORM&#8221;</strong> <img alt='Funny thing, it even works on osx like a native app, should work on windows and linux too' src='http://img692.imageshack.us/img692/4402/screenbiyq.jpg' /></p>
   ]]></description>
 </item>
 
