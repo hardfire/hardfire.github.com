@@ -6,9 +6,9 @@ description: ""
 category: 
 date: 2013-06-08 08:13:02
 tags:
-- Mozilla
-- Hackathon
-- FirefoxOS
+- mozilla
+- hackathon
+- firefoxOS
 ---
 
 One fine day (1st of June, 2013) about 75 web enthusiats gathered in Kathmandu, Nepal to celebrate the open-web and spend a day hacking on open web applications, this was the first official event of Mozilla Nepal as Firefox OS App Days, Nepal.
@@ -26,7 +26,7 @@ So, we now had about 10 teams working on 10 awesome ideas and 5 hours to hack th
 
 After this, the hackers were back to the development, and things seemed really serious then, as we had only 1 hour left for the demos. Fast forward to the app demos, at the end about 9 apps were demoed and they ranged from games like tic-tac-toe and love calculator (that app demo was fun) to full fledged applications like guru-chaiyo (A teacher finding service ) and Presentation 2.0  (more on this later)
 
-The team of wikipedia Nepal had also joined us during the hackathon to work on some of their web-related applications and problems, nothing substantial came out of the hackathon but they did manage to get the basic framework and participation ;) ready for the app. At the end of the day we had a hand full of applications, happy hackers and what's left was a group photo. (a lot of people had already left by then)
+The team of Wikimedia Nepal had also joined us during the hackathon to work on some of their web-related applications and problems, nothing substantial came out of the hackathon but they did manage to get the basic framework and participation ;) ready for the app. At the end of the day we had a hand full of applications, happy hackers and what's left was a group photo. (a lot of people had already left by then)
 [![Group Photo](http://farm6.staticflickr.com/5346/8914046284_5d3161b829_z.jpg)](http://www.flickr.com/photos/hardfire/8914046284/)
 
 
