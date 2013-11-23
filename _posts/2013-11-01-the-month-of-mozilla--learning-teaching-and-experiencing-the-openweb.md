@@ -5,11 +5,7 @@ description: ""
 category: 
 date: 2013-11-01
 comments: true
-tags:
-- mozilla
-- openweb
-- mozilla festival
-- mozilla summit2013
+tags: [ "mozilla", "openweb", "mozilla festival", "mozilla summit2013"]
 ---
 
 ##Part 1 : Mozilla Summit 2013
