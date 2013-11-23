@@ -13,4 +13,6 @@ I have been working on a backbone based project recently and had a situation whe
 
 This is how I solved it, thanks to this [issue](https://github.com/jashkenas/underscore/issues/494) on github.
 
-{% gist 7618222 %}
+{% gist 7618222 backbone-delay-context.js %}
+
+Will keep posting on more findings, good to look back when i forget :D
