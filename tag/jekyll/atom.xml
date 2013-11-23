@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+   	<title>avinash.me - Tag: jekyll</title>
+   
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+  <title>Switching to Jekyll, so long WordPress</title>
+  <link>http://avinash.me/2013/03/20/switching-to-jekyll.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-03-20T00:00:00+01:00</pubDate>
+  <guid>http://avinash.me/2013/03/20/switching-to-jekyll.html</guid>
+  <description><![CDATA[
+     <p>Yes! I will be moving to this blog asap, and all the content will come here too, one at a time :D</p>
+  ]]></description>
+</item>
+
+
+
+</channel>
+</rss>

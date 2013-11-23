@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+   	<title>avinash.me - Tag: mozilla</title>
+   
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+  <title>The Month of Mozilla : Learning, Teaching and Experiencing the OpenWeb</title>
+  <link>http://avinash.me/2013/11/01/the-month-of-mozilla--learning-teaching-and-experiencing-the-openweb.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-11-01T00:00:00+01:00</pubDate>
+  <guid>http://avinash.me/2013/11/01/the-month-of-mozilla--learning-teaching-and-experiencing-the-openweb.html</guid>
+  <description><![CDATA[
+     <h2 id='part_1__mozilla_summit_2013'>Part 1 : Mozilla Summit 2013</h2>
+
+<p>To make things less confusing, lets start from the beginning. It all started back in mid-2013 when my twitter stream and facebook newsfeed was filled with status-es like &#8220;It&#8217;s official, you&#8217;re invited! Yay!&#8221; and there in my mailbox was an unread email with the same subject. Yes, It was official and I was invited too :D. It was an invitation to attend the Mozilla Summit 2013 to be hosted simulatneously in 3 cities (Brussels, Toronto and Santa-Clara) and with the mission for (almost) all mozillians to come together, get inspired, talk and shape the future of the open web.</p>
+
+<p><img alt='Welcome Mozillians, The Brussels Square, venue of awesomeness' src='http://farm4.staticflickr.com/3730/10223251464_c4320a458b.jpg' /></p>
+
+<p>Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Délirium Café (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.</p>
+
+<p>Over the next couple(+1) of days i attended sessions related to privacy on the web (where we discussed about ghostery and collusion- now knows as Lightbeam), using the developer tools to debug other XUL based applications (especially thunderbird), Mozilla Reps program, MDN, OpenBadges, having a million mozillians. One thing that i liked about each session is that it was a two way session and it included more discussions and less of one way communication.</p>
+
+<p>Other than the sessions, I think the world fair and the innovation fair were the two awesome places to be in the summit as it gave one an opportunity to see how spread we are as mozillians and how awesome we are too.</p>
+
+<p><img alt='Happy Foxy and confused me at the back' src='http://farm4.staticflickr.com/3706/10096055983_2dbe4b93c5_z.jpg' /></p>
+
+<h3 id='takeaways'>Takeaways</h3>
+
+<p>Well, you attended an event - AWESOME, but what you take away from the event decides how successful it was and how it would help you in the coming days. Here&#8217;s what i got to takeaway.</p>
+
+<ul>
+<li>Getting to know some of the faces behing the IRC nicks, turns out i couldnt&#8217; meet all the faces</li>
+
+<li>Meeting the mozillians from Europe. I would like to give a special shout out to Axel Grude (the awesome AMO guru), Raivis (The Latvian mozillian, localizer, webdev, awesome!), Rimas (localizer, techie from Lithuania) and Sjmur (Mozilla ireland community manager).</li>
+
+<li>A week after the summit and i had already helped Axel test(and find a bug too) one of his <a href='https://addons.mozilla.org/en-US/thunderbird/addon/quickfolders-tabbed-folders/'>addon</a> and made it to his contributor list.</li>
+
+<li>Last but not the least, leaving with the motivation to do more and the feeling that your work is making a difference.</li>
+</ul>
+
+<h2 id='part_2__mozilla_festival_2013'>Part 2 : Mozilla Festival 2013</h2>
+
+<p>Another mail, another set of flights and here I am in London, Running to the Mozilla office directly from the airport to attend a reps meeting session regarding the Mozilla Festival. Oh, did i say that this was the biggest MozFest till date. This was quite a different event from other Mozilla events, because of the new set of audience and the new set of motivation. The Mozilla Festival is all about building and hacking, as they say (F<em>ck it, Ship it).</em></p>
+
+<p><img alt='Mozilla, your light in the darkness' src='http://farm3.staticflickr.com/2865/10477578876_8de75ceeb9_z.jpg' /></p>
+
+<p>The first day of the event officially started with the science fair at the evening, leaving us (as facilitators) a whole day to get an idea of the flow of the event and our role in it. Me and Prashish were part a of the scrum led by Kat and Laura, where we had a wall full of problems and an army of awesome-scurm-leads (More on the scrum later). Then we had the hack-your-tshirt session where we hacked our tshirts with spray paint and sketch-pens. The event had a mega version of it with paints and what not (more on that later). Then, kicked off the real deal of the day, the Science festival. There were some awesome projects, experiments and products being displayed but i would like to give a special mention to goolabs (for their awesome work with 3d on the web), Erase all kittens(for how awesome+weird+different their approach to teaching and gaming is) and the tactile web demo from the Mozilla Japan team (believe me they were awesome)</p>
+
+<p>The Day 2 kicked off with the keynotes and then moving to the track they belonged to. I first went to the #teachTheWeb track, as we were part of that track. There was a beautiful wall of <a href='http://www.flickr.com/photos/hardfire/10477598396/'>tasks</a> waiting to be in the making and be made eventually :D . Then i went to the openbadges section to hack on some custom badges and badges of the future. While browsing other badges i was way inspired by the <a href='http://www.flickr.com/photos/hardfire/10525736543/'>&#8220;Holy Badge of Hacks&#8221;</a>. Then came the most important and happening event of the day, the Maker-Party. I am so glad that i didnt miss it, because the aurora and the spirit at the maker party was amazing (more than that). People working on stop-motion-videos, children learning to code, people making games using scratch, making (the so sweet)kumi dolls, and a lot more (there were so many things happening that i might have forgot some). That was most of the first day which ended with some awesome conversations with Henrik, Jan, Prashishh, Michael and Leo over the course of Japanese food.</p>
+
+<p>The third day was mostly similar with attending more awesome sessions, meeting more awesome people, painting some more t-shirts :P and learning more intriguing ways to teach and engage people.</p>
+
+<p>I think the biggest takeaway from this event was how important learning is and how big a role the teacher/teaching method plays in the process. I personally learned a variety of different ways people were using to teach webmaking and moreover dozens of ways people were using the web to make things. Again, a big shout out to all the Mozilla Reps (you all are awesome), It was a great pleasure meeting each one of you.</p>
+
+<h2 id='thanking_them_who_deserve'>Thanking them who deserve</h2>
+
+<p>Well, I wanted to especially thank the Mozilla Nepal community (especially Avash for taking the lead initially), and the people behind the first Mozilla South Asian Meetup, where i got to meet all the community leaders (especially Deb, who is my mentor too) who eventually guided me and helped me to contribute.</p>
+  ]]></description>
+</item>
+
+
+	<item>
+  <title>App Days, Nepal 2013</title>
+  <link>http://avinash.me/2013/06/08/firefox-os-app-days-nepal-2013.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-06-08T10:13:02+02:00</pubDate>
+  <guid>http://avinash.me/2013/06/08/firefox-os-app-days-nepal-2013.html</guid>
+  <description><![CDATA[
+     <p>One fine day (1st of June, 2013) about 75 web enthusiats gathered in Kathmandu, Nepal to celebrate the open-web and spend a day hacking on open web applications, this was the first official event of Mozilla Nepal as Firefox OS App Days, Nepal. <img alt='App Days Nepal' src='http://img441.imageshack.us/img441/315/9j8k.jpg' /></p>
+
+<p>The registrations started at 8:30 AM in the morning and there were people at the venue around 8:15. In the mean time we were checking if the Firefox OS simulator was setup in everyone&#8217;s machines and had some informal talks on the ideas and implementations. At 9:30 AM, we officially kicked off the event with and introduction to Mozilla, the Mozilla Project, the need of Firefox OS and gave a quick demo on how to create a Firefox OS Application, which was a recap for those who had attended the orientation session, couple of days before the event.</p>
+
+<p>Then after, we had the most important part of the day, the application pitching and creation of teams. It is always fun to see the intresting ideas that come out of the audience and it always amazes me how creative people are. <a href='https://gist.github.com/5787159'>Here</a> is a list of the ideas that were generated during the pitching session.</p>
+
+<p><a href='http://www.flickr.com/photos/hardfire/8913494299/'><img alt='Attendees' src='http://farm8.staticflickr.com/7416/8913494299_be672eb0ae_z.jpg' /></a></p>
+
+<p>So, we now had about 10 teams working on 10 awesome ideas and 5 hours to hack their way through an amazing app (atleast a prototype). With some major issues with the internet and help from the offline documentations we had, the hackathon started really smooth, but, there was a surprise in stock for everyone. We had a special session for the unboxing and release of the Keon phones that mozilla had sent us. We had the director of Islington College Mr. Ravi Phuyal who gave his precious time to attend the event and honour us by releasing the Keon phones to the audience. (More pics at the flickr stream)</p>
+
+<p><a href='http://www.flickr.com/photos/hardfire/8913457579/'><img alt='Keon Unboxing' src='http://farm9.staticflickr.com/8546/8913457579_ef694ff603_z.jpg' /></a></p>
+
+<p>After this, the hackers were back to the development, and things seemed really serious then, as we had only 1 hour left for the demos. Fast forward to the app demos, at the end about 9 apps were demoed and they ranged from games like tic-tac-toe and love calculator (that app demo was fun) to full fledged applications like guru-chaiyo (A teacher finding service ) and Presentation 2.0 (more on this later)</p>
+
+<p>The team of Wikimedia Nepal had also joined us during the hackathon to work on some of their web-related applications and problems, nothing substantial came out of the hackathon but they did manage to get the basic framework and participation ;) ready for the app. At the end of the day we had a hand full of applications, happy hackers and what&#8217;s left was a group photo. (a lot of people had already left by then) <a href='http://www.flickr.com/photos/hardfire/8914046284/'><img alt='Group Photo' src='http://farm6.staticflickr.com/5346/8914046284_5d3161b829_z.jpg' /></a></p>
+
+<h2 id='quick_interesting_updates'>Quick Interesting Updates</h2>
+
+<ul>
+<li>Presentation 2.O was the app demo that made everyone&#8217;s jaw drop. The team later hosted the whole source on github (<a href='https://github.com/deepsadhi/Presentation2.O'>https://github.com/deepsadhi/Presentation2.O</a>). The Basic idea was to create a synced presentation tool, so that you can present locally, even in the absence of a projector.</li>
+
+<li>We had 5 hackers joining us all the way from Birgunj. Thanks for joining us and making the event worthwile.</li>
+
+<li>Photos of the event : <a href='http://www.flickr.com/photos/hardfire/sets/72157633856146799/'>http://www.flickr.com/photos/hardfire/sets/72157633856146799/</a></li>
+
+<li>HashTag : <a href='https://twitter.com/search?q=%23appDaysNp&amp;src=hash'>#appDaysNp</a></li>
+</ul>
+  ]]></description>
+</item>
+
+
+	<item>
+  <title>PHP Developers Meetup #6</title>
+  <link>http://avinash.me/2013/04/07/php-developers-meetup-6.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-04-07T00:00:00+02:00</pubDate>
+  <guid>http://avinash.me/2013/04/07/php-developers-meetup-6.html</guid>
+  <description><![CDATA[
+     <p><img alt='PHP Developers Meetup' src='http://img145.imageshack.us/img145/2388/4tvefoo.jpg' /></p>
+
+<p>This is my first post regarding the PHP Developers Meetup we have in Kathmandu almost every month. Yesterday, we had the sixth iteration of the meetup and it went pretty well. We started with a 10 minute delay because we Nepalese are used to Nepali Time :-P, but on a serious note I wish we could start right on time moving forward.</p>
+
+<p>I took the first session and had planned to discuss about Open Web Applications and how awesome it is. I had more memes and trolls and less slides, most of my talk was based on showing how easy it was to create an Application using the open web and the whole concept behind it. I showed the same app runnning on OSX, a nexus 7 and in the browser (of-course) and that made it much easier to explain the power of it. I guess the talk went pretty well and people would be interested in exploring more and creating applications using the open web. <a href='http://avinash.me/talks/openwebapp-phpmeet6/'>(Slides)</a> <a href='http://github.com/hardfire/losh'>(Github Source for LoadShedding Application)</a></p>
+
+<p><img alt='The web is the platform' src='http://img833.imageshack.us/img833/9665/zgxakzf.jpg' /></p>
+
+<p>Prashish then talked about creating a real time dashboard using Node.js, Angular.JS and D3.js. The session was quite informative and people were quite keen to discuss about scalability and there were some suggestion on how it could be made more polished. He had no demo to show as it was still a WIP, but we hope to have a look at the finished product in the next meetup.</p>
+
+<p>Next, Gaurav talked about virtualization and how developers could harness it to create a seamless development enviornment. Between the talk (when virtual machines were being cloned), we had a good disucssion about vagrant and how people were using it. Being a sysadmin, he did give everyone suggestions on different ways you could host and why an EC2 instance could be much better an option than a VPS.</p>
+
+<p>Finally, since we had an open-discussion session between the virtualization talk, we instead talked about how developers were using email and processing email to provide a service. In the process we touched on how mailinator was implemented and how craigslist implements its email thingy. Overall I must say it was a fruitful developer meet. Next month we would have a hacknight, so gear up and start thinking about the project of the millenium :D.</p>
+  ]]></description>
+</item>
+
+
+	<item>
+  <title>My experience at #FormatAtBesu</title>
+  <link>http://avinash.me/2013/04/01/experience-at-format-at-besu.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2013-04-01T00:00:00+02:00</pubDate>
+  <guid>http://avinash.me/2013/04/01/experience-at-format-at-besu.html</guid>
+  <description><![CDATA[
+     <p>Last week (22nd and 23rd of March 2013), I was at the super talented city of Kolkata, attending <strong>FORMAT</strong> (Firefox OS: Renaissance of Mobile App Technology) which was a part of the technical festival of Bengal Engineering and Science University (also known as BESU). This was a two day event completely focused on developing web applications which would also work on Firefox OS.</p>
+
+<p><img alt='Sayak Talking about Firefox OS' src='http://img689.imageshack.us/img689/8202/format3.jpg' /></p>
+
+<h3 id='day_1'>Day 1</h3>
+
+<p>The first day of the event was aimed at giving the audience an idea of mozilla, the mozilla community and Firefox OS, ofcourse. Vineel started by talking about mozilla and the community, Sayak continued by introducing the idea of Firefox OS and why it was required, Soumya then took on the stage and discussed some technical details about the platform and eventually Robin, Sayak, Biraj and me gave some demos on firefox OS application and the process of writing a basic &#8220;hello world&#8221; application. The talks went pretty well but one thing that struck me was the audience. This was a very different audience, compared to other events because they were paying attention, asking questions, interacting and were actually making sense. Believe me, this rarely happens in an engineering college in India :D.</p>
+
+<p><img alt='Serious discussion' src='http://img407.imageshack.us/img407/2742/format2.jpg' /></p>
+
+<h3 id='day_2'>Day 2</h3>
+
+<p>The second day was roughly divided into two parts, the hackaton and the presentations. The hackathon went pretty well and most of the attendees got a taste of, how easy it was to make an application for firefox OS using open web technologies. It was amazing to see about 30 applications being presented at the end of the day. I guess, we can say it was a win!</p>
+<hr />
+<p>That was all about the event. I would like to thank the FORMAT Team, especially Avik, Gaurab and Subhashish for the warm reception and managing the event in such a professional manner. Last but not the least, I got to learn a lot from Biraj, Vineel, Soumya, Robin and Sayak.</p>
+
+<p><img alt='Kumi Doll' src='http://img248.imageshack.us/img248/4129/format4.jpg' /></p>
+  ]]></description>
+</item>
+
+
+
+</channel>
+</rss>
