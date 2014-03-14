@@ -15,6 +15,7 @@ As the name suggests it returns a list of all the classes of an element. For exa
 
 ## The API
 With the list comes a very nice list of API methods. Most interesting of them are
+
 - add() - adds a classs
 - remove() - removes a class
 - contains() - returns if a class exists
