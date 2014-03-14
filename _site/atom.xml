@@ -13,10 +13,29 @@
    
 	
 		<item>
+  <title>Look Ma! Its so easy to write a dashboard widget</title>
+  <link>http://avinash.me/2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2014-03-14T00:00:00+05:45</pubDate>
+  <guid>http://avinash.me/2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html</guid>
+  <description><![CDATA[
+     <p>I have been tinkering quite a lot with the osx dashboard lately and was curious how could one write a widget. I went digging online and found most of the apple links ended up in a 404. Luckily I found <a href="http://andrew.hedges.name/widgets/dev/">this</a> article, which is a little outdated, but so is the dashboard.</p>
+
+<p>To my surprise, dashboard widgets are written in HTML, CSS and JavaScript. Yes! right, those web technologies that we've been pushing forward for quite a while now. I hopped in to the opportunity and wrote a very dirty useless app (will post it to github soon). But just in case someone has that weird itch to develop a dashboard widget and would like help, I have included the link to apple's documentation.</p>
+
+<h2>Most Important Link - <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Dashboard_ProgTopics/Introduction/Introduction.html#//apple_ref/doc/uid/TP40003042-SW1">Apple Documentation</a></h2>
+
+  ]]></description>
+</item>
+
+	
+
+	
+		<item>
   <title>What I initially planned to do this summer</title>
   <link>http://avinash.me/2014/02/23/what-i-initially-planned-to-do-this-summer.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2014-02-23T00:00:00+01:00</pubDate>
+  <pubDate>2014-02-23T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2014/02/23/what-i-initially-planned-to-do-this-summer.html</guid>
   <description><![CDATA[
      <p>TL;DR : This is mostly going to be a post about how things have fucked up recently and how my plans of doing an internship this summer went into the dump and some extensions and pre-post thought process to that.</p>
@@ -57,7 +76,7 @@
   <title>The right temperament, four years of engineering</title>
   <link>http://avinash.me/2014/02/23/the-right-temperament-four-years-of-engineering.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2014-02-23T00:00:00+01:00</pubDate>
+  <pubDate>2014-02-23T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2014/02/23/the-right-temperament-four-years-of-engineering.html</guid>
   <description><![CDATA[
      <p>Note: This has come back from the archives and was written way back on 03 May 2011. [Back from the Grave]</p>
@@ -72,7 +91,7 @@
 <li>Make Friends, lots and lots of them.</li>
 <li>Find people who share a similar interst you have and if you are not sure about your interests, make sure by the end of this year.</li>
 <li>Learn the habit of learning</li>
-<li>Do what you think is interesting, and don’t feel shy to share it with the world.Check this video, really inspiring.</li>
+<li>Do what you think is interesting, and don't feel shy to share it with the world.Check this video, really inspiring.</li>
 <li>Classes are important but not more than exams. By the end of first year it would be obvious that studying 2 days before the exam is more than enough.</li>
 </ul>
 
@@ -81,10 +100,10 @@
 
 <ul>
 <li>This is the most important year of college.</li>
-<li>Data Structures are very important, learn it, love it and don’t forget.</li>
+<li>Data Structures are very important, learn it, love it and don't forget.</li>
 <li>Take part in programming competitions, online contests.</li>
-<li>Try to be a part of an open source project, try to submit a patch for one or too, it maybe used, maynot be, but the best part is you’d learn.</li>
-<li>If you don’t understand in class then very good, neither did we, but ask a couple of questions to the faculty just to confirm if it is a period worth bunking.</li>
+<li>Try to be a part of an open source project, try to submit a patch for one or too, it maybe used, maynot be, but the best part is you'd learn.</li>
+<li>If you don't understand in class then very good, neither did we, but ask a couple of questions to the faculty just to confirm if it is a period worth bunking.</li>
 <li>Toward the end of this year, apply for training or some project (in a reputed university). Try out for Google Summer of Code, or maybe apply to an open source project for a summer intern.</li>
 <li>And yeah, the most important have fun, try going out everyday, move around. Nothing is better than a cup of chai with friends @galla.</li>
 </ul>
@@ -94,29 +113,29 @@
 
 <ul>
 <li>Now, this is when things start warming up and you start to feel the pressure.</li>
-<li>CAT CAT everywhere, not a TIGER to see .. haha . I can’t say when do you go for an MBA but i can surely say don’t go for one if you are really interested in Computers ( Other Department people, just replace with whatsover is the alternate .).</li>
-<li>One point is very clear, programming or writing programs is a kid’s job, but writing the perfect program, with the most optimized algorithm is what is awesome.</li>
+<li>CAT CAT everywhere, not a TIGER to see .. haha . I can't say when do you go for an MBA but i can surely say don't go for one if you are really interested in Computers ( Other Department people, just replace with whatsover is the alternate .).</li>
+<li>One point is very clear, programming or writing programs is a kid's job, but writing the perfect program, with the most optimized algorithm is what is awesome.</li>
 <li>Learn algorithms, if you have been participating in online competitons then you must know how interesting it is.</li>
 <li>Once again, towards the end take on a project, work on it, have fun. If u had contributed to some open source project before and have continued, most chances are you would be very close to the team by now, so you have a whole world of opportunities in front of you.</li>
-<li>If higher-studies is what you wish to do next, its high time you give GRE, TOEFL … and all those 3 Letter words :-P</li>
+<li>If higher-studies is what you wish to do next, its high time you give GRE, TOEFL ... and all those 3 Letter words :-P</li>
 </ul>
 
 
-<h2>Final year ( The End, that’s what i’m talking about)</h2>
+<h2>Final year ( The End, that's what i'm talking about)</h2>
 
 <ul>
-<li>Take up a project that you would love to work on, and seminar on something that you’ve wanted to learn or try.</li>
+<li>Take up a project that you would love to work on, and seminar on something that you've wanted to learn or try.</li>
 <li>Have Fun, a lot of fun.</li>
-<li>Placement is just another thing, dont’ worry.</li>
+<li>Placement is just another thing, dont' worry.</li>
 <li>Once again, Have FUN!</li>
 </ul>
 
 
 <p>An Important Issue :</p>
 
-<p>Recently, I was also thinking that why do most of the tech startups or the awesome ideas that totally change the world come from some place on the other side of the globe. If they can why not someone in India? or Nepal? No, it’s really hard to. Why? It’s because the way we are taught, the way colleges run. Colleges are just making the next lot of engineers, they are not making thinkers, not innovators. But, again, it doesn’t mean we can’t. It’s high time we take a shift of paradigm, try to do some interesting stuff in college, mix it with all the awesome fun we are having.</p>
+<p>Recently, I was also thinking that why do most of the tech startups or the awesome ideas that totally change the world come from some place on the other side of the globe. If they can why not someone in India? or Nepal? No, it's really hard to. Why? It's because the way we are taught, the way colleges run. Colleges are just making the next lot of engineers, they are not making thinkers, not innovators. But, again, it doesn't mean we can't. It's high time we take a shift of paradigm, try to do some interesting stuff in college, mix it with all the awesome fun we are having.</p>
 
-<p>That’s all for now. I’ve a lot, seriously a lot to say. Any issues or suggestions, pop up a comment below.</p>
+<p>That's all for now. I've a lot, seriously a lot to say. Any issues or suggestions, pop up a comment below.</p>
 
   ]]></description>
 </item>
@@ -128,7 +147,7 @@
   <title>A life tip from flappy bird: Mega random rant</title>
   <link>http://avinash.me/2014/02/22/a-life-tip-from-flappy-bird.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2014-02-22T00:00:00+01:00</pubDate>
+  <pubDate>2014-02-22T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2014/02/22/a-life-tip-from-flappy-bird.html</guid>
   <description><![CDATA[
      <p>Flappy bird has been one game that i've been playing/fighting with quite a lot recently. If you have not played it yet, maybe its already too late as the author has taken it down from all the app stores, but a quick google search will give out a lot of recent clones.</p>
@@ -149,7 +168,7 @@
   <title>Making the media keys more useful, basically what I've been doing this holiday</title>
   <link>http://avinash.me/2014/01/01/making-the-media-keys-more-useful-basically-what-ive-been-doing-this-holiday.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2014-01-01T00:00:00+01:00</pubDate>
+  <pubDate>2014-01-01T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2014/01/01/making-the-media-keys-more-useful-basically-what-ive-been-doing-this-holiday.html</guid>
   <description><![CDATA[
      <h3>A little Context <em>(is always better)</em></h3>
@@ -206,7 +225,7 @@
   <title>Setting the right context on delay (backbone/underscore)</title>
   <link>http://avinash.me/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2013-11-23T00:00:00+01:00</pubDate>
+  <pubDate>2013-11-23T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html</guid>
   <description><![CDATA[
      <p>I have been working on a backbone based project recently and had a situation where i wanted an event to emit only once that too with some restrictions. The way I thought to do it was to do it with an dealy and clearTimeout when required by the state of the application. Everything was fine untill i figured out that the function passed to <code>_.delay</code> doesnt bind to <code>this</code> like the rest of backbone application does, generally.</p>
@@ -586,7 +605,7 @@ Please, don&#39;t. https://github.com/styleguide/templates/2.0
   <title>The Month of Mozilla : Learning, Teaching and Experiencing the OpenWeb</title>
   <link>http://avinash.me/2013/11/01/the-month-of-mozilla--learning-teaching-and-experiencing-the-openweb.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2013-11-01T00:00:00+01:00</pubDate>
+  <pubDate>2013-11-01T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2013/11/01/the-month-of-mozilla--learning-teaching-and-experiencing-the-openweb.html</guid>
   <description><![CDATA[
      <h2>Part 1 : Mozilla Summit 2013</h2>
@@ -595,7 +614,7 @@ Please, don&#39;t. https://github.com/styleguide/templates/2.0
 
 <p><img src="http://farm4.staticflickr.com/3730/10223251464_c4320a458b.jpg" alt="Welcome Mozillians, The Brussels Square, venue of awesomeness" /></p>
 
-<p>Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Délirium Café (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.</p>
+<p>Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Delirium Cafe (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.</p>
 
 <p>Over the next couple(+1) of days i attended sessions related to privacy on the web (where we discussed about ghostery and collusion- now knows as Lightbeam), using the developer tools to debug other XUL based applications (especially thunderbird), Mozilla Reps program, MDN, OpenBadges, having a million mozillians. One thing that i liked about each session is that it was a two way session and it included more discussions and less of one way communication.</p>
 
@@ -680,7 +699,7 @@ Please, don&#39;t. https://github.com/styleguide/templates/2.0
   <title>PHP Developers Meetup #6</title>
   <link>http://avinash.me/2013/04/07/php-developers-meetup-6.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2013-04-07T00:00:00+02:00</pubDate>
+  <pubDate>2013-04-07T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2013/04/07/php-developers-meetup-6.html</guid>
   <description><![CDATA[
      <p><img src="http://img145.imageshack.us/img145/2388/4tvefoo.jpg" alt="PHP Developers Meetup" /></p>
@@ -701,37 +720,6 @@ Please, don&#39;t. https://github.com/styleguide/templates/2.0
 </item>
 
 	
-
-	
-		<item>
-  <title>My experience at #FormatAtBesu</title>
-  <link>http://avinash.me/2013/04/01/experience-at-format-at-besu.html</link>
-  <author>Avinash Kundailya</author>
-  <pubDate>2013-04-01T00:00:00+02:00</pubDate>
-  <guid>http://avinash.me/2013/04/01/experience-at-format-at-besu.html</guid>
-  <description><![CDATA[
-     <p>Last week (22nd and 23rd of March 2013), I was at the super talented city of Kolkata, attending <strong>FORMAT</strong> (Firefox OS: Renaissance of Mobile App Technology) which was a part of the technical festival of Bengal Engineering and Science University (also known as BESU). This was a two day event completely focused on developing web applications which would also work on Firefox OS.</p>
-
-<p><img src="http://img689.imageshack.us/img689/8202/format3.jpg" alt="Sayak Talking about Firefox OS" /></p>
-
-<h3>Day 1</h3>
-
-<p>The first day of the event was aimed at giving the audience an idea of mozilla, the mozilla community and Firefox OS, ofcourse. Vineel started by talking about mozilla and the community, Sayak continued by introducing the idea of Firefox OS and why it was required, Soumya then took on the stage and discussed some technical details about the platform and eventually Robin, Sayak, Biraj and me gave some demos on firefox OS application and the process of writing a basic "hello world" application. The talks went pretty well but one thing that struck me was the audience. This was a very different audience, compared to other events because they were paying attention, asking questions, interacting and were actually making sense. Believe me, this rarely happens in an engineering college in India :D.</p>
-
-<p><img src="http://img407.imageshack.us/img407/2742/format2.jpg" alt="Serious discussion" /></p>
-
-<h3>Day 2</h3>
-
-<p>The second day was roughly divided into two parts, the hackaton and the presentations. The hackathon went pretty well and most of the attendees got a taste of, how easy it was to make an application for firefox OS using open web technologies. It was amazing to see about 30 applications being presented at the end of the day. I guess, we can say it was a win!</p>
-
-<hr />
-
-<p>That was all about the event. I would like to thank the FORMAT Team, especially Avik, Gaurab and Subhashish for the warm reception and managing the event in such a professional manner. Last but not the least, I got to learn a lot from Biraj, Vineel, Soumya, Robin and Sayak.</p>
-
-<p><img src="http://img248.imageshack.us/img248/4129/format4.jpg" alt="Kumi Doll" /></p>
-
-  ]]></description>
-</item>
 
 	
 

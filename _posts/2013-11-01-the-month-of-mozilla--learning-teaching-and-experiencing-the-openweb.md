@@ -15,11 +15,11 @@ To make things less confusing, lets start from the beginning. It all started bac
 ![Welcome Mozillians, The Brussels Square, venue of awesomeness](http://farm4.staticflickr.com/3730/10223251464_c4320a458b.jpg)
 
 
-Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Délirium Café (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.
+Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Delirium Cafe (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.
 
 Over the next couple(+1) of days i attended sessions related to privacy on the web (where we discussed about ghostery and collusion- now knows as Lightbeam), using the developer tools to debug other XUL based applications (especially thunderbird), Mozilla Reps program, MDN, OpenBadges, having a million mozillians. One thing that i liked about each session is that it was a two way session and it included more discussions and less of one way communication.
 
-Other than the sessions, I think the world fair and the innovation fair were the two awesome places to be in the summit as it gave one an opportunity to see how spread we are as mozillians and how awesome we are too. 
+Other than the sessions, I think the world fair and the innovation fair were the two awesome places to be in the summit as it gave one an opportunity to see how spread we are as mozillians and how awesome we are too.
 
 ![Happy Foxy and confused me at the back](http://farm4.staticflickr.com/3706/10096055983_2dbe4b93c5_z.jpg)
 

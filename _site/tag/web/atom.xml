@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+   	<title>avinash.me - Tag: web</title>
+   
+   <link>http://avinash.me</link>
+   <description>Doodles and lot more!</description>
+   <language>en-us</language>
+   <managingEditor>Avinash</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+  <title>Look Ma! Its so easy to write a dashboard widget</title>
+  <link>http://avinash.me/2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2014-03-14T00:00:00+05:45</pubDate>
+  <guid>http://avinash.me/2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html</guid>
+  <description><![CDATA[
+     <p>I have been tinkering quite a lot with the osx dashboard lately and was curious how could one write a widget. I went digging online and found most of the apple links ended up in a 404. Luckily I found <a href="http://andrew.hedges.name/widgets/dev/">this</a> article, which is a little outdated, but so is the dashboard.</p>
+
+<p>To my surprise, dashboard widgets are written in HTML, CSS and JavaScript. Yes! right, those web technologies that we've been pushing forward for quite a while now. I hopped in to the opportunity and wrote a very dirty useless app (will post it to github soon). But just in case someone has that weird itch to develop a dashboard widget and would like help, I have included the link to apple's documentation.</p>
+
+<h2>Most Important Link - <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Dashboard_ProgTopics/Introduction/Introduction.html#//apple_ref/doc/uid/TP40003042-SW1">Apple Documentation</a></h2>
+
+  ]]></description>
+</item>
+
+
+
+</channel>
+</rss>

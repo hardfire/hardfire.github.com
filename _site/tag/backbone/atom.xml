@@ -15,7 +15,7 @@
   <title>Setting the right context on delay (backbone/underscore)</title>
   <link>http://avinash.me/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html</link>
   <author>Avinash Kundailya</author>
-  <pubDate>2013-11-23T00:00:00+01:00</pubDate>
+  <pubDate>2013-11-23T00:00:00+05:45</pubDate>
   <guid>http://avinash.me/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html</guid>
   <description><![CDATA[
      <p>I have been working on a backbone based project recently and had a situation where i wanted an event to emit only once that too with some restrictions. The way I thought to do it was to do it with an dealy and clearTimeout when required by the state of the application. Everything was fine untill i figured out that the function passed to <code>_.delay</code> doesnt bind to <code>this</code> like the rest of backbone application does, generally.</p>
