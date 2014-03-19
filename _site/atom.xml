@@ -13,6 +13,29 @@
    
 	
 		<item>
+  <title>deployd stuck on starting deployd v0.6.xx.. OSX [fix]</title>
+  <link>http://avinash.me/2014/03/19/deployd-stuck-at-starting-deployd-v06xx-on-osx-fix.html</link>
+  <author>Avinash Kundailya</author>
+  <pubDate>2014-03-19T00:00:00+05:45</pubDate>
+  <guid>http://avinash.me/2014/03/19/deployd-stuck-at-starting-deployd-v06xx-on-osx-fix.html</guid>
+  <description><![CDATA[
+     <h2>The Problemo</h2>
+
+<p>Yesterday I was checking <a href="http://deployd.com">deployd</a> and wanted to try it out. Doing as the docs said, when I to started deployd It stuck on <code>starting deployd v0.6.10...</code></p>
+
+<h2>The Fixo</h2>
+
+<p>After going through the issues on github i finally found <a href="https://github.com/deployd/deployd/issues/98">this</a> old-ish similar issue which was still unresolved. To solve it start <code>monogd</code> as a seperate process and run deployd as <code>dpd -P 27017 -H localhost -n testing-deployd -d</code></p>
+
+<p>If you have a fix for the issue, dont feel shy to send a pull request or comment on the thread. Everyone loves contributions :D</p>
+
+  ]]></description>
+</item>
+
+	
+
+	
+		<item>
   <title>Using the HTML5 classList API</title>
   <link>http://avinash.me/2014/03/14/using-the-html5-classlist-api.html</link>
   <author>Avinash Kundailya</author>
@@ -1055,45 +1078,6 @@ Please, don&#39;t. https://github.com/styleguide/templates/2.0
 </item>
 
 	
-
-	
-		<item>
-  <title>App Days, Nepal 2013</title>
-  <link>http://avinash.me/2013/06/08/firefox-os-app-days-nepal-2013.html</link>
-  <author>Avinash Kundailya</author>
-  <pubDate>2013-06-08T08:13:02Z</pubDate>
-  <guid>http://avinash.me/2013/06/08/firefox-os-app-days-nepal-2013.html</guid>
-  <description><![CDATA[
-     <p>One fine day (1st of June, 2013) about 75 web enthusiats gathered in Kathmandu, Nepal to celebrate the open-web and spend a day hacking on open web applications, this was the first official event of Mozilla Nepal as Firefox OS App Days, Nepal.
-<img src="http://img441.imageshack.us/img441/315/9j8k.jpg" alt="App Days Nepal" /></p>
-
-<p>The registrations started at 8:30 AM in the morning and there were people at the venue around 8:15. In the mean time we were checking if the Firefox OS simulator was setup in everyone's machines and had some informal talks on the ideas and implementations. At 9:30 AM, we officially kicked off the event with and introduction to Mozilla, the Mozilla Project, the need of Firefox OS and gave a quick demo on how to create a Firefox OS Application, which was a recap for those who had attended the orientation session, couple of days before the event.</p>
-
-<p>Then after, we had the most important part of the day, the application pitching and creation of teams. It is always fun to see the intresting ideas that come out of the audience and it always amazes me how creative people are. <a href="https://gist.github.com/5787159">Here</a> is a list of the ideas that were generated during the pitching session.</p>
-
-<p><a href="http://www.flickr.com/photos/hardfire/8913494299/"><img src="http://farm8.staticflickr.com/7416/8913494299_be672eb0ae_z.jpg" alt="Attendees" /></a></p>
-
-<p>So, we now had about 10 teams working on 10 awesome ideas and 5 hours to hack their way through an amazing app (atleast a prototype). With some major issues with the internet and help from the offline documentations we had, the hackathon started really smooth, but, there was a surprise in stock for everyone. We had a special session for the unboxing and release of the Keon phones that mozilla had sent us. We had the director of Islington College Mr. Ravi Phuyal who gave his precious time to attend the event and honour us by releasing the Keon phones to the audience. (More pics at the flickr stream)</p>
-
-<p><a href="http://www.flickr.com/photos/hardfire/8913457579/"><img src="http://farm9.staticflickr.com/8546/8913457579_ef694ff603_z.jpg" alt="Keon Unboxing" /></a></p>
-
-<p>After this, the hackers were back to the development, and things seemed really serious then, as we had only 1 hour left for the demos. Fast forward to the app demos, at the end about 9 apps were demoed and they ranged from games like tic-tac-toe and love calculator (that app demo was fun) to full fledged applications like guru-chaiyo (A teacher finding service ) and Presentation 2.0  (more on this later)</p>
-
-<p>The team of Wikimedia Nepal had also joined us during the hackathon to work on some of their web-related applications and problems, nothing substantial came out of the hackathon but they did manage to get the basic framework and participation ;) ready for the app. At the end of the day we had a hand full of applications, happy hackers and what's left was a group photo. (a lot of people had already left by then)
-<a href="http://www.flickr.com/photos/hardfire/8914046284/"><img src="http://farm6.staticflickr.com/5346/8914046284_5d3161b829_z.jpg" alt="Group Photo" /></a></p>
-
-<h2>Quick Interesting Updates</h2>
-
-<ul>
-<li>Presentation 2.O was the app demo that made everyone's jaw drop. The team later hosted the whole source on github (<a href="https://github.com/deepsadhi/Presentation2.O">https://github.com/deepsadhi/Presentation2.O</a>). The Basic idea was to create a synced presentation tool, so that you can present locally, even in the absence of a projector.</li>
-<li>We had 5 hackers joining us all the way from Birgunj. Thanks for joining us and making the event worthwile.</li>
-<li>Photos of the event : <a href="http://www.flickr.com/photos/hardfire/sets/72157633856146799/">http://www.flickr.com/photos/hardfire/sets/72157633856146799/</a></li>
-<li>HashTag : <a href="https://twitter.com/search?q=%23appDaysNp&amp;src=hash">#appDaysNp</a></li>
-</ul>
-
-
-  ]]></description>
-</item>
 
 	
 
