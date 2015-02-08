@@ -1,0 +1,631 @@
+<!doctype html>  
+
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>JavaScript &amp; WordPress - WordCamp Nepal 2012</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link rel="stylesheet" href="css/prism.css">
+		<link href='font.css' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style type="text/css" media="screen">
+			span.amp {
+				font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+				font-style: italic;
+				font-weight: normal;
+				transform: translateZ(20px);
+			}
+			@keyframes rotate-h1 {
+					0%   { transform: perspective(1000px) rotateY(-10deg); }
+					100% { transform: perspective(1000px) rotateY(10deg); }
+			}
+			.reveal pre code{
+				font-size:1.2em;
+				line-height:1.5em;
+			}
+			.reveal pre{
+				padding:10px;
+			}
+			h1.anime{
+				transform-style: preserve-3d;
+				animation: rotate-h1 2s infinite alternate ease-in-out;
+				transform: perspective(1000px) rotateY(0deg);
+				transition: all 2s ease-in-out;
+				transform: translateY(-0.3em) translateZ(30px);
+			}
+			code{
+				text-transform:none !important;
+			}
+			code.language-javascript {
+				background:url('js.png') no-repeat right top #000;
+			}
+			code.language-php {
+				background:url('php.png') no-repeat right top #000;
+			}
+			.reveal .tops img{
+				margin:0px;
+				border:0px;
+				width:100%;
+				max-width:none;
+				max-height:none;
+			}
+			.top .reveal .slides{
+				top:45%;
+			}
+			.top .reveal .state-background {
+				background: #fff;
+				margin:0px;
+				padding:0px;
+				height:100%;
+				width:100%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="tops" data-state="top">
+					<img src="first.png">
+				</section>
+				<section class="tops" data-state="top">
+					<img src="second.png">
+				</section>
+				<section>
+				<h1 class="anime">JavaScript<br /><span class="amp">&amp;</span><br />WordPress</h1>
+				<br />
+				<br />
+				<div class="fragment">
+					<h3>
+					Avinash Kundaliya (@hardfire)</h3>
+					<h4>&lt;3 JS <span class="amp">&amp;</span> PHP </h4>
+				</div>
+				</section>
+
+				<section>
+					<h1 style="position:relative; top:150px;">Is JavaScript Important ??</h1>
+				</section>
+				<section>
+				<h2 style="position:relative; top:150px;">used by 92.3% sites
+					<br />
+					<small><em> October 2012 - w3techs.com </em></small>
+				</h2>
+				</section>
+				<section>
+				<h2 style="position:relative; top:150px;">&gt;80% rely for important functionality</h2>
+				</section>
+				<section>
+				<h2 style="position:relative; top:150px;">ubiquitous.</h2>
+				</section>
+				<section data-state="warning">
+				<h2 style="position:relative; top:30px;">Can make site SLOW <br /><small><em>if done the wrong way</em></small><br /><img src="wheel.jpg" alt="loadingggggggg" /></h2>
+				</section>
+				<section data-state="alert">
+				<h2 style="position:relative; top:150px;">Can make site unusable<br /><small><em>if done totally the wrong way</em></small></h2>
+				</section>
+				<section data-state="soothe">
+				<h2 style="position:relative; top:150px;">I am Convinced !! <br /><small>We should use JS, the right way </small></h2>
+				</section>
+
+
+				<section>
+					<h2 style="position:relative; top:150px;">JavaScript <br /><small> some differentiating parts </small></h2>
+				</section>
+					<section> 
+						<h2 style="position:relative; top:150px;"> <code>var</code></h2>
+					</section>
+					<section>
+					<h3> global scope by default </h3>
+
+<pre class="language-javascript fragment wrong"><code class="language-javascript">
+a=5;
+function say() {
+	a=3;
+	console.log(a);
+}
+say();
+console.log(a);
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+3
+3 // whoa! 
+</code></pre>
+</section>
+<section>
+					<h3> use var keyword</h3>
+<pre class="language-javascript right"><code class="language-javascript">
+a=5;
+function say() {
+	var a=3;
+	console.log(a);
+}
+say();
+console.log(a);
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+3
+5 // thank god! :D
+</code></pre>
+</section>
+				<section>
+					<h3>hoisting</h3>
+<pre class="language-javascript fragment"><code class="language-javascript">
+var val = 'namaste';  
+(function() {  
+  console.log(val); // namaste
+})();  
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+var val = 'namaste';  
+(function() {  
+  console.log(val); // undefined
+  var val = 'ola!';
+})();  
+</code></pre>
+<p class="fragment">Wherever i define my variable, the initialization will be *hoisted* to the top.</p>
+				</section>
+					<section>
+						<h2> <code>this</code> </h2>
+						<p class="fragment">Elsewhere : current object instantiated by the class</p>
+						<p class="fragment">JS : depends on how the function is called. </p>
+						<p class="fragment"><code>this</code> refers to the owner of the function</p>
+					</section>
+					<section>
+						<h3> this : window ( function call ) </h3>
+<pre class="language-javascript"><code class="language-javascript">
+function what_is_this() {
+	console.log(this);
+}
+what_is_this(); //window
+</code></pre>
+					</section>
+					<section>
+						<h3> this : object ( object method ) </h3>
+<pre class="language-javascript"><code class="language-javascript">
+var thisObject = {
+	thisFunc: function(){
+		console.log(this);
+	}
+}
+thisObject.thisFunc(); //thisObject
+</code></pre>
+					</section>
+					<section>
+						<h3> this : object ( constructing objects using <code>new</code> ) </h3>
+<pre class="language-javascript"><code class="language-javascript">
+function WordCamp(year){
+	this.year = year;
+	this.yellOut = function(){
+		console.log("Yay! it is WC "+ this.year);
+	}
+}
+var wc2012 = new WordCamp(2012);
+wc2012.yellOut(); // Yay! it is WC 2012
+</code></pre>
+<br />
+<pre class="language-javascript fragment"><code class="language-javascript">
+var wc2011 = WordCamp(2011);
+wc2012.yellOut(); // Undefined 
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+yellOut(); // Yay! it is WC 2011
+</code></pre>
+					</section>
+
+					<section>
+					<h2 style="position:relative; top:150px;"><code> functions </code> : First Class</h2>
+					</section>
+					<section>
+<h3>Function Declaration</h3>
+<pre class="language-javascript"><code class="language-javascript">
+function say() {
+	var a=3;
+	console.log(a);
+}
+say();
+</code></pre>
+<div class="fragment">					
+<br />
+<h3>Function Expression</h3>
+<pre class="language-javascript"><code class="language-javascript">
+var say = function(){
+	var a=3;
+	console.log(a);
+}
+say();
+</code></pre>
+</div>
+					</section>
+					<section>
+<pre class="language-javascript"><code class="language-javascript">
+function say(func) {
+	var a=3;
+	func(a);
+}
+say(console.log);
+</code></pre>
+<h3 class="fragment"> See, I can pass functions </h3>
+<br />
+<pre class="language-javascript fragment"><code class="language-javascript">
+function say(func) {
+	var a=3;
+	func(a);
+}
+say(function(name){alert(name)});
+</code></pre>
+<h3 class="fragment"> Even functions without a name </h3>
+		</section>
+				
+					<section>
+					<h2>Code Twisters</h2>
+<pre class="language-javascript fragment"><code class="language-javascript">
+function foo(){
+    function bar() {
+        return 3;
+    }
+    return bar();
+    function bar() {
+        return 8;
+    }
+}
+alert(foo());
+</code></pre>
+<p class="fragment">
+	Output : 8
+</p>
+					</section>
+					<section>
+					<h2>Code Twisters</h2>
+<pre class="language-javascript fragment"><code class="language-javascript">
+function foo(){
+    var bar = function() {
+        return 3;
+    };
+    return bar();
+    var bar = function() {
+        return 8;
+    };
+}
+alert(foo());
+</code></pre>
+<p class="fragment">
+	Output : 3
+</p>
+<p class="fragment"> Code examples from http://javascriptweblog.wordpress.com/ </p>
+					</section>
+				<section>
+					<h2> Things might just go wrong </h2>
+<div class="fragment">					
+<pre class="language-javascript"><code class="language-javascript">
+function getTenFunctionsBad() {
+  var result = [];
+  for (var i = 0; i < 10; i++) {
+    result.push(function () {
+      return i;
+    });
+  }
+  return result;    }
+var functionsBad = getTenFunctionsBad();
+for (var i = 0; i < 10; i++) {
+  console.log(functionsBad[i]());   }
+
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+10 , 10 , 10 , 10 , 10 , 10 , 10 , 10 , 10 , 10
+</code></pre>
+</div>
+				</section>
+				<section>
+				<h2> But We can Fix Them </h2>
+<div class="fragment">					
+<pre class="language-javascript"><code class="language-javascript">
+function getTenFunctions() {
+  var result = [];
+  for (var i = 0; i < 10; i++) {
+    result.push((function (i) {
+      return function () {
+        return i;
+      }
+    })(i));     }
+  return result;     }
+var functions = getTenFunctions();
+for (var i = 0; i < 10; i++) {
+  console.log(functions[i]());     }
+</code></pre>
+<pre class="language-javascript fragment"><code class="language-javascript">
+0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 
+</code></pre>
+</div>
+				</section>
+				<section>
+					<h2 style="position:relative; top:150px;">OK! Let's Talk about WordPress</h2>
+				</section>
+
+				<section>
+				<br />
+				<br />
+<code><pre style="background:#000;">
+add_action(&#39;wp_head&#39;, &#39;add_my_script&#39;);
+ 
+function add_my_script() {
+?&gt;
+&lt;script type=&quot;text/javascript&quot; 
+	src=&quot;&lt;?php bloginfo(&#39;wpurl&#39;); ?&gt;/wp-content/plugins/my-plugin/jquery.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; 
+	src=&quot;&lt;?php bloginfo(&#39;wpurl&#39;); ?&gt;/wp-content/plugins/my-plugin/my-script.js&quot;&gt;&lt;/script&gt;
+
+&lt;?php
+}
+</pre>
+</code>
+				</section>
+				<section>
+				<br />
+				<br />
+				<img src="meme.jpg">
+				</section>
+				<section>
+					<h2> Let's do it like the Pro's </h2>
+					<ul>
+						<li class="fragment"><code>wp_register_script</code></li>
+						<li class="fragment"><code>wp_deregister_script</code></li>
+						<li class="fragment"><code>wp_enqueue_script</code></li>
+						<li class="fragment"><code>wp_dequeue_script</code></li>
+					</ul>
+				</section>
+					<section>
+					<h2> wp_register_script 
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_register_script" target="_blank"> @codex </a> </small>
+					</h2>
+					<p> Yo WP! Remember this script </p>
+					<br />
+<pre class="language-php"><code class="language-php">(
+$handle, //name of the script
+$src, // url to script
+$deps, // array of dependencies
+$ver, //version of code
+$in_footer // place in footer?
+);</code></pre>
+					</section>
+				</section>
+					<section>
+					<h2>wp_register_script - example</h2>
+<pre class="language-php"><code class="language-php">wp_register_script (
+  'mytheme-custom', // handle WP will know JS by 
+  get_template_directory_uri() . '/js/custom.js',
+  array('jquery'), // requires jQuery
+  1.0, // version 1.0
+  true // can load in footer
+);
+</code></pre>
+<p class="fragment">Don't hardcode. Use <code>plugins_url</code> or <code>get_template_directory_uri</code>
+<hr />
+</p>
+<p class="fragment"> Many predefined libraries <a href="http://codex.wordpress.org/Function_Reference/wp_register_script" target="_blank"> @codex </a> </p>
+					</section>
+				<section>
+				<h2>wp_deregister_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_deregister_script" target=" _blank"> @codex </a> </small>
+				</h2>
+				<p>Yo WP! forget about this script</p>
+<pre class="language-php"><code class="language-php">
+	wp_deregister_script('jquery'); 
+</code></pre>
+				</section>
+				<section>
+					<h2>wp_enqueue_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_enqueue_script" target=" _blank"> @codex </a> </small>
+					</h2>
+					<p>Yo WP! Please put the script in my page</p>
+					<br/>
+<pre class="language-php"><code class="language-php">
+wp_enqueue_script( $handle , $src , $deps ,
+					$ver , $in_footer );
+</code></pre>
+				</section>
+				<section>
+<h3>A little complex example</h3>
+<pre class="language-php"><code class="language-php">
+function my_scripts_method() {
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
+    wp_enqueue_script( 'jquery' );
+}    
+ 
+add_action('wp_enqueue_scripts', 'my_scripts_method');
+</code></pre>
+<p>Use jQuery from google CDN instead of WordPress local</p>
+				</section>
+				<section>
+				<h2>wp_dequeue_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_dequeue_script" target=" _blank"> @codex </a> </small>
+				</h2>
+				<p>Hey WP! Someone put this script in my page, remove it please</p>
+<pre class="language-php"><code class="language-php">
+	wp_dequeue_script($handle); 
+</code></pre>
+				</section>
+				<section>
+				<h2>Example</h2>
+<pre class="language-php"><code class="language-php">
+wp_register_script( 'jquery.flexslider',
+	get_template_directory_uri().'/js/flex.js', 
+	array('jquery'), '1.7', true );
+wp_register_script( 'home-page-slider', 
+	 get_template_directory_uri().'/js/slider.js', 
+	 array('jquery.flexslider'), '1.0', true );
+if ( is_front_page() ) {
+wp_enqueue_script('home-page-slider');
+}
+</code></pre>
+				</section>
+				<section>
+					<h2>wp_localize_script
+					<small> <a href="http://codex.wordpress.org/Function_Reference/wp_localize_script" target=" _blank"> @codex </a> </small>
+					</h2>
+					<p> Send data from WordPress to JavaScript </p>
+<pre class="language-php"><code class="language-php">
+	wp_localize_script( $handle, $object_name, $l10n );
+</code></pre>
+<div class="example fragment">
+<br />
+<h3> Simple Example </h3>
+<pre class="language-php"><code class="language-php">
+wp_enqueue_script( 'some_handle' );
+$translation_array = array( 'some_string' => __( 'Some string to translate' ), 'a_value' => '10' );
+wp_localize_script( 'some_handle', 'object_name', $translation_array );
+</code></pre>
+<pre class="language-javascript"><code class="language-javascript">
+console.log(object_name.some_string);
+</code></pre>
+</div>
+				</section>
+				<section>
+				<h3> wp_localize_script example</h3>
+<pre class="language-php"><code class="language-php">
+wp_localize_script( 
+  'simplecatch_custom_slider', 'js_value',
+  array(
+    'transition_effect' => $transition_effect,
+    'transition_delay' => $transition_delay,
+    'transition_duration' => $transition_duration
+  ));
+</code></pre>
+				</section>
+				<section>
+					<h2> AJAX in WP </h2>
+<pre class="language-php"><code class="language-php">
+require_once( "../../../../wp-config.php" );
+// or require_once( "../../../../wp-load.php" );
+</code></pre>
+<br />
+<br />
+<h3 class="fragment"> Please don't try this at home! </h3>
+				</section>
+				<section>
+					<h2>wp_ajax_(action)
+					<small> <a href="http://codex.wordpress.org/Plugin_API/Action_Reference/wp_ajax_(action)" target=" _blank"> @codex </a> </small>
+					</h2>
+
+<pre class="language-javascript"><code class="language-javascript">
+jQuery.post(
+   MyAjax.ajaxurl, 
+   {
+      'action':'add_foobar',
+      'data':'foobarid'
+   }, 
+   function(response){
+      alert('The server responded: ' + response);
+   }
+);
+</code></pre>
+				</section>
+				<section>
+					<h2>wp_ajax_(action)</h2>
+<pre class="language-php"><code class="language-php">
+ add_action('wp_ajax_add_foobar',
+ 			'prefix_ajax_add_foobar');
+ 
+ function prefix_ajax_add_foobar() {
+	//Do Something really awesome here :)
+	exit;
+ }
+</code></pre>
+				</section>
+				<section data-state="alert">
+					<h1 style="position:relative;top:200px;"> But Why ? </h1>
+				</section>
+				<section>
+					<h2> Summing up </h2>
+					<ul>
+						<li> var </li>
+						<li> this </li>
+						<li> functions awesomeness </li>
+						<li> use wordpress helper functions </li>
+					</ul>
+				</section>
+				<section>
+					<h2> What Next </h2>
+					<ul>
+						<li> "use strict" </li>
+						<li> closures </li>
+						<li> functional programming </li>
+						<li> more quirks : <a href="http://bonsaiden.github.com/JavaScript-Garden/">JS Garden</a> </li>
+					</ul>
+					<br />
+					<blockquote> Go make something awesome! </blockquote>
+				</section>
+
+				<section>
+					<h1 style="position:relative;top:200px;"> ? </h1>
+				</section>
+
+				<section>
+					<h1><br />THE END :'(</h1> <br />
+					<h3> - Avinash Kundaliya / <a href="http://www.twitter.com/hardfire">@hardfire</a></h3>
+				</section>
+
+			</div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				
+				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				
+				dependencies: [
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/zoom-js/zoom.js', condition: function() { return !!document.body.classList; } },
+					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } }
+				]
+			});
+			
+		</script>
+
+		<script src="js/prism.js"></script>
+	</body>
+</html>

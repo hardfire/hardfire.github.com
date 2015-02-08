@@ -1,0 +1,6 @@
+    <ul class="post-list unstyled">
+<% page.posts.each(function(post){ %>
+	<li><span> <%= date(post.date, 'MMM YY') %> </span>  <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+</li>
+<% }) %>
+<ul>
