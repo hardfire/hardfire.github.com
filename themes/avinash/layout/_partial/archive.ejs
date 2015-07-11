@@ -1,6 +1,31 @@
-    <ul class="post-list unstyled">
-<% page.posts.each(function(post){ %>
-	<li><span> <%= date(post.date, 'MMM YY') %> </span>  <a href="<%- url_for(post.path) %>"><%= post.title %></a>
-</li>
-<% }) %>
-<ul>
+<% if( index === true ){ %>
+  <ul class="post-list expanded unstyled">
+  <% page.posts.each(function(post){ %>
+    <li>
+    <div class="meta">
+      <div class="title">  <a href="<%- url_for(post.path) %>"><%= post.title %></a></div>
+      <div><%= date(post.date, 'MMM YY') %> </div>
+    </div>
+    <div class="content">
+      <%- post.content %>
+    </div>
+  </li>
+  <% }) %>
+  </ul>
+  <nav id="page-nav">
+  <%- paginator({
+  prev_text: '&laquo; Prev',
+  next_text: 'Next &raquo;'
+  }) %>
+  <br /><br />
+  <p><a href="/archives/">or visit the archives</a></p>
+</nav>
+<% } else { %>
+  <ul class="post-list unstyled">
+  <% page.posts.each(function(post){ %>
+    <li>
+      <%= date(post.date, 'MMM YY') %>  <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+  </li>
+  <% }) %>
+  </ul>
+<% } %>

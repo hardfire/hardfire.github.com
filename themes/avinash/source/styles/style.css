@@ -1,10 +1,12 @@
 body{ padding-top:20px; border-top:5px solid #F5E050; font-family: 'Open Sans', sans-serif; }
-.post-list li{ border-bottom:1px solid #eee; padding:4px 0px; font-size:16px; }
+.post-list > li{ border-bottom:1px solid #eee; padding:4px 0px; font-size:16px; }
+.post-list.expanded > li{margin-bottom:50px}
 .post-list span{ color:#aaa; font-size:12px; padding-right:10px; text-transform:uppercase; }
 p{line-height:20px;}
 .meta{ margin-bottom:15px; } 
 .meta p{ margin:0px; }
-.meta h1{ margin:0px; font-weight:normal; background:#F5E050; display:inline; line-height:150%; color:#17516B; padding:0 10px;}
+.meta h1, .meta .title a{ margin:0px; font-weight:normal; background:#F5E050; display:inline; line-height:150%; color:#17516B; padding:0 10px;}
+.meta .title a{ font-size:38.5px }
 .content{color:#333;font-family:Georgia;font-size:20px;}
 .content h2,.content h3,.content h4{font-family: 'Open Sans', sans-serif;font-weight:normal;margin:30px 0 15px 0;}
 .content p{line-height:32px; margin-bottom:15px;}
@@ -14,3 +16,8 @@ p{line-height:20px;}
 #tag_list li a{color:#999; font-size:10px; text-transform:uppercase;}
 .content li{padding:6px;line-height:32px;}
 .gist{font-size:14px;}
+
+/* pagination */
+#page-nav{ text-align:center; margin-bottom:10px; }
+#page-nav .page-number{ margin:3px 5px; padding:3px 5px; background:#eee; border:1px solid #aaa; border-radius:5px; }
+#page-nav .page-number.current{background:#F5E050; border-color:#000; font-weight:bold;}
