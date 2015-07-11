@@ -1,25 +1,28 @@
 <% if( index === true ){ %>
   <ul class="post-list expanded unstyled">
+  <% i=0 %>
   <% page.posts.each(function(post){ %>
-    <li>
-    <div class="meta">
-      <div class="title">  <a href="<%- url_for(post.path) %>"><%= post.title %></a></div>
-      <div><%= date(post.date, 'MMM YY') %> </div>
-    </div>
-    <div class="content">
-      <%- post.content %>
-    </div>
-  </li>
+      <% i++ %>
+      <% if (i<3) { %>
+        <li>
+          <div class="meta">
+            <div class="title">  <a href="<%- url_for(post.path) %>"><%= post.title %></a></div>
+            <div><%= date(post.date, 'MMM YY') %> </div>
+          </div>
+          <div class="content">
+            <%- post.content %>
+          </div>
+        </li>
+      <% } else if(i==3) { %>
+        </ul><ul class="post-list unstyled">
+        <h2> Older </h2>
+        <li> <%= date(post.date, 'MMM YY') %>  <a href="<%- url_for(post.path) %>"><%= post.title %></a> </li>
+      <% } else { %>
+        <li> <%= date(post.date, 'MMM YY') %>  <a href="<%- url_for(post.path) %>"><%= post.title %></a> </li>
+      <% } %>
   <% }) %>
   </ul>
-  <nav id="page-nav">
-  <%- paginator({
-  prev_text: '&laquo; Prev',
-  next_text: 'Next &raquo;'
-  }) %>
-  <br /><br />
-  <p><a href="/archives/">or visit the archives</a></p>
-</nav>
+
 <% } else { %>
   <ul class="post-list unstyled">
   <% page.posts.each(function(post){ %>
