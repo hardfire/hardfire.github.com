@@ -1,14 +1,7 @@
 ---
-title: On forgiveness
-date: {}
-tags: "war,forgiveness,mahabharat"
-published: true
----
-
----
 title: On Forgiveness
 date: 2015-11-22 13:33:31
-tags: thoughts
+tags: "war,forgiveness,mahabharat"
 ---
 What do you think is the right course of action, bringing justice by punishment or forgiving the wrongdoer ? Fighting the fight for ego or forgiving ? These are tough discussions to have and there is enough philosophical evidence to justify either side of the argument. I have come to believe that there is no "right-way" or "the receipe" that one can follow, one must always think about the implications, the stakeholders involved and the bigger picture and take the righteous action. Even though there is no golden rule there are set of doctrines and frameworks one can follow that is considered to be on a higher moral ground.
 
