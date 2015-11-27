@@ -1,7 +1,7 @@
 ---
 title: International buy NOthing day
 date: 2015-11-27T11:33:31.000Z
-tags: "environment,awareness,random thoughts"
+tags: "environment awareness random-thoughts"
 ---
 > "...our disconnection from what we consume. If we all had to grow our own food, we wouldn't waste a third of if (as we do now in the UK). If we had to make our own tables and chairs, we wouldn't throw them out the moment we changed the interior décor. If we could see the look on the face of the child who, under the eyes of an armed soldier, cuts the cloth for the garment we contemplate buying on the high street, we'd probably give it a miss. If we could see the conditions in which a pig is slaughtered, it would put most of us off our bacon butty. If we had to clean our own drinking water, we sure as hell wouldn't shit in it."
 > __Mark Boyle - The Moneyless Man__
