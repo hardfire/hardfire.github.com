@@ -1,24 +1,29 @@
 <% if( index === true ){ %>
   <ul class="post-list expanded unstyled">
   <% i=0 %>
+  <% var prevYM = "" %>
   <% page.posts.each(function(post){ %>
       <% i++ %>
       <% if (i<3) { %>
         <li>
           <div class="meta">
             <div class="title">  <a href="<%- url_for(post.path) %>"><%= post.title %></a></div>
-            <div><%= date(post.date, 'MMM YY') %> </div>
+            <div><%= date(post.date, 'YYYY MMM') %> </div>
           </div>
           <div class="content">
             <%- post.content %>
           </div>
         </li>
-      <% } else if(i==3) { %>
-        </ul><ul class="post-list unstyled">
-        <h2> Older </h2>
-        <li> <%= date(post.date, 'MMM YY') %>  <a href="<%- url_for(post.path) %>"><%= post.title %></a> </li>
       <% } else { %>
-        <li> <%= date(post.date, 'MMM YY') %>  <a href="<%- url_for(post.path) %>"><%= post.title %></a> </li>
+        <% if(i==3) { %>
+          </ul><ul class="post-list unstyled">
+          <h2> Archives </h2>
+        <% } %>
+        <% if (prevYM != date(post.date, 'YYYY MMM')){ %>
+          <% prevYM = date(post.date, 'YYYY MMM') %>
+          <div class="date"><%= prevYM %></div>
+        <% } %>
+        <li> <a href="<%- url_for(post.path) %>"><%= post.title %></a> </li>
       <% } %>
   <% }) %>
   </ul>

@@ -8,7 +8,7 @@ comments: true
 tags: [ "mozilla", "openweb", "mozilla festival", "mozilla summit2013"]
 ---
 
-##Part 1 : Mozilla Summit 2013
+## Part 1 : Mozilla Summit 2013
 
 To make things less confusing, lets start from the beginning. It all started back in mid-2013 when my twitter stream and facebook newsfeed was filled with status-es like "It's official, you're invited! Yay!" and there in my mailbox was an unread email with the same subject. Yes, It was official and I was invited too :D. It was an invitation to attend the Mozilla Summit 2013 to be hosted simulatneously in 3 cities (Brussels, Toronto and Santa-Clara) and with the mission for (almost) all mozillians to come together, get inspired, talk and shape the future of the open web.
 
@@ -24,14 +24,14 @@ Other than the sessions, I think the world fair and the innovation fair were the
 ![Happy Foxy and confused me at the back](http://farm4.staticflickr.com/3706/10096055983_2dbe4b93c5_z.jpg)
 
 
-###Takeaways
+### Takeaways
 Well, you attended an event - AWESOME, but what you take away from the event decides how successful it was and how it would help you in the coming days. Here's what i got to takeaway.
  - Getting to know some of the faces behing the IRC nicks, turns out i couldnt' meet all the faces
  - Meeting the mozillians from Europe. I would like to give a special shout out to Axel Grude (the awesome AMO guru), Raivis (The Latvian mozillian, localizer, webdev, awesome!), Rimas (localizer, techie from Lithuania) and Sjmur (Mozilla ireland community manager).
  - A week after the summit and i had already helped Axel test(and find a bug too) one of his [addon](https://addons.mozilla.org/en-US/thunderbird/addon/quickfolders-tabbed-folders/) and made it to his contributor list.
  - Last but not the least, leaving with the motivation to do more and the feeling that your work is making a difference.
 
-##Part 2 : Mozilla Festival 2013
+## Part 2 : Mozilla Festival 2013
 
 Another mail, another set of flights and here I am in London, Running to the Mozilla office directly from the airport to attend a reps meeting session regarding the Mozilla Festival. Oh, did i say that this was the biggest MozFest till date. This was quite a different event from other Mozilla events, because of the new set of audience and the new set of motivation. The Mozilla Festival is all about building and hacking, as they say (F*ck it, Ship it).
 
@@ -46,5 +46,5 @@ The third day was mostly similar with attending more awesome sessions, meeting m
 
 I think the biggest takeaway from this event was how important learning is and how big a role the teacher/teaching method plays in the process. I personally learned a variety of different ways people were using to teach webmaking and moreover dozens of ways people were using the web to make things. Again, a big shout out to all the Mozilla Reps (you all are awesome), It was a great pleasure meeting each one of you.
 
-##Thanking them who deserve
+## Thanking them who deserve
 Well, I wanted to especially thank the Mozilla Nepal community (especially Avash for taking the lead initially), and the people behind the first Mozilla South Asian Meetup, where i got to meet all the community leaders (especially Deb, who is my mentor too) who eventually guided me and helped me to contribute.
