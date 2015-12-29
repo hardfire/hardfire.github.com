@@ -29,5 +29,5 @@ h4.muted a{color:inherit;}
 
 /* footer links */
 footer {background:#eee; padding:5px 0; margin-bottom:15px;}
-footer a{color:#777; margin:2px; padding:0px 5px; border-right:1px solid #000;}
+footer a{color:#777; margin:2px; padding:0px 5px; border-right:1px solid #777;}
 footer a:last-child{border-right:0;}
