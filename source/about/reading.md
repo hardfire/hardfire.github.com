@@ -3,13 +3,20 @@ comments: false
 ---
 
 ## Now Reading
-- The Theory of Everything --- Stephen Hawking
 - Guns, Germs and Steel --- Jared Diamond
-- Thinking, Fast and Slow --- Daniel Kahneman _( I stared reading this one mid-2015, but its a tough book to read and requires a lot lot of attention)_
 - Prodigal Genius : Then life of Nikola Tesla --- John O’Neil
 
 ## 2016
-### Jan
+- Being Mortal --- Atul Gawande
+- Recasting India --- Hindol Sengupta
+- Stuff Matters --- Mark Miodownik
+- The Hitchhiker's Guide to the Galaxy --- Douglas Adams
+- Mans search for Meaning --- Viktor E. Frankl
+- The Pragmatic Programmer --- Andrew Hunt
+- चिना हराएको मान्छे --- Hari Bansha Acharya
+- Civil Disobedience --- Henry David Thoreau _(Essay) _
+- The Theory of Everything --- Stephen Hawking
+- Thinking, Fast and Slow --- Daniel Kahneman _( I stared reading this one mid-2015, but its a tough book to read and requires a lot lot of attention)_
 - Walden --- Henry David Thoreau
 - Zen and the Art of Motorcycle Maintenance - An Inquiry into Values --- Robert M. Pirsig
 
