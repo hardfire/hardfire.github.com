@@ -33,6 +33,12 @@ footer {background:#eee; padding:5px 0; margin-bottom:15px;}
 footer a{color:#777; margin:2px; padding:0px 5px; border-right:1px solid #777;}
 footer a:last-child{border-right:0;}
 
+/* code styles */
+td.gutter { display:none }
+td.code .line { text-transform:none }
+figure.highlight.plain { margin:0 }
+figure.highlight.plain table { width: 100% }
+
 
 @media (max-width: 767px) {
   body{background-image:none;}
