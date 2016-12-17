@@ -11,7 +11,7 @@ Like every other hikes, this one also helped me think deeply and contemplate abo
 
 One of the things that I noticed, the hike was full of well educated Nepalese who were decently well off (approximately 1 out of 5 had a DSLR, everyone had a pretty good camera phone). This was a great group of people, possibly a specific group that could do a lot for the community. Another topic that bugged me considerably during the hike was all the plastic packaging that was littered over the place. It was sad, how ignorant we have been towards our environment. From Wai-Wai packets to empty bottles everywhere. The first thing that we could definitely do to fight this is by cleaning the mountains and hills during our hikes. I did my part during the hike and we did something similar in one of our hikes in the Bavarian Alps.
 
-The question that I would like to ask is, how can scale the idea of cleaning the mountains during our hike ? Scale it from one person to the whole group. The biggest benefit of this would be that hikers would learn to clean the mountains and take back their own garbage with them. Thus, ensuring the mountains to be clean, the nature to be serene and experiences to be breathtaking.
+The question that I would like to ask is, how can we scale this idea of cleaning the mountains during our hike? How do we scale it from one person to the whole group. The biggest benefit of this would be that hikers would learn to clean the mountains and take back their own garbage with them. Thus, ensuring the mountains to be clean, the nature to be serene and experiences to be breathtaking.
 
 Finally, I would like to remind one of the rules from the Golden Rules for Living
 
