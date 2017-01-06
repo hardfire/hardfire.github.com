@@ -3,12 +3,15 @@ comments: false
 ---
 
 ## Now Reading
-- Guns, Germs and Steel --- Jared Diamond
-- Prodigal Genius : Then life of Nikola Tesla --- John O’Neil
+- Zero to One --- Peter Thiel
 
 ## 2016
+- How Stella Saved the Farm --- Vijay Govindarajan
+- Banker to the Poor --- Muhammed Yunus
 - Being Mortal --- Atul Gawande
+- The Prophet --- Khalil Gibran
 - Recasting India --- Hindol Sengupta
+- The Last Lecture --- Randy Pausch
 - Stuff Matters --- Mark Miodownik
 - The Hitchhiker's Guide to the Galaxy --- Douglas Adams
 - Mans search for Meaning --- Viktor E. Frankl
@@ -16,7 +19,7 @@ comments: false
 - चिना हराएको मान्छे --- Hari Bansha Acharya
 - Civil Disobedience --- Henry David Thoreau _(Essay) _
 - The Theory of Everything --- Stephen Hawking
-- Thinking, Fast and Slow --- Daniel Kahneman _( I stared reading this one mid-2015, but its a tough book to read and requires a lot lot of attention)_
+- Thinking, Fast and Slow --- Daniel Kahneman
 - Walden --- Henry David Thoreau
 - Zen and the Art of Motorcycle Maintenance - An Inquiry into Values --- Robert M. Pirsig
 

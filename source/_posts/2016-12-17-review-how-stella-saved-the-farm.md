@@ -2,7 +2,7 @@ title: 'Review: How Stella Saved the Farm'
 date: 2016-12-17 11:39:18
 tags:
 ---
-[![How Stella Saved the Farm](/img/stella-farm.jpg)](/img/stella-farm.jpg)
+![How Stella Saved the Farm](/images/stella-farm.jpg)
 
 Innovation is a force to bring significant positive change. It's easy to say one is innovative, but it's quite an achievable feat to be innovative. It's a tough job for an organization to foster innovation and reward teams that show signs of being innovative, even though if the results were not positive. That is one risk to take with innovative teams, there are chances that they will not be able to deliver, for the simple fact that innovation is a high bar and not easy to achieve a state of.
 

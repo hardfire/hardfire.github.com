@@ -5,7 +5,7 @@ tags:
 
 On 12th Nov, I joined the amazing folks from [Hike For Nepal](https://www.facebook.com/hikefornepal/) for a day hike to *Champadevi Hills*. It was a great hike with a nice weather accompanied with some beautiful landscapes. Perfect recipe for a good hike.
 
-[![Chamadevi Hills](/img/champa-devi.jpg)](/img/champa-devi.jpg)
+![Chamadevi Hills](/images/champa-devi.jpg)
 
 Like every other hikes, this one also helped me think deeply and contemplate about a number of things. Among them, most of my energy was spent on thinking about the hike itself. *Meta Thinking BAMM!!!* Most of it was directed towards how can we use Hike for Nepal to create some positive impact, possibly in the hiking location, during the hike. How can we bring some positive change, slowly and steadily.
 
