@@ -1,9 +1,11 @@
 title: Reading List
 comments: false
+date: 2017-02-14 14:44:25
 ---
-
-## Now Reading
+## 2017
+- The Monk who sold his Ferrari --- Robin Sharma
 - Zero to One --- Peter Thiel
+- Letter from a Birmingham Jail --- King, Jr. - [Read Online](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
 
 ## 2016
 - How Stella Saved the Farm --- Vijay Govindarajan
@@ -15,6 +17,8 @@ comments: false
 - Stuff Matters --- Mark Miodownik
 - The Hitchhiker's Guide to the Galaxy --- Douglas Adams
 - Mans search for Meaning --- Viktor E. Frankl
+- Economic Possibilities for our Grandchildren --- John Maynard Keynes _(Essay)_ - [Read Online](http://www.econ.yale.edu/smith/econ116a/keynes1.pdf)
+- Letters to a young Poet --- Rainer Maria Rilke
 - The Pragmatic Programmer --- Andrew Hunt
 - चिना हराएको मान्छे --- Hari Bansha Acharya
 - Civil Disobedience --- Henry David Thoreau _(Essay) _
@@ -30,7 +34,7 @@ comments: false
 - Sapiens - A Brief History of Mankind --- Yuval Noah Harari
 - एबस्ट्रयाक्ट चिन्तन प्याज (Abstract Chintan : Pyaj) --- Shankar Lamichhane
 - Essays  --- Ralph Waldo Emerson
-  + Self Reliance
+  + Self Reliance - **[Read blog](http://avinash.com.np/2015/07/11/Self-Reliance.html)**
   + Circles
   + Compensation
   + Love
