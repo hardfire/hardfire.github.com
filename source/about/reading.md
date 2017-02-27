@@ -2,6 +2,10 @@ title: Reading List
 comments: false
 date: 2017-02-14 14:44:25
 ---
+## Currently Reading
+- The Story of My Experiments with Truth --- M.K. Gandhi
+- The Motorcycle Diaries --- Ernesto "Che" Guevera
+- एेना   --- रामलाल जोशी
 ## 2017
 - The Monk who sold his Ferrari --- Robin Sharma
 - Zero to One --- Peter Thiel
