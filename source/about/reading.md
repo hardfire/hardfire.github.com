@@ -3,13 +3,20 @@ comments: false
 date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
-- The Story of My Experiments with Truth --- M.K. Gandhi
+
+- Homo Deus - Yuval Noah Harari
+- The First and Last Freedom - Jiddu Krishnamurti
+- Why Zebras don't get Ulcers --- Robert M. Sapolsky
 - The Motorcycle Diaries --- Ernesto "Che" Guevera
 - एेना   --- रामलाल जोशी
+
 ## 2017
 - The Monk who sold his Ferrari --- Robin Sharma
 - Zero to One --- Peter Thiel
 - Letter from a Birmingham Jail --- King, Jr. - [Read Online](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html)
+- The Story of My Experiments with Truth --- M.K. Gandhi
+- The chronicles of Hanuman --- Shubha Vilas
+- Inner Engineering (A Yogi's guide to Joy) --- Sadhguru
 
 ## 2016
 - How Stella Saved the Farm --- Vijay Govindarajan
