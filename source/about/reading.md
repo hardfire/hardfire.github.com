@@ -4,8 +4,6 @@ date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
 
-- Homo Deus - Yuval Noah Harari
-- The First and Last Freedom - Jiddu Krishnamurti
 - Why Zebras don't get Ulcers --- Robert M. Sapolsky
 - The Motorcycle Diaries --- Ernesto "Che" Guevera
 - एेना   --- रामलाल जोशी
@@ -17,6 +15,9 @@ date: 2017-02-14 14:44:25
 - The Story of My Experiments with Truth --- M.K. Gandhi
 - The chronicles of Hanuman --- Shubha Vilas
 - Inner Engineering (A Yogi's guide to Joy) --- Sadhguru
+- Truth is a pathless land - Jiddu Krishnamurti - [Read Online](http://www.jkrishnamurti.org/about-krishnamurti/dissolution-speech.php)
+- Homo Deus - Yuval Noah Harari
+- The First and Last Freedom - Jiddu Krishnamurti
 
 ## 2016
 - How Stella Saved the Farm --- Vijay Govindarajan

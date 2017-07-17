@@ -10,7 +10,7 @@ I don't remember the exact date, but, in 2014 someone shipped me a piece of gadg
 
 I went to the customs office. Had a talk with a super helpful lady, who helped me get my shipment. She then asked me to open the package, did an inspection of what was shipped. Finally, she told me the import duty  which I had to pay for the shipment. In less than 15 minutes I was out of the office and my job was done.
 
-# Today
+## Today
 One month ago someone again shipped me a piece of gadget. This time it was sent to Kathmandu, Nepal. FedEx told me that my shipment was at the airport customs and I had to get hold of an agent at the customs to get my shipment. They delivered me the documents which I could use to extract the shipment.
 
 All good and fine. I talked to an agent and handed him my documents, which were to be used to extract the shipment from the customs. I hoped it to be a quick and painless process. Unfortunately, the introduction of an agent to the process keeps us in the dark; Now, I have no idea what's going on in customs land.
