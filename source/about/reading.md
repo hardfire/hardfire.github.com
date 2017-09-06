@@ -4,7 +4,6 @@ date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
 
-- Why Zebras don't get Ulcers --- Robert M. Sapolsky
 - The Motorcycle Diaries --- Ernesto "Che" Guevera
 - एेना   --- रामलाल जोशी
 
@@ -18,6 +17,10 @@ date: 2017-02-14 14:44:25
 - Truth is a pathless land - Jiddu Krishnamurti - [Read Online](http://www.jkrishnamurti.org/about-krishnamurti/dissolution-speech.php)
 - Homo Deus - Yuval Noah Harari
 - The First and Last Freedom - Jiddu Krishnamurti
+- Why Zebras don't get Ulcers --- Robert M. Sapolsky
+- The Autobiography of Benjamin Franklin
+- The Subtle Art of Not Giving a F*ck - Mark Manson (Read Partially, self help books start good, end well)
+- Never eat alone - Keith Ferrazzi (Read ~50%)
 
 ## 2016
 - How Stella Saved the Farm --- Vijay Govindarajan
