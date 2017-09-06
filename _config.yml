@@ -88,3 +88,4 @@ exclude_generator:
 deploy:
   type: git
   repo: git@github.com:hardfire/hardfire.github.com.git
+  branch: master
