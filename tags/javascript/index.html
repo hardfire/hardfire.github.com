@@ -57,9 +57,9 @@ ga('send', 'pageview');
             <div>2014 Mar </div>
           </div>
           <div class="content">
-            <p>I have been tinkering quite a lot with the osx dashboard lately and was curious how could one write a widget. I went digging online and found most of the apple links ended up in a 404. Luckily I found <a href="http://andrew.hedges.name/widgets/dev/" target="_blank" rel="external">this</a> article, which is a little outdated, but so is the dashboard.</p>
+            <p>I have been tinkering quite a lot with the osx dashboard lately and was curious how could one write a widget. I went digging online and found most of the apple links ended up in a 404. Luckily I found <a href="http://andrew.hedges.name/widgets/dev/" target="_blank" rel="noopener">this</a> article, which is a little outdated, but so is the dashboard.</p>
 <p>To my surprise, dashboard widgets are written in HTML, CSS and JavaScript. Yes! right, those web technologies that we’ve been pushing forward for quite a while now. I hopped in to the opportunity and wrote a very dirty useless app (will post it to github soon). But just in case someone has that weird itch to develop a dashboard widget and would like help, I have included the link to apple’s documentation.</p>
-<p>##Most Important Link - <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Dashboard_ProgTopics/Introduction/Introduction.html#//apple_ref/doc/uid/TP40003042-SW1" target="_blank" rel="external">Apple Documentation</a></p>
+<p>##Most Important Link - <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Dashboard_ProgTopics/Introduction/Introduction.html#//apple_ref/doc/uid/TP40003042-SW1" target="_blank" rel="noopener">Apple Documentation</a></p>
 
           </div>
         </li>
@@ -81,7 +81,7 @@ ga('send', 'pageview');
 </ol>
 <h3 id="What-i-ended-up-doing"><a href="#What-i-ended-up-doing" class="headerlink" title="What i ended up doing"></a>What i ended up doing</h3><p>The soluton consists of two parts, one is a server that grabs the media key events and broadcasts it over a websocket server and the other is a firefox plugin that connects to the websockets server and basically does the magic. Turns out grabbing the media keys (in the server) was not really a piece of cake, but a good learning process as I eventually had to read about Objective C and the Foundation framework, but eventualy wrote a node application that internally does the ObjC Black Magic </p>
 <blockquote>
-<p><a href="http://www.codinghorror.com/blog/2007/07/the-principle-of-least-power.html" target="_blank" rel="external">Atwoods Law</a> : any application that can be written in JavaScript, will eventually be written in JavaScript.</p>
+<p><a href="http://www.codinghorror.com/blog/2007/07/the-principle-of-least-power.html" target="_blank" rel="noopener">Atwoods Law</a> : any application that can be written in JavaScript, will eventually be written in JavaScript.</p>
 </blockquote>
 <p>Coming to the plugin, I was a little adventorous and decided to write it without the SDK but i soon hit a wall when I figured out that connecting to websocket server from a plugin is not that simple as you dont have the context and basically following a stackoverflow answer I learned that you do it by creating a hidden page and then do it from there. Luckily, SDK has page-workers which is perfectly made for this so long story short, I used the SDK :D</p>
 <h3 id="Pre-Conlusion"><a href="#Pre-Conlusion" class="headerlink" title="Pre-Conlusion"></a>Pre-Conlusion</h3><p>The plugin works and It has been extended to work with saavn, gaana and soundcloud. </p>
@@ -91,9 +91,9 @@ ga('send', 'pageview');
 <li>Yesterday i was away from my laptop and wanted to control the player, since we have a server tht listens to the keys it would not be hard to make them emit it :D </li>
 <li>Extend this to work for windows and linux only if someone would actually be using it, as of now it works perfectly on my macbook.</li>
 </ol>
-<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>The source is on <a href="https://github.com/hardfire/mekespo" target="_blank" rel="external">github</a> (please give it some love :D) and if one would like to contribute/change I would love pull requests. If you are experienced, are a pro, have a different Idea, think i am a fool and could have done this easily, please do let me know, I am open to learning too.</p>
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>The source is on <a href="https://github.com/hardfire/mekespo" target="_blank" rel="noopener">github</a> (please give it some love :D) and if one would like to contribute/change I would love pull requests. If you are experienced, are a pro, have a different Idea, think i am a fool and could have done this easily, please do let me know, I am open to learning too.</p>
 <blockquote>
-<p>First do it, then do it right, then do it better - I heard it from <a href="http://addyosmani.com/blog/" target="_blank" rel="external">Addy Osmani</a></p>
+<p>First do it, then do it right, then do it better - I heard it from <a href="http://addyosmani.com/blog/" target="_blank" rel="noopener">Addy Osmani</a></p>
 </blockquote>
 
           </div>

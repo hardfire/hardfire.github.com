@@ -58,7 +58,7 @@ ga('send', 'pageview');
           </div>
           <div class="content">
             <p>I have been working on a backbone based project recently and had a situation where i wanted an event to emit only once that too with some restrictions. The way I thought to do it was to do it with an dealy and clearTimeout when required by the state of the application. Everything was fine untill i figured out that the function passed to <code>_.delay</code> doesnt bind to <code>this</code> like the rest of backbone application does, generally. </p>
-<p>This is how I solved it, thanks to this <a href="https://github.com/jashkenas/underscore/issues/494" target="_blank" rel="external">issue</a> on github.</p>
+<p>This is how I solved it, thanks to this <a href="https://github.com/jashkenas/underscore/issues/494" target="_blank" rel="noopener">issue</a> on github.</p>
 <script src="//gist.github.com/7618222.js?file=backbone-delay-context.js"></script>
 <p>Will keep posting on more findings, good to look back when i forget :D</p>
 
