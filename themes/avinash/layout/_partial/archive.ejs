@@ -17,7 +17,6 @@
       <% } else { %>
         <% if(i==3) { %>
           </ul><ul class="post-list unstyled">
-          <h2> Archives </h2>
         <% } %>
         <% if (prevYM != date(post.date, 'YYYY MMM')){ %>
           <% prevYM = date(post.date, 'YYYY MMM') %>
@@ -29,6 +28,7 @@
   </ul>
 
 <% } else { %>
+  <h1> Archives </h1>
   <ul class="post-list unstyled">
   <% page.posts.each(function(post){ %>
     <li>

@@ -3,6 +3,9 @@ author: Avinash Kundaliya
 date: 2017-07-15 10:35:24
 tags:
 ---
+
+> Chaos is a Ladder --- Little Finger, GoT
+
 This is to compare and contrast two worlds, two stories that seem the same but totally different experiences.
 
 ## ... sometime in 2014

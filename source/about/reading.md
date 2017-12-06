@@ -4,8 +4,8 @@ date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
 
-- The Motorcycle Diaries --- Ernesto "Che" Guevera
-- एेना   --- रामलाल जोशी
+- The Black Swan --- Nassim Nicholas Taleb
+- Meditations --- Marcus Aurelius
 
 ## 2017
 - The Monk who sold his Ferrari --- Robin Sharma
@@ -19,7 +19,7 @@ date: 2017-02-14 14:44:25
 - The First and Last Freedom - Jiddu Krishnamurti
 - Why Zebras don't get Ulcers --- Robert M. Sapolsky
 - The Autobiography of Benjamin Franklin
-- The Subtle Art of Not Giving a F*ck - Mark Manson (Read Partially, self help books start good, end well)
+- The Subtle Art of Not Giving a F*ck - Mark Manson (Read Partially, self help books start good, don't end well)
 - Never eat alone - Keith Ferrazzi (Read ~50%)
 
 ## 2016
