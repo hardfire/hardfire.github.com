@@ -1,6 +1,7 @@
 title: git clone in a slow connection
 date: 2016-11-15 10:06:40
 tags:
+  - git
 ---
 
 It happens more often than not, I am on a slow internet connection and I have to clone a decently-huge git repository. The most common issue is the connection closes and the whole clone is cancelled.
