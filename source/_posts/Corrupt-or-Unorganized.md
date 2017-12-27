@@ -3,7 +3,6 @@ author: Avinash Kundaliya
 date: 2017-07-15 10:35:24
 tags:
 ---
-
 > Chaos is a Ladder --- Little Finger, GoT
 
 This is to compare and contrast two worlds, two stories that seem the same but totally different experiences.
@@ -24,7 +23,7 @@ I went to the customs office, and It was chaotic. It took me hours to find the r
 
 In the mean time, I mentioned this to FedEx as well, the only support they could give me was "I'll talk to my superior and see how we can help you here"
 
-Fast forward today, I still don't have my shipment. Nepal Government still doesn't have the customs duty they deserve. Lose-Lose situation. Unless, my shipment has been hijacked and a customs official has gifted it to his son. Then, someone does win here. Belive me, I have heard stories of that happening.
+Fast forward today, I still don't have my shipment. Nepal Government still doesn't have the customs duty they deserve. Lose-Lose situation. Unless, my shipment has been hijacked and a customs official has gifted it to his son. Then, someone does win here. Believe me, I have heard stories of that happening.
 
 ## Thoughts
 
@@ -33,3 +32,5 @@ This process is seriously messed up and is the story of pretty much every govern
 Our systems are messed up, our processes are messed up and the sad part is that there is no one doing anything about it. The only place one can complain or state grievances is to a twitter handle (or bot) of HelloSarkar. It definitely gives one a feeling of being heard, but nothing happens in the end. 
 
 This one time, all I have is a rant. No solutions, No actions that can be taken to make things better. If there is something that we can do, please enlighten me. I'm all ears.
+
+Update : I did get my shipment a
