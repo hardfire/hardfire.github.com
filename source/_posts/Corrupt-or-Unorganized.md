@@ -1,7 +1,7 @@
 title: Corrupt or Unorganized
 author: Avinash Kundaliya
 date: 2017-07-15 10:35:24
-tags:
+tags: [Life, environment, thoughts]
 ---
 > Chaos is a Ladder --- Little Finger, GoT
 

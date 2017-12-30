@@ -3,7 +3,7 @@ layout: post
 title: "A life tip from flappy bird: Mega random rant"
 description: ""
 category: 
-tags: []
+tags: [life hacks]
 date: 2014-02-22
 comments: true
 ---
