@@ -33,4 +33,4 @@ Our systems are messed up, our processes are messed up and the sad part is that 
 
 This one time, all I have is a rant. No solutions, No actions that can be taken to make things better. If there is something that we can do, please enlighten me. I'm all ears.
 
-Update : I did get my shipment a
+Update : I did get my shipment eventually

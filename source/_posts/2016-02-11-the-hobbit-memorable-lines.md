@@ -2,6 +2,7 @@ title: Memorable Lines from the Hobbit.
 date: 2016-02-11 22:42:12
 tags:
   - hobbit
+  - quote
 ---
 
 I totally love how Gandalf is introduced in the **book**. This line has been so smartly crafted, I feel awe everytime I read it.

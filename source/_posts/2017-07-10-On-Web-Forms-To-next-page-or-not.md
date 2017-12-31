@@ -1,7 +1,6 @@
 title: 'On web-forms : To next page or not'
 author: Avinash Kundaliya
-tags: []
-categories: []
+tags: [rant, web]
 date: 2017-07-10 21:15:00
 ---
 Today I want to discuss a simple frustration I have with forms on the web. 
