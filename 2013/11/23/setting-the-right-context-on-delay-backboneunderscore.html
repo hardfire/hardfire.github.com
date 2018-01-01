@@ -45,53 +45,53 @@ ga('send', 'pageview');
       <div class="row">
         <div class="span7 offset1">
           <div class="meta">
-<h1>Setting the right context on delay (backbone/underscore)</h1>
-	<div class="clearfix">
-		<p class="muted"><small><a href="/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html" class="article-date">
+  <h1>Setting the right context on delay (backbone/underscore)</h1>
+  <div class="clearfix">
+    <p class="muted">
+      <small><a href="/2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html" class="article-date">
   <time datetime="2013-11-22T18:15:00.000Z" itemprop="datePublished">Nov 23 2013</time>
-</a>
-</small></p>
-	</div>
+</a></small>
+    </p>
+  </div>
 </div>
-<div class="content">
-  <p>I have been working on a backbone based project recently and had a situation where i wanted an event to emit only once that too with some restrictions. The way I thought to do it was to do it with an dealy and clearTimeout when required by the state of the application. Everything was fine untill i figured out that the function passed to <code>_.delay</code> doesnt bind to <code>this</code> like the rest of backbone application does, generally. </p>
+<div class="content"> <p>I have been working on a backbone based project recently and had a situation where i wanted an event to emit only once that too with some restrictions. The way I thought to do it was to do it with an dealy and clearTimeout when required by the state of the application. Everything was fine untill i figured out that the function passed to <code>_.delay</code> doesnt bind to <code>this</code> like the rest of backbone application does, generally. </p>
 <p>This is how I solved it, thanks to this <a href="https://github.com/jashkenas/underscore/issues/494" target="_blank" rel="noopener">issue</a> on github.</p>
 <script src="//gist.github.com/7618222.js?file=backbone-delay-context.js"></script>
 <p>Will keep posting on more findings, good to look back when i forget :D</p>
-
-</div>
-
-<ul id="tag_list" class="unstyled">
-
-<li class="inline tag_list_item"><a class="tag_list_link" href="/tags/javascript/">javascript</a></li>
-
-<li class="inline tag_list_item"><a class="tag_list_link" href="/tags/backbone/">backbone</a></li>
-
-<li class="inline tag_list_item"><a class="tag_list_link" href="/tags/underscore/">underscore</a></li>
-
-</ul>
+ </div>
 
 
+  <ul id="tag_list" class="unstyled">
+    
+        <li class="inline tag_list_item"><a class="tag_list_link" href="/tags/javascript/">javascript</a></li>
+        
+        <li class="inline tag_list_item"><a class="tag_list_link" href="/tags/backbone/">backbone</a></li>
+        
+        <li class="inline tag_list_item"><a class="tag_list_link" href="/tags/underscore/">underscore</a></li>
+        
+    </ul>
 
-<div>
-<br />
-<hr />
-<br />
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'avinashme'; // required: replace example with your forum shortname
+<ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2014/01/01/making-the-media-keys-more-useful-basically-what-ive-been-doing-this-holiday.html" title="Making the media keys more useful, basically what I've been doing this holiday" rel="bookmark">Making the media keys more useful, basically what I've been doing this holiday</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html" title="Look Ma! Its so easy to write a dashboard widget" rel="bookmark">Look Ma! Its so easy to write a dashboard widget</a></h3></div></li></ul>
 
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function() {
- var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
- dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
- (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
- })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
+  <div>
+    <br />
+    <hr />
+    <br />
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'avinashme'; // required: replace example with your forum shortname
 
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    
 
         </div>
       </div>

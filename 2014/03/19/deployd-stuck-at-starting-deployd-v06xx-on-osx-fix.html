@@ -45,51 +45,51 @@ ga('send', 'pageview');
       <div class="row">
         <div class="span7 offset1">
           <div class="meta">
-<h1>deployd stuck on starting deployd v0.6.xx.. OSX [fix]</h1>
-	<div class="clearfix">
-		<p class="muted"><small><a href="/2014/03/19/deployd-stuck-at-starting-deployd-v06xx-on-osx-fix.html" class="article-date">
+  <h1>deployd stuck on starting deployd v0.6.xx.. OSX [fix]</h1>
+  <div class="clearfix">
+    <p class="muted">
+      <small><a href="/2014/03/19/deployd-stuck-at-starting-deployd-v06xx-on-osx-fix.html" class="article-date">
   <time datetime="2014-03-18T18:15:00.000Z" itemprop="datePublished">Mar 19 2014</time>
-</a>
-</small></p>
-	</div>
+</a></small>
+    </p>
+  </div>
 </div>
-<div class="content">
-  <h2 id="The-Problemo"><a href="#The-Problemo" class="headerlink" title="The Problemo"></a>The Problemo</h2><p>Yesterday I was checking <a href="http://deployd.com" target="_blank" rel="noopener">deployd</a> and wanted to try it out. Doing as the docs said, when I to started deployd It stuck on <code>starting deployd v0.6.10...</code></p>
+<div class="content"> <h2 id="The-Problemo"><a href="#The-Problemo" class="headerlink" title="The Problemo"></a>The Problemo</h2><p>Yesterday I was checking <a href="http://deployd.com" target="_blank" rel="noopener">deployd</a> and wanted to try it out. Doing as the docs said, when I to started deployd It stuck on <code>starting deployd v0.6.10...</code></p>
 <p>##The Fixo</p>
 <p>After going through the issues on github i finally found <a href="https://github.com/deployd/deployd/issues/98" target="_blank" rel="noopener">this</a> old-ish similar issue which was still unresolved. To solve it start <code>monogd</code> as a seperate process and run deployd as <code>dpd -P 27017 -H localhost -n testing-deployd -d</code></p>
 <p>If you have a fix for the issue, dont feel shy to send a pull request or comment on the thread. Everyone loves contributions :D</p>
-
-</div>
-
-<ul id="tag_list" class="unstyled">
-
-<li class="inline tag_list_item"><a class="tag_list_link" href="/tags/nodejs/">nodejs</a></li>
-
-<li class="inline tag_list_item"><a class="tag_list_link" href="/tags/deployd/">deployd</a></li>
-
-</ul>
+ </div>
 
 
+  <ul id="tag_list" class="unstyled">
+    
+        <li class="inline tag_list_item"><a class="tag_list_link" href="/tags/nodejs/">nodejs</a></li>
+        
+        <li class="inline tag_list_item"><a class="tag_list_link" href="/tags/deployd/">deployd</a></li>
+        
+    </ul>
 
-<div>
-<br />
-<hr />
-<br />
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'avinashme'; // required: replace example with your forum shortname
 
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function() {
- var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
- dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
- (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
- })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
 
+  <div>
+    <br />
+    <hr />
+    <br />
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'avinashme'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    
 
         </div>
       </div>
