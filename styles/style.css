@@ -1,7 +1,7 @@
 body{ border-top:5px solid #F5E050; font-family: 'Open Sans', sans-serif; background:url('/img/lemon-chilli.gif') no-repeat top right; }
 .post-list > li{ padding:4px 0px; font-size:16px; }
 .post-list.expanded > li{margin-bottom:50px}
-.post-list span{ color:#aaa; font-size:12px; padding-right:10px; text-transform:uppercase; }
+/*.post-list span{ color:#aaa; font-size:12px; padding-right:10px; text-transform:uppercase; }*/
 p{line-height:20px;}
 .meta{ margin-bottom:15px; } 
 .meta p{ margin:0px; }
@@ -41,9 +41,17 @@ footer a:last-child{border-right:0;}
 /* code styles */
 td.gutter { display:none }
 td.code .line { text-transform:none }
-figure.highlight.plain { margin:0 }
+figure.highlight.plain, figure.highlight { margin:0 }
 figure.highlight.plain table { width: 100% }
-
+/* syntax */
+.code pre{background:#fff}
+.code .string{color:#3790de}
+.code .keyword{color:#de333c}
+.code .comment{color:#aaa}
+.code .function .title{color:#333333}
+.code .function .params{color:#333333}
+.code .tag .name{color:#de333c}
+.code .tag .attr{color:#2e6fd9}
 
 @media (max-width: 767px) {
   body{background-image:none;}
