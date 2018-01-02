@@ -50,12 +50,12 @@ I didn't handle all the cases, but what we have below is a version that accepts 
 ...
 
 function namespace_handle_amp_form_submit() {
-  if(!isset($_GET['__amp_source_origin']) || $_GET['__amp_source_origin'] != "https://www.plantura.garden")
+  if(!isset($_GET['__amp_source_origin']) || $_GET['__amp_source_origin'] != "https://avinash.com.np")
     die();
 
   header("Access-Control-Allow-Credentials: true");
-  header("AMP-Access-Control-Allow-Source-Origin: https://www.plantura.garden");
-  header("Access-Control-Allow-Origin: https://www-plantura-garden.cdn.ampproject.org");
+  header("AMP-Access-Control-Allow-Source-Origin: https://avinash.com.np");
+  header("Access-Control-Allow-Origin: https://avinash-com-np.cdn.ampproject.org");
   header("Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin");
 
   // handle the form submission here
