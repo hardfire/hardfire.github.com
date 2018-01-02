@@ -16,7 +16,7 @@ fatal: early EOF
 fatal: index-pack failed
 {% endcodeblock %}
 
-After a lot of trial and errors and a lot of "remote end hung up unexpectedly" I have a way that works for me. The idea is to do a shallow clone first and then update the repositroy with its history.
+After a lot of trial and errors and a lot of "remote end hung up unexpectedly" I have a way that works for me. The idea is to do a shallow clone first and then update the repository with its history.
 
 {% codeblock %}
 $ git clone http://github.com/large-repository --depth 1
