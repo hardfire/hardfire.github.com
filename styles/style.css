@@ -39,6 +39,7 @@ footer a{color:#777; margin:2px; padding:0px 5px; border-right:1px solid #777;}
 footer a:last-child{border-right:0;}
 
 /* code styles */
+code { font-size:80% } /* inline code */
 td.gutter { display:none }
 td.code .line { text-transform:none }
 figure.highlight.plain, figure.highlight { margin:0 }

@@ -53,6 +53,24 @@ ga('send', 'pageview');
       
         <li>
           <div class="meta">
+            <div class="title">  <a href="/2018/01/03/what-the-detached-head.html">What the detached head?</a></div>
+            <div>2018 Jan </div>
+          </div>
+          <div class="content">
+            <p>One could use git for years and not have to hear of detached heads. I came across detached head when I was showing a colleague what git really is. I was showing how to <em>“go back in time”</em> using git; Basically a <code>git checkout &lt;commit-hash&gt;</code>, right?</p>
+<p>Yes, that is exactly when git goes to a detached head mode. So, what exactly is a detached head? Before that, what exactly is a HEAD?</p>
+<p><strong>HEAD</strong> in git simply refers to the current branch. The current branch then points to the latest commit in the branch. When we checkout a specific commit, then the <strong>HEAD</strong> refers to that commit instead of a branch. This state is called as a <em>detached head</em> state. Remember, if we commit to a detached head state, the new commit will only accessible via the commit hash. There is no way to get to it again if we switch to another branch. Git recognizes this and will remove it.</p>
+<p>Also, remember, checking out the tip of a branch via commit hash will keep it in detached head mode. Always checkout via branch name.</p>
+<p>For more details on detached head, <a href="https://git-scm.com/docs/git-checkout#_detached_head" target="_blank" rel="noopener">RTFM</a></p>
+
+          </div>
+        </li>
+      
+  
+      
+      
+        <li>
+          <div class="meta">
             <div class="title">  <a href="/2018/01/01/A-resolution-that-makes-sense.html">A resolution that makes sense</a></div>
             <div>2018 Jan </div>
           </div>
@@ -82,42 +100,19 @@ ga('send', 'pageview');
   
       
       
-        <li>
-          <div class="meta">
-            <div class="title">  <a href="/2017/12/31/AMP-Wordpress-and-amp-form.html">AMP, WordPress and amp-form</a></div>
-            <div>2017 Dec </div>
-          </div>
-          <div class="content">
-            <p>Now that google is pushing AMP a lot, it has been one of the better ways to attract some organic traffic.  In one of my recent projects we had to setup a signup form on the AMP pages. We use <code>AMP for WP</code> (a very well done plugin btw) but wanted to try adding the form ourselves, instead of purchasing one of their paid plugins (Which would be the easier way, but one must get their hands dirty to understand).</p>
-<p>The whole thing can be broken down into the following steps</p>
-<ul>
-<li>Setup</li>
-<li>Render the form</li>
-<li>Process the form</li>
-<li>Fun and Profit</li>
-</ul>
-<h3 id="Setup"><a href="#Setup" class="headerlink" title="Setup"></a>Setup</h3><p>To use amp-form we should add the following JavaScript file in the <code>head</code><br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">custom-element</span>=<span class="string">"amp-form"</span> <span class="attr">src</span>=<span class="string">"https://cdn.ampproject.org/v0/amp-form-0.1.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h3 id="Render-the-form"><a href="#Render-the-form" class="headerlink" title="Render the form"></a>Render the form</h3><p>Since we already use the <code>ampforwp</code> plugin and we want to render a form after every article, we hook into the <code>ampforwp_after_post_content</code> action. I did try adding html into a widget, but it never got rendered for some reason. I still have to get into why it happened. But then, I had a problem to solve.</p>
-<p>Add something like this to your <code>functions.php</code></p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">namespace_add_amp_form</span><span class="params">($amp_template)</span> </span>&#123;</span><br><span class="line">  $post_url = admin_url(<span class="string">'admin-ajax.php?action=amp_form_submit'</span>);</span><br><span class="line">  <span class="keyword">echo</span> <span class="string">'&lt;form name="amp-form" class="hide-inputs" method="post" action-xhr="'</span>.$post_url.<span class="string">'" target="_top"&gt;</span></span><br><span class="line"><span class="string">    &lt;input type="email" name="email" placeholder="email" required&gt;</span></span><br><span class="line"><span class="string">    &lt;input type="submit" value="Make me Famous" /&gt;</span></span><br><span class="line"><span class="string">    &lt;div submit-success&gt; Yep, you will be famous!! soon. &lt;/div&gt;</span></span><br><span class="line"><span class="string">  &lt;/form&gt;'</span>;</span><br><span class="line">&#125;</span><br><span class="line">add_action(<span class="string">'ampforwp_after_post_content'</span>, <span class="string">'namespace_add_amp_form'</span>);</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h3 id="Process-the-form"><a href="#Process-the-form" class="headerlink" title="Process the form"></a>Process the form</h3><p>Most of the form processing is straightforward. The only complication is that <code>amp</code> does some magic which requires us to handle cross origin requests and respond in a manner so that they can accept and process the response. <a href="https://github.com/ampproject/amphtml/blob/master/spec/amp-cors-requests.md" target="_blank" rel="noopener">More details here</a></p>
-<p>I didn’t handle all the cases, but what we have below is a version that accepts the form submission and our frontend handles it perfectly.</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">namespace_handle_amp_form_submit</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!<span class="keyword">isset</span>($_GET[<span class="string">'__amp_source_origin'</span>]) || $_GET[<span class="string">'__amp_source_origin'</span>] != <span class="string">"https://avinash.com.np"</span>)</span><br><span class="line">    <span class="keyword">die</span>();</span><br><span class="line"></span><br><span class="line">  header(<span class="string">"Access-Control-Allow-Credentials: true"</span>);</span><br><span class="line">  header(<span class="string">"AMP-Access-Control-Allow-Source-Origin: https://avinash.com.np"</span>);</span><br><span class="line">  header(<span class="string">"Access-Control-Allow-Origin: https://avinash-com-np.cdn.ampproject.org"</span>);</span><br><span class="line">  header(<span class="string">"Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin"</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// handle the form submission here</span></span><br><span class="line">  handle_form_submission()</span><br><span class="line">&#125;</span><br><span class="line">add_action(<span class="string">"wp_ajax_amp_form_submit"</span>, <span class="string">"namespace_handle_amp_form_submit"</span>);</span><br><span class="line">add_action(<span class="string">"wp_ajax_nopriv_amp_form_submit"</span>, <span class="string">"namespace_handle_amp_form_submit"</span>);</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h3 id="Fun-and-Profit"><a href="#Fun-and-Profit" class="headerlink" title="Fun and Profit"></a>Fun and Profit</h3><p>Once this works, I’m pretty sure it will be fun. Profit, well, lets hope google’s organic traffic should bring some profit as well :D</p>
-<p>If everything is not clear, please read about <a href="https://codex.wordpress.org/AJAX_in_Plugins" target="_blank" rel="noopener">AJAX in WordPress</a> and <a href="https://www.ampproject.org/docs/reference/components/amp-form" target="_blank" rel="noopener">amp-form</a>. In case you’re still stuck, please reach out to me and I’d be more than happy to help (for fun and profit).</p>
-
-          </div>
-        </li>
-      
-  
-      
-      
         
           </ul><ul class="post-list unstyled">
         
         
           
           <div class="date">2017 Dec</div>
+        
+        <li> <a href="/2017/12/31/AMP-Wordpress-and-amp-form.html">AMP, WordPress and amp-form</a> </li>
+      
+  
+      
+      
+        
         
         <li> <a href="/2017/12/15/the-mighty-git-reflog.html">The mighty `git-reflog` or how to undo a git rebase</a> </li>
       
@@ -335,14 +330,14 @@ ga('send', 'pageview');
           
           <div class="date">2014 Feb</div>
         
-        <li> <a href="/2014/02/23/what-i-initially-planned-to-do-this-summer.html">What I initially planned to do this summer</a> </li>
+        <li> <a href="/2014/02/23/the-right-temperament-four-years-of-engineering.html">The right temperament, four years of engineering</a> </li>
       
   
       
       
         
         
-        <li> <a href="/2014/02/23/the-right-temperament-four-years-of-engineering.html">The right temperament, four years of engineering</a> </li>
+        <li> <a href="/2014/02/23/what-i-initially-planned-to-do-this-summer.html">What I initially planned to do this summer</a> </li>
       
   
       
