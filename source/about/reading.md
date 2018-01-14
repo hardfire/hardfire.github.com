@@ -3,8 +3,7 @@ comments: false
 date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
-
-- The Black Swan --- Nassim Nicholas Taleb
+- The Emperors new Mind --- Roger Penrose
 - Meditations --- Marcus Aurelius
 
 ## 2017
@@ -19,8 +18,10 @@ date: 2017-02-14 14:44:25
 - The First and Last Freedom - Jiddu Krishnamurti
 - Why Zebras don't get Ulcers --- Robert M. Sapolsky
 - The Autobiography of Benjamin Franklin
+- The Elephant Paradigm --- Gurcharan Das
 - The Subtle Art of Not Giving a F*ck - Mark Manson (Read Partially, self help books start good, don't end well)
-- Never eat alone - Keith Ferrazzi (Read ~50%)
+- Never eat alone --- Keith Ferrazzi (Read ~50%)
+- The Black Swan --- Nassim Nicholas Taleb
 
 ## 2016
 - How Stella Saved the Farm --- Vijay Govindarajan
