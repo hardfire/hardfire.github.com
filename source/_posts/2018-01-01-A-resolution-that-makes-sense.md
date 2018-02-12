@@ -7,7 +7,7 @@ tags:
 
 Reading through HackerNews this morning I noticed [this comment](https://news.ycombinator.com/item?id=16044527), which is something that I have been telling a lot of folks in the past days. For the lazy ones, the thread is about 2018 resolutions and the comment mentions the resolution as **" Less consuming, more creating. Doesn't matter what it is, doesn't matter if it's bad. "**
 
-The comment reminds me of something I wrote back in [Jan 1, 2015](http://guffsuff.tumblr.com/post/106802642795/a-resolution-that-makes-sense). I would like it if everyone reads it again and makes it their motto for 2018. **Less consumtion, More creation.**
+The comment reminds me of something I wrote back in [Jan 1, 2015](http://guffsuff.tumblr.com/post/106802642795/a-resolution-that-makes-sense). I would like it if everyone reads it again and make it their motto for 2018. **Less consumtion, More creation.**
 
 --
 
