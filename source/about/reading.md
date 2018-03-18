@@ -3,8 +3,14 @@ comments: false
 date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
-- The Emperors new Mind --- Roger Penrose
 - Meditations --- Marcus Aurelius
+- The Age of Spiritual Machines - Ray Kurzweil
+
+## 2018
+- An Astronauts guide to life on Earth --- Chris Hadfield
+- Eat Dirt --- Dr. Josh Axe
+- The Hard Thing About Hard Thing --- Ben Horowitz
+- The Emperors new Mind --- Roger Penrose (Read ~50%)
 
 ## 2017
 - The Monk who sold his Ferrari --- Robin Sharma
