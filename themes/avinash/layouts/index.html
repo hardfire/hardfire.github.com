@@ -1,0 +1,16 @@
+{{ partial "header.html" }}
+
+{{ $lastDate := "" }}
+<ul class="article_list">
+  {{ range (where .Pages "Section" "post").ByDate.Reverse }}
+    {{ if ne $lastDate (.Date.Format "Jan 2006") }}
+      {{ $lastDate = .Date.Format "Jan 2006" }}
+      <div class="date_title">{{ .Date.Format "Jan 2006" }}</div>
+    {{ end }}
+    <li class="article_title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    </li>
+  {{ end }}
+</ul>
+{{ partial "footer.html" }}

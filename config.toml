@@ -1,0 +1,9 @@
+baseURL = "http://avinash.com.np/"
+languageCode = "en-us"
+title = "JPT"
+theme = "avinash"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[permalinks]
+  post = "/:year/:month/:day/:title"
