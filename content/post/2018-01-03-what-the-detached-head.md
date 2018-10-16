@@ -3,8 +3,6 @@ title: What the detached head?
 date: 2018-01-03 10:41:07
 tags:
   - git
-aliases:
-  - 2018/01/03/what-the-detached-head.html
 ---
 One could use git for years and not have to hear of detached heads. I came across detached head when I was showing a colleague what git really is. I was showing how to *"go back in time"* using git; Basically a `git checkout <commit-hash>`, right?
 
