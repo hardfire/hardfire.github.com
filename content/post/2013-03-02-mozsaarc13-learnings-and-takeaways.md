@@ -10,7 +10,7 @@ tags:
   - Mozilla
   - MozSAARC
 aliases:
-  - 2013/03/02/mozsaarc13-learnings-and-takeaways.html
+  - /2013/03/02/mozsaarc13-learnings-and-takeaways.html
 ---
 
 ![Mozilla](http://farm9.staticflickr.com/8234/8510710320_3b69beebde_z.jpg)
