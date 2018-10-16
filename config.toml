@@ -1,4 +1,4 @@
-baseURL = "http://avinash.com.np/"
+baseURL = "https://avinash.com.np/"
 languageCode = "en-us"
 title = "JPT"
 theme = "avinash"
