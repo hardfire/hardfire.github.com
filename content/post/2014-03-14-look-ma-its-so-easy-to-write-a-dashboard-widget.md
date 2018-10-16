@@ -11,8 +11,6 @@ tags:
   - html5
   - osx
   - javascript
-aliases:
-  - 2014/03/14/look-ma-its-so-easy-to-write-a-dashboard-widget.html
 ---
 
 I have been tinkering quite a lot with the osx dashboard lately and was curious how could one write a widget. I went digging online and found most of the apple links ended up in a 404. Luckily I found [this](http://andrew.hedges.name/widgets/dev/) article, which is a little outdated, but so is the dashboard.

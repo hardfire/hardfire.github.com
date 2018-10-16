@@ -11,8 +11,6 @@ tags:
   - localStorage
   - mobile app
   - offline website
-aliases:
-  - 2013/03/18/the-web-is-the-platform.html
 ---
 
 I have had the itch of developing a "mobile application"(with finger quotes) since quite some time now. But, the thought of learning Java or Objective C kept me waiting. With B2G, came new hopes and the idea to write your mobile applications with only web technologies. Wow, doesn't that sound awesome :D

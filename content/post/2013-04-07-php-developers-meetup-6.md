@@ -5,8 +5,6 @@ description: ""
 tags: ["php developers nepal",meetups,"open web apps",mozilla]
 comments: true
 date: 2013-04-07
-aliases:
-  - 2013/04/07/php-developers-meetup-6.html
 ---
 ![PHP Developers Meetup](http://img145.imageshack.us/img145/2388/4tvefoo.jpg)
 

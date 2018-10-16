@@ -6,8 +6,6 @@ category:
 tags: [College, Engineering, Life]
 date: 2014-02-23
 comments: true
-aliases: 
-  - 2014/02/23/the-right-temperament-four-years-of-engineering.html
 ---
 Note: This has come back from the archives and was written way back on 03 May 2011. [Back from the Grave]
 

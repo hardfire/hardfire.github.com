@@ -6,8 +6,6 @@ category:
 date: 2013-11-01
 comments: true
 tags: [ "mozilla", "openweb", "mozilla festival", "mozilla summit2013"]
-aliases:
-  - 2013/11/01/the-month-of-mozilla--learning-teaching-and-experiencing-the-openweb.html
 ---
 
 ## Part 1 : Mozilla Summit 2013

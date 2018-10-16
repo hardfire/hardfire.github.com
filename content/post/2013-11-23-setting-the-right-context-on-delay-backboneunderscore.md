@@ -6,8 +6,6 @@ category:
 date: 2013-11-23
 comments: true
 tags: [ "backbone", "javascript", "underscore"]
-aliases:
-  - 2013/11/23/setting-the-right-context-on-delay-backboneunderscore.html
 ---
 
 

@@ -1,8 +1,6 @@
 ---
 title: The unconventional BarCamp Kathmandu 2015
 date: 2015-02-21 23:15:45
-aliases:
-  - 2015/02/21/The-unconventional-BarCamp-Kathmandu-2015.html
 ---
 Today was my first BarCamp (ever) and I have to say it was quite unconventional. I left in between the event as it didn't rise up to my expectations. I always thought that BarCamps are an open event with an open platform for people to learn and share their thoughts and hacks, atleast that's the impression one gets when they read about other BarCamps or its wiki. Since I didn't attend the whole event and didn't have the chance to give any feedback to the organizers or the team, I would take this as an opportunity.
 

@@ -6,8 +6,6 @@ category:
 tags: ["javascript","firefox","spotify","plugin","media-keys"]
 date: 2014-01-01
 comments: true
-aliases:
-  - 2014/01/01/making-the-media-keys-more-useful-basically-what-ive-been-doing-this-holiday.html
 ---
 
 ### A little Context *(is always better)*

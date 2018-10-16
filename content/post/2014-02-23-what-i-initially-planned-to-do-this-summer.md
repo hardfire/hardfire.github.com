@@ -6,8 +6,6 @@ category:
 tags: []
 date: 2014-02-23
 comments: true
-aliases:
-  - 2014/02/23/what-i-initially-planned-to-do-this-summer.html
 ---
 TL;DR : This is mostly going to be a post about how things have fucked up recently and how my plans of doing an internship this summer went into the dump and some extensions and pre-post thought process to that.
 

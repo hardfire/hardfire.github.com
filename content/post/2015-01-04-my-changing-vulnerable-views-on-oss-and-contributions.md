@@ -6,8 +6,6 @@ category:
 tags: []
 date: 2015-01-04
 comments: true
-aliases:
-  - 2015/01/04/my-changing-vulnerable-views-on-oss-and-contributions.html
 ---
 I have been a long time open source user, fan, contributor and all that's possible to be. At one point of time I was very involved in open source, contributing to the likes of firefox or CI-Bonfire. It was fun and I was learning a lot but at one point of time I was not satisfied. I knew that I had my contribution to the web, to move the web forward and to make things easier for the next new contributor. But, the question was why do I want the web to win? That brought me to think that web was a big enabler and it was the most that I could relate to as a developer and as a user.Maybe I was being selfish and close minded thinking that the web was all, the next big thing and not even thinking or working on other platforms. The web did become big, enabled millions and billions, but still there was something missing.
 

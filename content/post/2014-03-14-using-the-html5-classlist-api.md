@@ -6,8 +6,6 @@ category:
 tags: []
 date: 2014-03-14
 comments: true
-aliases:
-  - 2014/03/14/using-the-html5-classlist-api.html
 ---
 Recently while i was working on a dashboard widget, I planned not to use any JavaScript library but just plain ol' vanilla JavaScript. At one point I had to check if an element was shown or not. This was controlled using a CSS class and all that the basic API had returned a string of the classes of an element and one had to control it using string manipulation. Having read stuff about the classList API sometime in the past, I decided to have a look.
 
