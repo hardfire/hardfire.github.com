@@ -4,8 +4,6 @@ date: 2018-01-01 11:29:20
 tags:
   - life
   - thoughts
-aliases:
-  - 2018/01/01/A-resolution-that-makes-sense.html
 ---
 
 Reading through HackerNews this morning I noticed [this comment](https://news.ycombinator.com/item?id=16044527), which is something that I have been telling a lot of folks in the past days. For the lazy ones, the thread is about 2018 resolutions and the comment mentions the resolution as **" Less consuming, more creating. Doesn't matter what it is, doesn't matter if it's bad. "**

@@ -1,8 +1,6 @@
 ---
 title: 'Review: How Stella Saved the Farm'
 date: 2016-12-17 11:39:18
-aliases:
-  - 2016/12/17/review-how-stella-saved-the-farm.html
 ---
 ![How Stella Saved the Farm](/images/stella-farm.jpg)
 

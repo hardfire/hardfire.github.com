@@ -3,8 +3,6 @@ title: Corrupt or Unorganized
 author: Avinash Kundaliya
 date: 2017-07-15 10:35:24
 tags: [Life, environment, thoughts]
-aliases:
-  - 2017/07/15/Corrupt-or-Unorganized.html
 ---
 > Chaos is a Ladder --- Little Finger, GoT
 

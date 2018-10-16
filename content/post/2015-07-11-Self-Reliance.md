@@ -2,8 +2,6 @@
 title: Self Reliance
 date: 2015-07-11 23:49:31
 tags: [thoughts, life, quote]
-aliases:
-  - 2015/07/11/Self-Reliance.html
 ---
 
 > त्यो एकलाई जान, जसलाई जानेपछि जान्न बाँकी केही रहँदैन । -- शिवसुत्र

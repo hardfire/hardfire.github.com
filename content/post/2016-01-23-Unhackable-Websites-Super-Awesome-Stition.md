@@ -3,8 +3,6 @@ title: 'Unhackable Websites: Super-Awesome-Stition'
 date: 2016-01-23 21:34:47
 tags:
   - funny
-aliases:
-  - 2016/01/23/Unhackable-Websites-Super-Awesome-Stition.html
 ---
 *You have been warned, do not take this seriously.*
 

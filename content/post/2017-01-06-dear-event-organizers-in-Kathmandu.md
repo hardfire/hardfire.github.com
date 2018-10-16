@@ -1,8 +1,6 @@
 ---
 title: Dear Event Organizers in Kathmandu
 date: 2017-01-06 09:59:02
-aliases:
-  - 2017/01/06/dear-event-organizers-in-Kathmandu.html
 ---
 Dear Event Organizers,
 
