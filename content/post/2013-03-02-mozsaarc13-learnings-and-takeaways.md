@@ -11,9 +11,9 @@ tags:
   - MozSAARC
 ---
 
-![Mozilla](http://farm9.staticflickr.com/8234/8510710320_3b69beebde_z.jpg)
+![Mozilla](https://farm9.staticflickr.com/8234/8510710320_3b69beebde_z.jpg)
 
-Last weekend (23-24 February 2013) we had the first Mozilla South Asia Inter-Community meet-up. Participants consisted of Mozillians from the South-Asian region, namely Bangladesh, India, Nepal, Pakistan and Sri Lanka. It was a great experience to meet some of the awesomest people from around the region. [They](http://priyankaivy.blogspot.in/2013/02/mozilla-south-asia-inter-community-meet.html) [have](http://www.kalpapathum.blogspot.com/2013/02/mozilla-south-asia-inter-community-meet.html) [already](http://mythrobin.com/mozillasa13/) [blogged](http://ashickur-noor.me/mozillasa1/) and shared their experiences of the event. Since, the event has been compiled in such an awesome manner already, I would like to take the time to share my learnings from the event.
+Last weekend (23-24 February 2013) we had the first Mozilla South Asia Inter-Community meet-up. Participants consisted of Mozillians from the South-Asian region, namely Bangladesh, India, Nepal, Pakistan and Sri Lanka. It was a great experience to meet some of the awesomest people from around the region. [They](http://priyankaivy.blogspot.in/2013/02/mozilla-south-asia-inter-community-meet.html) [have](http://www.kalpapathum.blogspot.com/2013/02/mozilla-south-asia-inter-community-meet.html) [already](http://mythrobin.com/mozillasa13/) [blogged](http://ashickur-noor.me/mozillasa1/) and shared their experiences of the event. Since the event has already been compiled in such a detailed fashion, I would like to take the time to share my learnings from the event.
 
 First of all, it was great to see that we as mozilla south asian community have done some world class work in localization of Firefox, Firefox-OS and related products. The Bengali and Sinhalese versions of firefox were commendable and have been serving the purpose very well. 
 

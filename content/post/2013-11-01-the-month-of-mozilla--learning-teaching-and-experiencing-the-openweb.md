@@ -12,7 +12,7 @@ tags: [ "mozilla", "openweb", "mozilla festival", "mozilla summit2013"]
 
 To make things less confusing, lets start from the beginning. It all started back in mid-2013 when my twitter stream and facebook newsfeed was filled with status-es like "It's official, you're invited! Yay!" and there in my mailbox was an unread email with the same subject. Yes, It was official and I was invited too :D. It was an invitation to attend the Mozilla Summit 2013 to be hosted simulatneously in 3 cities (Brussels, Toronto and Santa-Clara) and with the mission for (almost) all mozillians to come together, get inspired, talk and shape the future of the open web.
 
-![Welcome Mozillians, The Brussels Square, venue of awesomeness](http://farm4.staticflickr.com/3730/10223251464_c4320a458b.jpg)
+![Welcome Mozillians, The Brussels Square, venue of awesomeness](https://farm4.staticflickr.com/3730/10223251464_c4320a458b.jpg)
 
 
 Fast forward to October 2013, after a flight from Munich via Amsterdam, I was standing in front of the Brussles airport, there were the amazing summit volunteers waiting to greet mozillians and make sure we reach the right hotel. I checked into the hotel, went to the square to grab dinner/snacks and the awesome goodie bag. Next stop was the Delirium Cafe (also known for having the guiness world record for the most variety of beer in 2004) where i met a lot of awesome mozillians.
@@ -21,7 +21,7 @@ Over the next couple(+1) of days i attended sessions related to privacy on the w
 
 Other than the sessions, I think the world fair and the innovation fair were the two awesome places to be in the summit as it gave one an opportunity to see how spread we are as mozillians and how awesome we are too.
 
-![Happy Foxy and confused me at the back](http://farm4.staticflickr.com/3706/10096055983_2dbe4b93c5_z.jpg)
+![Happy Foxy and confused me at the back](https://farm4.staticflickr.com/3706/10096055983_2dbe4b93c5_z.jpg)
 
 
 ### Takeaways
@@ -35,7 +35,7 @@ Well, you attended an event - AWESOME, but what you take away from the event dec
 
 Another mail, another set of flights and here I am in London, Running to the Mozilla office directly from the airport to attend a reps meeting session regarding the Mozilla Festival. Oh, did i say that this was the biggest MozFest till date. This was quite a different event from other Mozilla events, because of the new set of audience and the new set of motivation. The Mozilla Festival is all about building and hacking, as they say (F*ck it, Ship it).
 
-![Mozilla, your light in the darkness](http://farm3.staticflickr.com/2865/10477578876_8de75ceeb9_z.jpg)
+![Mozilla, your light in the darkness](https://farm3.staticflickr.com/2865/10477578876_8de75ceeb9_z.jpg)
 
 
 The first day of the event officially started with the science fair at the evening, leaving us (as facilitators) a whole day to get an idea of the flow of the event and our role in it. Me and Prashish were part a of the scrum led by Kat and Laura, where we had a wall full of problems and an army of awesome-scurm-leads (More on the scrum later). Then we had the hack-your-tshirt session where we hacked our tshirts with spray paint and sketch-pens. The event had a mega version of it with paints and what not (more on that later). Then, kicked off the real deal of the day, the Science festival. There were some awesome projects, experiments and products being displayed but i would like to give a special mention to goolabs (for their awesome work with 3d on the web), Erase all kittens(for how awesome+weird+different their approach to teaching and gaming is) and the tactile web demo from the Mozilla Japan team (believe me they were awesome)

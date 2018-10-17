@@ -15,11 +15,11 @@ tags:
 
 I have had the itch of developing a "mobile application"(with finger quotes) since quite some time now. But, the thought of learning Java or Objective C kept me waiting. With B2G, came new hopes and the idea to write your mobile applications with only web technologies. Wow, doesn't that sound awesome :D
 
-![Main Screen of the App](http://img706.imageshack.us/img706/7110/shotcz.png)
+![Main Screen of the App](https://img706.imageshack.us/img706/7110/shotcz.png)
 
 Procrastination is what i do best, so I installed B2G Desktop, [r2d2b2g](http://people.mozilla.com/~myk/r2d2b2g/)(B2G Emulator for firefox), Firefox Nightly and waited for more than a couple of months to even start writing an application. Finally, last week, the dawn had come, a new day had started (:-P). Yes, I started writing an application for B2G. Out of all the awesome ideas, I wanted a proper loadShedding application in the browser, that i could open anytime and see the timings. 3 days of hard work, and numerous keystrokes later, the application was ready for showtime. Here is a link to the application [online](http://avinash.me/losh) (works only in firefox). You can [install](http://avinash.me/losh/i.html) it as an "open web app" too  .
 
-![Changing groups, just a tap away](http://img838.imageshack.us/img838/4890/shot2a.png)
+![Changing groups, just a tap away](https://img838.imageshack.us/img838/4890/shot2a.png)
 
 
 

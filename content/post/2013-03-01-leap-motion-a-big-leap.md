@@ -16,7 +16,7 @@ aliases:
   - 2013/03/01/leap-motion-a-big-leap.html
 ---
 
-[![Leap Motions tiny gesture controller will be available exclusively at Best Buy](http://farm9.staticflickr.com/8076/8385940323_7a1500210f.jpg)](http://www.flickr.com/photos/92269244@N07/8385940323/)
+[![Leap Motions tiny gesture controller will be available exclusively at Best Buy](https://farm9.staticflickr.com/8076/8385940323_7a1500210f.jpg)](https://www.flickr.com/photos/92269244@N07/8385940323/)
 
 
 
@@ -29,7 +29,7 @@ The device was quite smaller than i had anticipated, about the size of a pack of
 
 I was bought by the teaser video the day i saw it. If you have not seen it yet, i suggest you have a look at it first (embedded below). That would surely get you pumped up about the leap motion controller and the power it brings with itself.
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/_d6KuiuteIA" frameborder="0">Leap</iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/_d6KuiuteIA" frameborder="0">Leap</iframe>
 
 ##  Device Experience 
 
