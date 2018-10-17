@@ -2,8 +2,6 @@
 title: Reading List
 comments: false
 date: 2017-02-14 14:44:25
-aliases:
-  - /about/reading.html
 ---
 ## Currently Reading
 - 21 Lessons for the 21st Century - Nassim Nicholas Taleb
