@@ -1,7 +1,6 @@
 ---
 title: "Web Weekend Kathmandu 2018 Wrap Up"
 date: 2018-10-16
-draft: true
 tags:
   - life
   - wwktm
