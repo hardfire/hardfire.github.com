@@ -4,13 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ .Page.Title }}</title>
+    <title>{{ if .IsPage }} {{ .Page.Title }} {{ else }} Ramblings and JPT Tech {{end}}</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro" rel="stylesheet">
     <link rel="me" href="mailto:avinash@avinash.com.np" />
     <link rel="pingback" href="https://webmention.io/avinash.com.np/xmlrpc" />
     <link rel="webmention" href="https://webmention.io/avinash.com.np/webmention" />
     <link rel="stylesheet" href="/styles/style.css">
+    {{ if .IsPage }}
+      <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} : {{ .Site.Title }}{{ end }}" />
+      {{ with .Params.images }}
+        {{ range first 1 . }}
+      <meta property="og:image" content="{{ . | absURL }}" />
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      <meta property="og:title" content="Ramblings and JPT Tech Stuff" />
+    {{ end }}
+    <meta property="og:url" content="{{ .Permalink }}" />
 
     <!-- Google Analytics -->
     <script type="text/javascript">

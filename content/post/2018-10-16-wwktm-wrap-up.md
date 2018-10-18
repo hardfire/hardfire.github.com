@@ -6,6 +6,8 @@ tags:
   - wwktm
   - nepal
   - conference
+images:
+  - /images/wwktm.png
 ---
 ![Web Weekend Kathmandu Group Picture](/images/wwktm.png)
 🌯 It's been 3 weeks since [Web Weekend Kathmandu](https://2018.wwktm.co) and we've *almost* finished all the pending work for the conference. The event was pretty successful and beyond what we had planned and expected for.

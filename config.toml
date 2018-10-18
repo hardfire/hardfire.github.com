@@ -1,6 +1,6 @@
 baseURL = "https://avinash.com.np"
 languageCode = "en-us"
-title = "JPT"
+title = "Ramblings and JPT Tech"
 theme = "avinash"
 enableRobotsTXT = true
 canonifyURLs = true
