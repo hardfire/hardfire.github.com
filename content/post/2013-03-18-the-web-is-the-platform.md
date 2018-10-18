@@ -44,4 +44,4 @@ If this is not enough to get you started, a [comprehensive guide](https://develo
 I knew that was coming, [WebAPIs](https://developer.mozilla.org/en-US/docs/WebAPI) is what you are looking for. It is still a work in progress and lots of tutorials are available on [MozHacks](https://hacks.mozilla.org/)
 
 That's all for now. Go and make something awesome and it has been validated that **"THE WEB IS THE PLATFORM"**
-![Funny thing, it even works on osx like a native app, should work on windows and linux too ](http://img692.imageshack.us/img692/4402/screenbiyq.jpg)
+![Funny thing, it even works on osx like a native app, should work on windows and linux too ](https://img692.imageshack.us/img692/4402/screenbiyq.jpg)
