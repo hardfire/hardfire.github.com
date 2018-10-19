@@ -9,7 +9,6 @@
   fetch(`https://webmention.io/api/mentions?target=${url}`)
   .then(r => r.json())
   .then(r => {
-    console.log(r.links)
     return r.links.map(el => {
       if(el.data.author && el.activity.sentence_html)
         return `  <div class="mentionSingle">
