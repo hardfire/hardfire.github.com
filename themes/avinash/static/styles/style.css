@@ -70,6 +70,11 @@ header a:last-child{border-right:0;}
 .code .tag .name{color:#de333c}
 .code .tag .attr{color:#2e6fd9}
 
+/* webmentions */
+.webmentions { padding: 20px; font-size:1.1em; }
+.webmentions .mention { border-bottom: 1px solid #eee; padding: 20px 0; }
+.webmentions .meta { padding-top:10px; font-size:0.9em; }
+
 @media (max-width: 767px) {
   body{background-image:none;}
 }
