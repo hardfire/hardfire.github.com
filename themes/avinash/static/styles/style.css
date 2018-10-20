@@ -75,6 +75,7 @@ header a:last-child{border-right:0;}
 .webmentions { padding: 20px; font-size:1.1em; max-width:1300px; }
 .webmentions .mention { border-bottom: 1px solid #eee; padding: 20px 0; }
 .webmentions .meta { padding-top:10px; font-size:0.9em; }
+.webmentions .meta a { color:#555; }
 
 @media (max-width: 767px) {
   body{background-image:none;}
