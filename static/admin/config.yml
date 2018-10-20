@@ -8,7 +8,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "post"
-    create: "true"
+    create: true
     slug: "/{{year}}/{{month}}/{{day}}/{{slug}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
