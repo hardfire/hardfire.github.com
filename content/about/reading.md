@@ -4,7 +4,7 @@ comments: false
 date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
-- 21 Lessons for the 21st Century - Nassim Nicholas Taleb
+- 21 Lessons for the 21st Century - Yuval Noah Harari
 - The undoing project - Michel Lewis
 
 ## 2018
