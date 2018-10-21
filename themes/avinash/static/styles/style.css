@@ -77,6 +77,9 @@ header a:last-child{border-right:0;}
 .webmentions .meta { padding-top:10px; font-size:0.9em; }
 .webmentions .meta a { color:#555; }
 
+.related ul{list-style-type:none; margin:10px 0 0 ; padding:0;}
+.related li{padding:5px 20px;}
+
 @media (max-width: 767px) {
   body{background-image:none;}
 }

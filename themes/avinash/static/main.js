@@ -9,6 +9,7 @@
   fetch(`https://webmention.io/api/mentions?target=${url}`)
   .then(r => r.json())
   .then(r => r.links.map(processMention).join(""))
+  .then(res => addMeta(res))
   .then(res => commentBox.innerHTML = res)
 
 }())
@@ -51,4 +52,10 @@ function processMention(mention) {
       return "";
   }
 
+}
+
+function addMeta(response) {
+  if(response == "") return "";
+  else
+    return ` <h2> Webmentions </h2> <div class="webmentions">${response}</div>`;
 }

@@ -4,8 +4,24 @@
   <h1> {{ .Title }} </h1>
   <div> {{ .Content }} </div>
 </div>
-<h2> Webmentions </h2>
-<div id="webmentions" class="webmentions" data-url="https://avinash.com.np{{ .RelPermalink }}"></div>
+<div id="webmentions" data-url="https://avinash.com.np{{ .RelPermalink }}"></div>
+{{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+  {{ $.Scratch.Set "has_related" true }}
+{{ end }}
+
+{{ if $.Scratch.Get "has_related" }}
+  <aside class="related">
+    <header>Other similar articles </header>
+    <ul>
+      {{ $num_to_show := .Site.Params.related_content_limit | default 7 }}
+      {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+      <li>
+      On <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time> 
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </aside>
+{{ end }}
 
 
 {{ partial "footer.html" . }}
