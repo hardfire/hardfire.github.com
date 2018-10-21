@@ -13,8 +13,29 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - label: "Featured Image"
+        name: "images"
+        widget: list
       - label: Tags
         name: tags
         widget: list
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/about.md"
+        label: "About"
+        name: "about"
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+      - file: "content/about/reading.md"
+        label: "Reading List"
+        name: "reading list"
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
