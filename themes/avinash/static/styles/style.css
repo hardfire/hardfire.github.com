@@ -56,10 +56,10 @@ header a:last-child{border-right:0;}
 
 /* article list */
 .article_list{ list-style-type:none; padding-left:20px;}
-.article_list .article_title{ font-size:2em; }
+.article_list .article_title{ font-size:1.8em; }
 .article_list li{ margin-bottom:10px;  display:block;}
-.article_list time{ color:#aaa; font-size:0.7em; display:block;}
-.article_list .date_title{ font-size: 1.4em; margin-top:30px;}
+.article_list time{ color:#aaa; font-size:0.6em; display:block;}
+.article_list .date_title{ font-size: 1.4em; margin-top:30px; margin-bottom:10px;}
 
 /* syntax */
 .code pre{background:#fff}
