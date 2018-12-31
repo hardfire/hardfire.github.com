@@ -12,7 +12,7 @@ tags:
 
 
 
-The Web is more than Facebook and Twitter. It is definitely more than the photos we post on Instagram. Our lives are more than that. Our physical lives are in our own control (in general). But we have been losing control our virtual lives for a tine-tiny bit of convenience. We have been losing ownership of our own content (thoughts, pictures and what-not) while others are selling our data to god-knows-whom. They're also making more tools to push us to create and consume more data and content.
+The Web is more than Facebook and Twitter. It is definitely more than the photos we post on Instagram. Our lives are more than that. Our physical lives are in our own control (in general). But we have been losing control of our virtual lives in exchange for a tine-tiny bit of convenience. We have been losing ownership of our own content (thoughts, pictures and what-not) while others are selling our data to god-knows-whom. They're also making more tools that push us to create and consume more content.
 
 
 
@@ -36,11 +36,11 @@ My virtual gurus for ownership of content has been the IndieWeb Community. The I
 
 
 
-As a reboot of my efforts, I spent sometime last month to setup WebMentions on my website. WebMention is actually a web standard so that websites can talk to each other. Instead of setting up my own WebMentions server, I am using webmention.io to manage all mentions. On top of that, I have also setup [Bridgy](https://brid.gy/) to get social replies from twitter back to the website. This way, even if twitter dies in the future all the interactions would live.
+As a reboot of my efforts, I spent sometime last month to setup WebMentions on my website. WebMention is actually a web standard so that websites can talk to each other. Instead of setting up my own WebMentions server, I am using webmention.io to manage all mentions. On top of that, I have also setup Birdgy to get social replies from twitter back to the website. This way, even if twitter dies in the future all the interactions would live.
 
 
 
-On the side, I have restarted working on my stream application, It has been my tweeting application and bookmarking manager for almost a year. So far It can only tweet text, so next I want to add media upload to it. That way, I can first upload tweets and media on my stream first and that can be tweeted later. Added benefit would be that the tweet/post would also be open to receive WebMentions and all the replies on twitter will be fed-back to the stream. That reminds me that I wanted to extend the stream application to accept all my WebMentions as well. Hopefully, one day in the future, it would do all that and more.
+On the side, I have restarted working on my [stream application](https://bm.avinash.com.np), It has been my tweeting application and bookmarking manager for almost a year. So far It can only tweet text, so next I want to add media upload to it. That way, I can first upload tweets and media on my stream first and that can be tweeted later. Added benefit would be that the tweet/post would also be open to receive WebMentions and all the replies on twitter will be fed-back to the stream. That reminds me that I wanted to extend the stream application to accept all my WebMentions as well. Hopefully, one day in the future, it would do all that and more.
 
 
 
