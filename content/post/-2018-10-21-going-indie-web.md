@@ -36,7 +36,7 @@ My virtual gurus for ownership of content has been the IndieWeb Community. The I
 
 
 
-As a reboot of my efforts, I spent sometime last month to setup WebMentions on my website. WebMention is actually a web standard so that websites can talk to each other. Instead of setting up my own WebMentions server, I am using webmention.io to manage all mentions. On top of that, I have also setup Birdgy to get social replies from twitter back to the website. This way, even if twitter dies in the future all the interactions would live.
+As a reboot of my efforts, I spent sometime last month to setup WebMentions on my website. WebMention is actually a web standard so that websites can talk to each other. Instead of setting up my own WebMentions server, I am using webmention.io to manage all mentions. On top of that, I have also setup [Bridgy](https://brid.gy/) to get social replies from twitter back to the website. This way, even if twitter dies in the future all the interactions would live.
 
 
 
