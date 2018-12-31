@@ -1,6 +1,6 @@
 ---
 title: Going Indie(web)
-date: 2018-10-31T03:55:45.429Z
+date: 2018-12-31T03:55:45.429Z
 images:
   - /images/uploads/data.jpeg
 tags:
