@@ -40,7 +40,7 @@ As a reboot of my efforts, I spent sometime last month to setup WebMentions on m
 
 
 
-On the side, I have restarted working on my stream application, It has been my tweeting application and bookmarking manager for almost a year. So far It can only tweet text, so next I want to add media upload to it. That way, I can first upload tweets and media on my stream first and that can be tweeted later. Added benefit would be that the tweet/post would also be open to receive WebMentions and all the replies on twitter will be fed-back to the stream. That reminds me that I wanted to extend the stream application to accept all my WebMentions as well. Hopefully, one day in the future, it would do all that and more.
+On the side, I have restarted working on my [stream application](https://bm.avinash.com.np), It has been my tweeting application and bookmarking manager for almost a year. So far It can only tweet text, so next I want to add media upload to it. That way, I can first upload tweets and media on my stream first and that can be tweeted later. Added benefit would be that the tweet/post would also be open to receive WebMentions and all the replies on twitter will be fed-back to the stream. That reminds me that I wanted to extend the stream application to accept all my WebMentions as well. Hopefully, one day in the future, it would do all that and more.
 
 
 
