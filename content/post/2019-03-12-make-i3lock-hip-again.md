@@ -1,6 +1,8 @@
 ---
 title: Make i3lock hip again
 date: 2019-03-12T15:12:19.713Z
+images:
+  - ''
 tags:
   - i3
   - i3lock
