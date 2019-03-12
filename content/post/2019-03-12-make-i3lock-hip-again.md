@@ -27,10 +27,10 @@ rm /tmp/screen_locked.png
 i3lock -i /tmp/screen_locked_blurred.png
 {{< / highlight >}}
 
-Adding this script to the path and binding it with a key combination (`meta + shift + ctrl + l` in my case) makes life quite easy.
+Adding this script to the path and binding it with a key combination (`$mod + shift + ctrl + l` in my case) makes life quite easy.
 
 The keybinding can be added to `~/.config/i3/config` file as follows
 
 {{< highlight bash "linenos=table" >}}
-bindsym Ctrl+Shift+l exec "lock" # lock is the script from earlier
+bindsym $mod+Ctrl+Shift+l exec "lock" # lock is the script from earlier
 {{< / highlight >}}
