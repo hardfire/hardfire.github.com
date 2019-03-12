@@ -7,7 +7,7 @@ tags:
   - i3
   - i3lock
 ---
-I have been using the i3 window manager for almost 7-8 months now and I really like the peace that comes with it. Its a tiling window manager which (in some way) pushes one to have a more managed workspace. 
+I have been using the [i3 window manager](https://i3wm.org/) for almost 7-8 months now and I really like the peace that comes with it. Its a tiling window manager which (in some way) pushes one to have a more managed workspace. 
 
 Sharing my i3 configuration is probably a post of its own, but today I want to share my i3lock wrapper script. Generally i3lock locks the screen and puts a white wallpaper (rathar ugly white wallpaper). The script below takes a screenshot of the screen, blurs it and then uses it as a lock screen wallpaper. It gives a pretty cool effect
 
