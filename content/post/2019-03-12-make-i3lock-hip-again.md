@@ -32,5 +32,5 @@ Adding this script to the path and binding it with a key combination (`meta + sh
 The keybinding can be added to `~/.config/i3/config` file as follows
 
 {{< highlight bash "linenos=table" >}}
-bindsym Ctrl+Shift+l exec "lock" # lock is the script from earlier
+ bindsym Ctrl+Shift+l exec "lock" # lock is the script from earlier
 {{< / highlight >}}
