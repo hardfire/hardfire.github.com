@@ -39,14 +39,14 @@ Even though the internet was patchy, it was exciting to see the attendees postin
 
 > Hike more. Worry Less. - anonymous
 
-![Lakhuri Bhanjyang](https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/42837675_528654064206602_8850110765760249856_o.jpg?_nc_cat=106&oh=ad9ca1b25a65febc319d722c5b43bc18&oe=5C47BEF2)
+![Lakhuri Bhanjyang](/images/wwktm-2018/lakuri.jpg)
 It's 6:00am, the designated time to leave for the hike and guess what, our venue is not open yet !! Damn, Guard Dai !!! Finally, the venue opens up, we fill our bottles, get an initial briefing about the hike, get into our Sajha bus and off we go.
 
 We reach Lakhuri Bhanjyang and Kailash from artudio gives an amazing introduction to art. He explains how you can do art with anything and it likes in the eyes of the maker. We then divide into groups based on our tshirt color - **AMAZING IDEA!!**. The whole hike we used materials from nature to build small art pieces. It was the best exercise to get to know other people from our groups.
 
 The main motive of the hike was for the attendees, speakers and organizers to mingle more and get to network at a more deeper level. I think that's what exactly happened as I got to talk to so many people and know what they were doing, get an understanding of their point of view and have deeper conversations about tech, life, community and nature.
 
-![Hike Group Picture](https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/42876490_528659487539393_8298242519452352512_o.jpg?_nc_cat=111&oh=634f968857a45d3bb197057c4e90e60d&oe=5C4CA760)
+![Hike Group Picture](/images/wwktm-2018/hike.jpg)
 
 
 ## Other Activites
