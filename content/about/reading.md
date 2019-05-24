@@ -4,8 +4,13 @@ comments: false
 date: 2017-02-14 14:44:25
 ---
 ## Currently Reading
-- 21 Lessons for the 21st Century - Yuval Noah Harari
-- The undoing project - Michel Lewis
+- None
+
+## 2019
+- 21 Lessons for the 21st Century --- Yuval Noah Harari
+- The undoing project --- Michel Lewis
+- Purple cow --- Seth Godin
+- Leonardo Da Vinci --- Walter Issacson (*Best read of the year*)
 
 ## 2018
 - An Astronauts guide to life on Earth --- Chris Hadfield
@@ -13,9 +18,10 @@ date: 2017-02-14 14:44:25
 - The Hard Thing About Hard Thing --- Ben Horowitz
 - The Emperors new Mind --- Roger Penrose (Read ~50%)
 - Meditations --- Marcus Aurelius
-- The Age of Spiritual Machines - Ray Kurzweil (Left somewhere in between)
-- Jaya - Devdutt Patnaik
-- Skin in the game - Nassim Nicholas Taleb
+- The Age of Spiritual Machines --- Ray Kurzweil (Left somewhere in between)
+- Jaya --- Devdutt Patnaik
+- Skin in the game --- Nassim Nicholas Taleb
+- Reinventing Organizations --- Frederic Laloux 
 
 ## 2017
 - The Monk who sold his Ferrari --- Robin Sharma
