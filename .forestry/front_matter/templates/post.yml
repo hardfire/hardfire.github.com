@@ -21,3 +21,5 @@ fields:
   type: tag_list
   default: []
   label: Tags
+pages:
+- content/post/build-eleventy-using-github-actions-and-github-pages.md
