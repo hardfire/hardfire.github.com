@@ -6,10 +6,12 @@ date: 2017-02-14T14:44:25.000+00:00
 ---
 ## Currently Reading
 
-* द्वन्दको अवसान --- राजेश्वर देवकोटा
+* Good Economics for Hard Times --- Abhijit Banerjee and Esther Duflo
 
 ## 2020
 
+* The Culture Map --- Erin Meyer
+* द्वन्दको अवसान --- राजेश्वर देवकोटा
 * Notes on a Nervous Planet --- Matt Haig
 
 ## 2019
