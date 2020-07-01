@@ -23,3 +23,4 @@ fields:
   label: Tags
 pages:
 - content/post/build-eleventy-using-github-actions-and-github-pages.md
+- content/post/til-css-display-contents.md
