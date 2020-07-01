@@ -1,6 +1,5 @@
 +++
 date = 2020-07-01T13:20:15Z
-draft = true
 tags = ["css", "flex", "grid"]
 title = "TIL: CSS `display-contents`"
 
