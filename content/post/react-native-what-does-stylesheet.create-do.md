@@ -1,6 +1,6 @@
 +++
 date = 2020-08-25T13:14:17Z
-tags = []
+tags = ["react-native"]
 title = "React Native : What does StyleSheet.create do ?"
 
 +++
@@ -13,7 +13,7 @@ Here is what the source mentions (in the comments)
 > - Making a stylesheet from a style object makes it possible to refer to it by ID instead of creating a new style object every time.
 > -  It also allows to send the style only once through the bridge. All subsequent uses are going to refer an id (not implemented yet).
 
-Well, so it seems that there isn't a lot of benefit as of now. And this has been the case for quite some time as this has been there since the first "Initial Commit".
+Well, so it seems like there isn't a lot of benefit as of now. And this has been the case for quite some time, as this comment has been there since the first "Initial Commit".
 But then, why should we use it? Let's go deeper and look at the implementation itself.
 
 {{< highlight js "linenos=table" >}}class StyleSheet {
@@ -25,7 +25,6 @@ But then, why should we use it? Let's go deeper and look at the implementation i
     }
     return result;
   }
-}
-{{< / highlight >}}
+}{{< / highlight >}}
 
-The only benefit that i can see at the moment is `StyleSheetValidation.validateStyle(key, obj);` which basically validates your style. I have chosen to not use the `StyleSheet` abstraction at the moment because it doesn't provide a lot of value and we don't know how it will evolve in the future.
+The only benefit that i can see at the moment is the call to`StyleSheetValidation.validateStyle(key, obj);` which basically validates the style. I have chosen to not use the `StyleSheet` abstraction at the moment as it doesn't provide a lot of value and we don't know how it will evolve in the future.
