@@ -6,7 +6,7 @@ title = "React Native : What does StyleSheet.create do ?"
 +++
 I mostly work on the web and haven't worked a lot with react native. I've thoroughly enjoyed my time learning and building small apps using react native. It gives web developers superpowers to build native (ish) experiences for mobile using the same toolset we are aware of.
 
-One thing that seemed rathar odd, especially coming from react web was the use of StyleSheet.create in react native. All the docs suggest to use it while creating styles but what exactly is the benefit of using it ? Let's look at the react-native [source](https://github.com/facebook/react-native/blob/0.5-stable/Libraries/StyleSheet/StyleSheet.js) to find out
+One thing that seemed rathar odd, especially coming from react web was the use of [StyleSheet.create](https://reactnative.dev/docs/stylesheet#create) in react native. All the docs suggest to use it while creating styles but what exactly is the benefit of using it ? Let's look at the react-native [source](https://github.com/facebook/react-native/blob/0.5-stable/Libraries/StyleSheet/StyleSheet.js) to find out
 
 Here is what the source mentions (in the comments)
 
