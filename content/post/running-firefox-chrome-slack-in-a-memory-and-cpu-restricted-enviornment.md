@@ -13,16 +13,16 @@ I've spent multiple hours in the last years trying to have a setup where i could
 
 ## using systemd-run
 
-While reading more about control groups on linux i came across the sytemd-run command which did exactly what we wanted. The benefit being its comparatively easier to run and the user experience is much better.  
-  
+While reading more about control groups on linux i came across the sytemd-run command which did exactly what we wanted. The benefit being its comparatively easier to run and the user experience is much better.
+
 I currently use the following command to run my "javascript machines" :D
 
-`systemd-run --scope -p MemoryLimit=1G -p CPUQuota=25% --user firerfox`  
-  
-Here, `firefox` is the command that needs to be run. The other options help to define the resources the app needs to have.   
-  
-The `--scope` tells systemd that we want this app to run in a scope of its own. I think, systemd then creates this scope and assigns the resource controls to the specific scope.  
-  
+`systemd-run --scope -p MemoryLimit=1G -p CPUQuota=25% --user firerfox`
+
+Here, `firefox` is the command that needs to be run. The other options help to define the resources the app needs to have.
+
+The `--scope` tells systemd that we want this app to run in a scope of its own. I think, systemd then creates this scope and assigns the resource controls to the specific scope.
+
 We can use this command to run a `malicious` app without giving any network/filesystem access. The possibilities are endless.
 
 ## Next
