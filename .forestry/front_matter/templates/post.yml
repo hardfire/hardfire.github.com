@@ -23,6 +23,7 @@ fields:
   label: Tags
 pages:
 - content/post/build-eleventy-using-github-actions-and-github-pages.md
+- content/post/git-aliases-for-better-productivity.md
 - content/post/react-native-what-does-stylesheet.create-do.md
 - content/post/running-firefox-chrome-slack-in-a-memory-and-cpu-restricted-enviornment.md
 - content/post/til-css-display-contents.md
