@@ -35,36 +35,19 @@ Here are the ones I like the most.
 
 Here are all my aliases taken from `.gitconfig`
 
-{{< highlight "linenos=table" >}}\[alias\]
-
-co = checkout
-
-po = push origin
-
-pom = push origin master
-
-pod = push origin dev
-
-a = add
-
-d = diff
-
-s = status -sb
-
-st = status -sb
-
-undo = reset --soft HEAD^
-
-c = commit --verbose
-
-cm = commit -m
-
-lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-
-b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
-
-shelve = stash # baggage from mercurial
-
-unshelve = stash pop
-
-serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"{{< / highlight >}}
+{{< highlight "linenos=table" >}}\\\[alias\\\]  
+    co = checkout  
+    po = push origin  
+    pom = push origin master  
+    pod = push origin dev  
+    a = add  
+    d = diff  
+    st = status -sb  
+    undo = reset --soft HEAD^  
+    c = commit --verbose  
+    cm = commit -m  
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit  
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"  
+    shelve = stash # baggage from mercurial  
+    unshelve = stash pop  
+    serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"{{< / highlight >}}
