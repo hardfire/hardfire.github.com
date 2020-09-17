@@ -1,6 +1,5 @@
 +++
 date = 2020-09-17T09:07:34Z
-draft = true
 tags = ["git", "git alias"]
 title = "Git aliases for better productivity"
 
@@ -33,9 +32,9 @@ Here are the ones I like the most.
 
 ### All my Aliases
 
-Here are all my aliases taken from `.gitconfig`
-
-{{< highlight "linenos=table" >}}\\\[alias\\\]  
+Here are all my aliases taken from `.gitconfig.`  
+  
+{{< highlight "linenos=table" >}}  
     co = checkout  
     po = push origin  
     pom = push origin master  
@@ -50,4 +49,6 @@ Here are all my aliases taken from `.gitconfig`
     b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"  
     shelve = stash # baggage from mercurial  
     unshelve = stash pop  
-    serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"{{< / highlight >}}
+    serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"{{< / highlight >}}  
+  
+What git alias do you use the most? Send it on twitter linking to this article and it will show as a WebMention below :) 
