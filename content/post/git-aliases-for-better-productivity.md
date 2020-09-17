@@ -5,8 +5,8 @@ tags = ["git", "git alias"]
 title = "Git aliases for better productivity"
 
 +++
-Ok, so you've figured out a workflow with git and use it on a daily basis to get work done. Happily minding your own business pushing things and pulling some other things. I was there some years back when I realized that i could optimize my workflow. Over the years, I have collected number of git aliases which makes me better at git (PS: also i dont have to remember complex commands) .  
-  
+Ok, so you've figured out a workflow with git and use it on a daily basis to get work done. Happily minding your own business pushing things and pulling some other things. I was there some years back when I realized that i could optimize my workflow. Over the years, I have collected number of git aliases which makes me better at git (PS: also i dont have to remember complex commands) .
+
 Here are the ones I like the most.
 
 ### Checkout
@@ -35,40 +35,36 @@ Here are the ones I like the most.
 
 Here are all my aliases taken from `.gitconfig`
 
-\`\`\`
+{{< highlight "linenos=table" >}}\[alias\]
 
-\[alias\]
+co = checkout
 
-  co = checkout
+po = push origin
 
-  po = push origin
+pom = push origin master
 
-  pom = push origin master
+pod = push origin dev
 
-  pod = push origin dev
+a = add
 
-  a = add
+d = diff
 
-  d = diff
+s = status -sb
 
-  s = status -sb
+st = status -sb
 
-  st = status -sb
+undo = reset --soft HEAD^
 
-  undo = reset --soft HEAD^
+c = commit --verbose
 
-  c = commit --verbose
+cm = commit -m
 
-  cm = commit -m
+lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
-  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 
-  b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+shelve = stash # baggage from mercurial
 
-  shelve = stash # baggage from mercurial
+unshelve = stash pop
 
-  unshelve = stash pop
-
-  serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"
-
-\`\`\`
+serve = "!server(){ git daemon --verbose --export-all --base-path=. --reuseaddr $@; }; echo git://localhost:9418/; server"{{< / highlight >}}
