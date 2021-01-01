@@ -2,7 +2,7 @@
 date = 2021-01-01T10:10:18Z
 draft = true
 tags = []
-title = "Don't buy dumb things they said? No one told what's dumb."
+title = "Don't buy dumb things they said. No one told what's dumb."
 
 +++
 Yesterday, I happend to watch [this video by Gary Vaynerchuk](https://www.youtube.com/watch?v=cbupA3iiZAg "Buying Dumb Things Is The WORST Thing You Can Do - Gary Vaynerchuk | Motivational Talk"). It's a nice motivational video. You watch it and then think "OMG! I have been buying a lot of studpid shit and that's the main reason why I'm not a millionaire. This is it!". 
