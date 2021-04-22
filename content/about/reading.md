@@ -4,15 +4,17 @@ comments: false
 date: 2017-02-14T14:44:25.000+00:00
 
 ---
-## Currently Reading
+## 2021
 
-* Good Economics for Hard Times --- Abhijit Banerjee and Esther Duflo
+* The Midnight Library - Matt Haig
+* Creativity Inc - Ed Catmull and Amy Wallace
 
 ## 2020
 
 * The Culture Map --- Erin Meyer
 * द्वन्दको अवसान --- राजेश्वर देवकोटा
 * Notes on a Nervous Planet --- Matt Haig
+* Good Economics for Hard Times --- Abhijit Banerjee and Esther Duflo
 
 ## 2019
 
