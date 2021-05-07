@@ -8,7 +8,7 @@ I enjoy writing apps in React Native because of the amazing community and the oc
 
 I had one of those issues the other day. We can easily truncate text using the [numberOfLines prop](https://reactnative.dev/docs/text#numberoflines). If we want to show the first 3 lines and truncate the rest, we can write it as the following
 
-{{< highlight js "linenos=table" >}}
+{{< highlight jsx "linenos=table" >}}
 <Text numberOfLines={3}>
    Mordor. The one place in Middle-Earth we don't want to see any closer. And
    it's the one place we're trying to get to. It's just where we can't get.
@@ -18,7 +18,7 @@ I had one of those issues the other day. We can easily truncate text using the [
 
 Now, lets say we want to show a "Read More" button if the text was truncated. Before we can show the button need to know if the text was truncated or not. We can do that by listening to the [onTextLayout event](// could we have rendered more than 3 lines). It provides an array of `TextLayouts` for each line of text rendered. So we can essentially do the following
 
-{{< highlight js "linenos=table" >}}
+{{< highlight jsx "linenos=table" >}}
 const DidYouTruncate = () => {
    // dont show the button by default
    const [showReadMore, setShowReadMore] = React.useState(false)
