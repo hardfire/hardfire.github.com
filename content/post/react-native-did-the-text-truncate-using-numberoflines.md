@@ -46,4 +46,4 @@ const DidYouTruncate = () => {
 
 And, that is the cleanest approach to know if the text did truncate or not.
 
-**BONUS**: if you dont want to truncate the text at the end you can configure it via the [ellipsizeMode prop](https://reactnative.dev/docs/text#ellipsizemode)
+**BONUS**: if you don't want to truncate the text at the end, you can configure it via the [ellipsizeMode prop](https://reactnative.dev/docs/text#ellipsizemode)
