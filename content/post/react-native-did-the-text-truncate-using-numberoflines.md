@@ -32,14 +32,14 @@ const DidYouTruncate = () => {
    };
  
    return (
-     <>
+     <React.Fragment>
        <Text numberOfLines={3} onTextLayout={onTextLayout}>
          Mordor. The one place in Middle-Earth we don't want to see any closer. And
          it's the one place we're trying to get to. It's just where we can't get.
          Let’s face it, Mr. Frodo, we're lost.
        </Text>
        {showReadMore && <Button>Read More</Button>}
-     </>
+     </React.Fragment>
    )
 }
 {{< / highlight >}}
