@@ -26,6 +26,7 @@ pages:
 - content/post/don-t-buy-dumb-things-they-said-no-one-told-what-s-dumb.md
 - content/post/git-aliases-for-better-productivity.md
 - content/post/react-native-did-the-text-truncate-using-numberoflines.md
+- content/post/react-native-expo-fix-error-reanimated-2-failed-to-create-a-worklet.md
 - content/post/react-native-what-does-stylesheet.create-do.md
 - content/post/running-firefox-chrome-slack-in-a-memory-and-cpu-restricted-enviornment.md
 - content/post/til-css-display-contents.md
