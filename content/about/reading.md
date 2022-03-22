@@ -4,10 +4,19 @@ comments: false
 date: 2017-02-14T14:44:25.000+00:00
 
 ---
+## Currently Reading 
+
+* Invent and Wander --- The Collected Writings of Jeff Bezos
+
+## 2022
+
+* Ikigai --- Francesc Miralles and Hector Garcia
+* How to live on 24 hours a day --- Arnold Bennett
+
 ## 2021
 
-* The Midnight Library - Matt Haig
-* Creativity Inc - Ed Catmull and Amy Wallace
+* The Midnight Library --- Matt Haig
+* Creativity Inc --- Ed Catmull and Amy Wallace
 
 ## 2020
 
