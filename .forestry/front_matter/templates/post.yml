@@ -22,6 +22,7 @@ fields:
   default: []
   label: Tags
 pages:
+- content/dear-balen-dear-sunita.md
 - content/post/build-eleventy-using-github-actions-and-github-pages.md
 - content/post/don-t-buy-dumb-things-they-said-no-one-told-what-s-dumb.md
 - content/post/git-aliases-for-better-productivity.md
