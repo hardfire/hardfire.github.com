@@ -4,9 +4,13 @@ comments: false
 date: 2017-02-14T14:44:25.000+00:00
 
 ---
-## Currently Reading 
+## 2024
+* Storyworthy --- Matthew Dicks
+
+## 2023
 
 * Invent and Wander --- The Collected Writings of Jeff Bezos
+* The Making of Prince of Persia --- Jordan Mechner
 
 ## 2022
 
