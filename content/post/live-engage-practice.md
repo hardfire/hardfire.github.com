@@ -31,6 +31,6 @@ There is one more quote along similar lines as Rick Rubin. It's from "The Tibeti
 > You cannot meditate for some time and then be not meditating. That is not how meditation works. Meditation is a way of life.
 
 
-**So, well. How do these works affect us?**
+**So what?**
 
 Speaking for myself, I tend to think a lot about my principles and topics that I am interested in. And based on that, I try to live my life focusing on those topics, learning about them, acting as I belong to learn about those topics and create something with them. Its not important if the creation changes the world. Its not important if the creation is well known in the world. The only thing that is important is that it changes me. And, it changes me for good. I hope.
