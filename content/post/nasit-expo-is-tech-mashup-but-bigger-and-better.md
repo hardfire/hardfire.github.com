@@ -3,15 +3,14 @@ title: Realization: NAS-IT Expo is Tech Mashup, just bigger and better
 date: 2025-11-08
 tags:
   - life
-  - ai conf
+  - ai-conf
   - nepal
   - conference
 ---
-
 Had a small realization on my regular morning-walk today.
 
 
-I was feeling a bit sad that NAS-IT didn’t allow us to put an [AI Conf](https://ai.wwktm.com) standee at the expo. Especially after seeing the crowd there yesterday, it felt like a missed chance to share something community-driven. Their reasoning was that it’s a professional event and there isn’t space for community. I kind of get it, but not really.
+I was feeling a bit sad that NAS-IT didn’t allow us to put an [AI Conf](https://ai.wwktm.com) standee at the expo. Especially after seeing the crowd there yesterday, it felt like a missed chance to share something community-driven. Their reasoning was that it’s a professional event and there isn’t space for community. I kind of get it, but not really. (Edit: there's a banner somewhere in one of the display board scrolling, but honestly i didn't see it once, so probably no one did)
 
 
 Anyway, that’s not what I wanted to write about. While thinking about it, I wondered how cool it would be if the expo had space for communities alongside products and organizations. Then it hit me — this has been done before. And we did it, about twelve years ago.
