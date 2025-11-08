@@ -22,7 +22,7 @@ It was called Tech Mashup.
 Back in 2013, we had organized a speed-networking event for startups, where several companies and communities set up stalls at Babar Mahal Revisited. Such a beautiful venue.
 
 
-I don’t remember how many people came, but I do remember it felt lively. We never really documented things back then, which is a bit sad — so much of what we’ve done just lives in our memories.
+I don’t remember how many people came, but I do remember it felt lively. We never really documented things back then, which is a bit sad. So much of what we’ve done just lives in our memories.
 
 
 Anyway, just a random recollection of organizing Tech Mashup. It was a fun event. 🙂
