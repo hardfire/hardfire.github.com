@@ -27,6 +27,8 @@ I don’t remember how many people came, but I do remember it felt lively. We ne
 
 Anyway, just a random recollection of organizing Tech Mashup. It was a fun event. 🙂
 
+Just to clarify, I'm sad, but also very happy that NAS-IT Expo is happening. Such events are essetial to move the needle and catalyze the ecosystem. At the current stage, each event counts and we cannot have enough of them, just yet. 
+
 Photos of Tech Mashup - [Flickr](https://www.flickr.com/photos/hardfire/albums/72157633538094389/with/8761212339)
 
 Until then,  
