@@ -1,5 +1,5 @@
 ---
-title: Realization: NAS-IT Expo is Tech Mashup, just bigger and better
+title: "Realization: NAS-IT Expo is Tech Mashup, just bigger and better"
 date: 2025-11-08
 tags:
   - life
@@ -7,6 +7,7 @@ tags:
   - nepal
   - conference
 ---
+
 Had a small realization on my regular morning-walk today.
 
 
