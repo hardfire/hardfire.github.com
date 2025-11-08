@@ -7,6 +7,7 @@ tags:
   - nepal
   - conference
 ---
+![Tech Mashup](https://live.staticflickr.com/2875/8761187753_2472e23169_b.jpg)
 
 Had a small realization on my regular morning-walk today.
 
@@ -26,7 +27,10 @@ I don’t remember how many people came, but I do remember it felt lively. We ne
 
 Anyway, just a random recollection of organizing Tech Mashup. It was a fun event. 🙂
 
+Photos of Tech Mashup - [Flickr](https://www.flickr.com/photos/hardfire/albums/72157633538094389/with/8761212339)
+
 Until then,  
 Be nice to everyone :D
 
 PS - I'll add photos once i find them
+
