@@ -16,6 +16,8 @@ Having been programming and building systems for more than 15 years now, I have 
 I think it’s because I had no idea what was exactly going on inside the app. I had a high-level idea since I had orchestrated it step by step. It wasn’t all “vibed” in one go; I had a plan, and we worked on it one piece at a time. Think of it as 15-minute sprints. But I wasn’t doing the actual problem-solving. I was mostly pointing out what I didn’t like and what needed changing. Somewhere along the way, I had outsourced the fun part.
 
 It made me think that if we keep moving in this direction, the craft of building software might slowly fade away.
-It’s like making a chair by hand versus making one with a machine. When you build by hand, you think about every joint and every edge. You get to shape each corner just the way you want. When a machine builds it, you hand over a blueprint and expect it to produce something good enough. The machine definitely makes things faster. It can build ten chairs while you finish one. But you lose that connection with what you’re making.
+It’s like making a chair by hand versus making one with a machine. When you build by hand, you think about every joint and every edge. You get to shape each corner just the way you want. When a machine builds it, you hand over a blueprint and expect it to produce something good enough. The machine definitely makes things faster. It can build ten chairs while you finish one. But you lose that connection with what you’re making (or we need to re-learn how to make the connection in this new world - Food for thought).
   
-Anyway, vibe coding works to an extent. It has made me faster. It has also taken me further away from the insides of the system.The fun of plumbing those parts has been taken away, at least for now.I’m hopeful and curious to see how this evolves.
+Anyway, vibe coding works to an extent. It has made me faster. I'm shipping in record time. It has unfortunately taken me further away from the insides of the system; The fun of plumbing those parts has been taken away. 
+
+I’m hopeful and curious to see how this evolves.
